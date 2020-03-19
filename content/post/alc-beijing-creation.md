@@ -1,0 +1,129 @@
++++
+author = "ALC Authors"
+title = "为什么要成立 ALC (Apache Local Community) Beijing？"
+date = "2020-03-15"
+description = "The creation story about ALC-Beijing"
+tags = [
+    "ALC-Beijing",
+]
++++
+
+## 背景
+当提起Apache软件基金会（Apache Software Foundation，ASF）项目时，国内大多数程序员都不会陌生。下图展示了在ASF 2019年年度报告中披露的ASF软件在全球各国家的下载量排名。
+
+可以看到，中国已然成为Apache软件基金会项目下载量最大的地区。然而，这个看起来脱颖而出的数据背后，却暴露出我国这片土地上几个可能让大家颇为惊讶的现状：
+* ASF 拥有7000+代码贡献者，然而为 ASF 项目提交贡献的本土工程师仅千人规模，不足七分之一。
+* ASF 项目约350个，然而由本土发起的 ASF 项目仅19个，已成为顶级项目的比例更是不足5%。
+* ASF 孵化器拥有导师200多个，然而活跃的中国导师不超过5位。
+* ASF 每年在美国、欧洲等地举办 ApacheCon ，然而迄今为止，ASF 尚未在中国举办过一次 ApacheCon。
+作为全球最大开源消费国， ASF 在国内有广泛的群众基础，如何将这些开源项目用户发展转换成为社区的贡献者，开发者甚至成为开源项目的发起者维护者是一个值得深思的问题。
+
+
+## 缘起
+作为发起人的姜宁，颇为忧伤的语气回忆道：
+
+> 06年的时候国内参与 Apache 软基金会开发的人员很少，当时只有少数几个在外企工作的人员有机会直接参与ASF项目的开发。当时有个问题一直困扰着我，本土的软件开发人员这么多，但有多少人能够以开源项目维护人员深度参与到开源项目开发中来。 以我自己的个人经验来看，加入到开源项目的开发贡献并不困难，因为开源社区会有很多热心的开发者提供指导和帮助，参与者只要保证有足够时间的投入就可以，但是在我维护 Apache Camel 的7，8年间，很少看到有国人会到项目的邮件列表里面用英文提问题，提补丁。我的私人邮箱接到国人最多的邮件是直接提需求找我要示例的邮件。期间也有国内公司的开发人员与我交流，很多人在使用ASF 项目的过程中发现开源版本不满足自己的需求，就在自己的公司的私有版本上进行了修改，没有意识到把问题反馈到ASF上游项目中是最优的解决方法。这里可能有缺乏直接和项目开发者交流的途径原因，也可能是大家已经习惯了拿来主义，缺乏深度参与开源项目开发的热情。 大部分的开发者只停留在使用开源项目这个层面上，没有真正参与到开源项目的全生命周期的开发过程中来。
+
+要改变这样的状况，需要有更多深度参与ASF项目人向大家介绍深度参与开源项目的经验，帮助更多的 ASF 项目用户从单纯的使用者转变成为开源项目的开发者。
+
+机会只会迟到，但永远不会缺席，过了大约十几年，终于迎来了一次真正的机会。
+
+自 2015年至今，ASF 已经接收19个源自中国本土的开源项目的捐赠，这也意味这我们有越来越多的 ASF 项目 Committer，ASF 项目 PMC 成员，或者是 ASF Member 在 Community 里是非常活跃的。这说明本土的人气已经足够, 我们可以一起做更多的事情了。
+
+|序号|项目名称|进入孵化器时间|毕业时间|ppmc/pmc人数|commiter人数(包含ppmc/pmc)|
+|1|Kylin|2014年11月|2015年11月|23|39|
+|2|Eagle|2015年10月|2016年12月|16|18|
+|3|HAWQ|2015年9月|2018年8月|45|68|
+|4|CarbonData|2016年6月|2017年4月|13|25|
+|5|RocketMQ|2016年11月|2017年9月|13|26|
+|6|Griffin|2016年12月|2018年11月|18|20|
+|7|Weex|2016年11月||14|26|
+|8|ServiceComb|2017年11月|2018年10月|20|23|
+|9|SkyWalking|2017年12月|2019年4月|24|34|
+|10|Dubbo|2018年2月|2019年5月|17|55|
+|11|ECharts|2018年1月||13|19|
+|12|Doris|2018年7月||13|17|
+|13|brpc|2018年11月||9|9|
+|14|IoTDB|2018年11月||23|32|
+|15|ShardingSphere|2018年11月||14|24|
+|16|DolphinScheduler|2019年8月||13|22|
+
+在2018年和2019年，ASF 成员 —— 姜宁，在上海组织过两次 ASF Committer 的 Meetup[1][2][3]，希望能够帮助本土的开发者更好的理解开源参与开源。由于时间仓促和场地有限，只邀请到华东地区的 ASF 项目开发者，并没有惠及到更多的的 ASF 项目的用户。通过这几次 Meetup 大家发现，本土开发者对于 Apache 理念和倡导的哲学并不了解。
+
+Apache 的成功之道认为开源项目的健康发展是需要有 Community 支撑的。开源项目通过发展用户，孕育社区可以为开源项目源源不断输送新鲜的血液，对于新人来说依托于 Community 帮助可以不断成长，为开源项目不断做出贡献。这更进一步引发了大家对于 Apache 之道 的呼唤。
+
+天时、地利、人和占尽了，为什么不去做了呢？ 介绍 Apache 之道，传播 Apache 精神，让更多的年轻人认识 Apache， 让本土的项目被更多的人知道...... 于是，一个距离大家更近的、本地的 Apache Community 的建立就呼之欲出了。
+
+## 什么是 Apache Local Community？
+顾名思义，由一群分布在各地开源爱好者，尤其是 Apache（开源）爱好者（Group）所组成[4]。因为是本地组织，ALC是按照城市或地区的方式进行划分的，类似的机构如 GDG （Google Developer Group）, Facebook Developer Circles, Mozilla Reps 等，你可以代表自己所在城市向 ALC 提出申请创建本地的组织。
+
+## 筹划
+经过了多年以来的困惑、近期的思考、以及各类人员的交流，就像是串起海边拾起的珍珠一样，姜宁如获至宝般的发现并了解了 ALC 之后，是如此描述自己的。自那以后，他就开始做起来盘算：
+* 在北京的Apache项目开发者（BRPC, Doris, Dubbo, IoTDB, BookKeeper, Plusar, ServiceComb, Sharding-Sphere, Skywalking,  RocketMQ)已经超过十个了，
+* 几乎每个月这些项目都会举办 Meet up 或者其他方式的活动。
+
+于是就做了一个大胆的决定：咱们终于有机会可以以 Apache 成员的身份约小伙伴们一起聚一下，共商发展本地 Apache 用户，同时推动项目间的合作。然后姜宁就在邮件列表里面发了这么一封信[5], 没有想到，这个提议得到了很多人的响应，大家纷纷回复邮件对成立 ALC Beijing 这件事表示支持！
+（这就是 Apache 的精髓，公开透明，所有的历史讨论和决策都有的查。）
+
+## 成立
+经过在 ASF Community dev 邮件列表[6]申请，ALC 投票通过之后，ALC 正式宣布成立 ALC Beijing[7]。
+* 第一次在线会议
+2020年2月27日，举办了第一次线上会议[7]，成员之间相互介绍，商议提名新成员的步骤，商议举办线上活动问题。
+* 第二次在线会议
+2020年3月5日，依然是 Zoom 线上会议[7]， 这次主要是讨论如何撰写宣传文章等内容。
+* 第三次在线会议
+2020年3月12日， 通过 Zoom 线举办上会议[7]，讨论了微信公众号以及线上活动准备需要的注意内容。
+
+## ALC Beijing 做什么？
+
+当然作为 ALC Beijing Chapter 的 一份子，我们可以做的事情还有很多：
+通过举办活动，将本地的开发与用户聚焦在一起。
+通过分享开源开发经验，鼓励更多的人参与到 ASF 的项目开发中来；
+为 ASF 的项目寻找相互合作的机会，让这些项目能够更加茁壮的成长。
+介绍 ASF 管理和运作开源项目的成功之道，帮助大家更好地运作开源项目。
+
+## 成员寄语
+目前的ALC Beijing 成员列表[8]
+
+>希望 ALC Beijing 能够为连接开源用户与开发者的一条纽带，让更多的中国开发者能够开启一次精彩的开源之旅。
+>         ———— ALC Beijing 成员 姜宁
+
+>ALC Beijing 致力于成为一个更具 Beijing 特色的ASF组织，是 ASF 全球推广的 Beijing 中继器。
+>         ———— ALC Beijing 成员 孙金城
+
+>对于推广 Apache 之道 在本土的发展至关重要。
+>         ———— ALC Beijing 成员 、开源之道发起人 适兕
+
+>期待 ALC Beijing 作为开源爱好者的家园，吸引、带动更多的志同道合的伙伴加入到 Apache 项目的使用、贡献和推广中。
+>       ———— ALC Beijing 成员 翟佳
+
+>期待ALC Beijing能成为培育我国本土开源力量的沃土。期待未来某一天，中国之于Apache不仅仅是下载量第一，贡献度也无与伦比。
+>        ———— ALC Beijing 成员 黄向东
+
+>相信ALC Beijing一定会帮助越来越多的开发者、企业拥抱开源、也一定会吸引更多的优秀项目进入apache。
+>         ———— ALC Beijing 成员 李岗
+
+>期待每个人的加入，在这里你会看到另一种开源与开发者的风景；你会感受到中国与世界在开源领域的奇妙融合。Beyond the country, head into this world.
+>          ———— ALC Beijing 成员 潘娟
+
+
+## 如何成为 ALC Beijing的成员
+大家可以通过关注ALC Beijing公众号获取最新的活动信息。我们欢迎大家参与到ALC Beijing的活动中来。
+ALC Beijing作为一个公益组织，需要大量的志愿者的来帮助协调和组织活动。ALC Beijing 也欢迎对开源有兴趣的志愿者的加入。志愿者加入的原则和Apache软件基金的其他项目发展Committer以及PMC成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式[10]进行。
+
+## 感谢
+Swapnil M Mane
+Aditya Sharma
+吴晟
+
+## 参考链接
+[1]https://twitter.com/willemjiang/status/1051302400969957376?s=20
+[2]https://twitter.com/willemjiang/status/1175357977261301760?s=20
+[3]https://servicecomb.apache.org/cn/docs/talk-to-apache-experts
+[4]https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
+[5]https://lists.apache.org/list.html?dev@community.apache.org:lte=1M:%5BALC%5D%20Request%20to%20setup%20ALC%20in%20Beijing
+[6]https://lists.apache.org/list.html?dev@community.apache.org
+[7]https://lists.apache.org/thread.html/ra3590345584a32b04b43794458cf87bf50d411ae024e38a488575413%40%3Cannounce.apache.org%3E
+[8]https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing+Team+meeting
+[9] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
+[10]https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter#GuidelinestomanageanALCChapter-AddinganewmembertoALCChapter

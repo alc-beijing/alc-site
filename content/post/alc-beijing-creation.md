@@ -102,22 +102,24 @@ Apache 的成功之道认为开源项目的健康发展是需要有 Community �
 >
 >​    ———— ALC Beijing 成员 、开源之道发起人 适兕
 
->期待 ALC Beijing 作为开源爱好者的家园，吸引、带动更多的志同道合的伙伴加入到 Apache 项目的使用、贡献和推广中。
->
->  ———— ALC Beijing  翟佳
-
 >期待ALC Beijing能成为培育我国本土开源力量的沃土。期待未来某一天，中国之于Apache不仅仅是下载量第一，贡献度也无与伦比。
 >
 >   ———— ALC Beijing 成员 黄向东
-
->相信ALC Beijing一定会帮助越来越多的开发者、企业拥抱开源、也一定会吸引更多的优秀项目进入apache。
->
->​    ———— ALC Beijing  李岗
 
 >期待每个人的加入，在这里你会看到另一种开源与开发者的风景；你会感受到中国与世界在开源领域的奇妙融合。Beyond the country, head into this world.
 >
 >​     ———— ALC Beijing 成员 潘娟
 
+>ALC Beijing把大家印象中高高在上的Apache基金会，和Apache顶级项目，带到了大家身边。希望大家从ALC起步，走进Apache顶级开源社区
+>   ———— ALC Beijing 成员  吴晟
+
+>期待 ALC Beijing 作为开源爱好者的家园，吸引、带动更多的志同道合的伙伴加入到 Apache 项目的使用、贡献和推广中。
+>
+>  ———— ALC Beijing  翟佳
+
+>相信ALC Beijing一定会帮助越来越多的开发者、企业拥抱开源、也一定会吸引更多的优秀项目进入apache。
+>
+>​    ———— ALC Beijing  李岗
 
 ## 如何成为 ALC Beijing的成员
 大家可以通过关注ALC Beijing公众号获取最新的活动信息。我们欢迎大家参与到ALC Beijing的活动中来。

@@ -11,6 +11,8 @@ tags = [
 ## 背景
 当提起Apache软件基金会（Apache Software Foundation，ASF）项目时，国内大多数程序员都不会陌生。下图展示了在ASF 2019年年度报告中披露的ASF软件在全球各国家的下载量排名。
 
+![](../images/Apache-active-of-2019-annual-report.png)
+
 可以看到，中国已然成为Apache软件基金会项目下载量最大的地区。然而，这个看起来脱颖而出的数据背后，却暴露出我国这片土地上几个可能让大家颇为惊讶的现状：
 * ASF 拥有7000+代码贡献者，然而为 ASF 项目提交贡献的本土工程师仅千人规模，不足七分之一。
 * ASF 项目约350个，然而由本土发起的 ASF 项目仅19个，已成为顶级项目的比例更是不足5%。
@@ -52,17 +54,17 @@ tags = [
 |18|APISIX|2019年10月||18|20|
 |19|TubeMQ|2019年11月||20|21|
 
-在2018年和2019年，ASF 成员 —— 姜宁，在上海组织过两次 ASF Committer 的 Meetup[1][2][3]，希望能够帮助本土的开发者更好的理解开源参与开源。由于时间仓促和场地有限，只邀请到华东地区的 ASF 项目开发者，并没有惠及到更多的的 ASF 项目的用户。通过这几次 Meetup 大家发现，本土开发者对于 Apache 理念和倡导的哲学并不了解。
+在2018年和2019年，相比于过去的 commiter ，姜宁已然是一名正式的 ASF 成员 了，在上海组织过两次 ASF Committer 的 Meetup[1][2][3]，希望能够帮助本土的开发者更好的理解开源参与开源。由于时间仓促和场地有限，只邀请到华东地区的 ASF 项目开发者，并没有惠及到更多的的 ASF 项目的用户。通过这几次 Meetup 大家发现，本土开发者对于 Apache 理念和倡导的哲学并不了解。
 
-Apache 的成功之道认为开源项目的健康发展是需要有 Community 支撑的。开源项目通过发展用户，孕育社区可以为开源项目源源不断输送新鲜的血液，对于新人来说依托于 Community 帮助可以不断成长，为开源项目不断做出贡献。这更进一步引发了大家对于 Apache 之道 的呼唤。
+Apache 的成功之道认为开源项目的健康发展是需要有 Community 支撑的。开源项目通过发展用户，孕育社区可以为开源项目源源不断输送新鲜的血液，对于新人来说依托于 Community 帮助可以不断成长，为开源项目不断做出贡献。这更进一步引发了大家对于 Apache 之道的呼唤。
 
-天时、地利、人和占尽了，为什么不去做了呢？ 介绍 Apache 之道，传播 Apache 精神，让更多的年轻人认识 Apache， 让本土的项目被更多的人知道...... 于是，一个距离大家更近的、本地的 Apache Community 的建立就呼之欲出了。
+天时、地利、人和都具备了，那么我们为什么不去做了呢？ 介绍 Apache 之道，传播 Apache 精神，让更多的年轻人认识 Apache 和开源之道， 让本土的项目被更多的人知道...... 于是，一个距离大家更近的、本地的 Apache Community 的建立就呼之欲出了。
 
 ## 什么是 Apache Local Community？
 顾名思义，由一群分布在各地开源爱好者，尤其是 Apache（开源）爱好者（Group）所组成[4]。因为是本地组织，ALC是按照城市或地区的方式进行划分的，类似的机构如 GDG （Google Developer Group）, Facebook Developer Circles, Mozilla Reps 等，你可以代表自己所在城市向 ALC 提出申请创建本地的组织。
 
 ## 筹划
-经过了多年以来的困惑、近期的思考、以及各类人员的交流，就像是串起海边拾起的珍珠一样，姜宁如获至宝般的发现并了解了 ALC 之后，是如此描述自己的。自那以后，他就开始做起来盘算：
+经过了多年以来的困惑、近期的思考、以及各类人员的交流，就像是串起海边拾起的珍珠一样，姜宁如获至宝般的发现并了解了 ALC 之后，是如此描述自己内向想法的。自那以后，他就开始做起来盘算：
 * 在北京的Apache项目开发者（BRPC, Doris, Dubbo, IoTDB, BookKeeper, Plusar, ServiceComb, Sharding-Sphere, Skywalking,  RocketMQ)已经超过十个了，
 * 几乎每个月这些项目都会举办 Meet up 或者其他方式的活动。
 
@@ -122,13 +124,15 @@ Apache 的成功之道认为开源项目的健康发展是需要有 Community �
 >​    ———— ALC Beijing  李岗
 
 ## 如何成为 ALC Beijing的成员
+ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿传播 Apache 以及开源的人都欢迎！具体的方式如下：
+
 大家可以通过关注ALC Beijing公众号获取最新的活动信息。我们欢迎大家参与到ALC Beijing的活动中来。
+
 ALC Beijing作为一个公益组织，需要大量的志愿者的来帮助协调和组织活动。ALC Beijing 也欢迎对开源有兴趣的志愿者的加入。志愿者加入的原则和Apache软件基金的其他项目发展Committer以及PMC成员的方式一样, 基于大家在社区中的贡献，采用投票邀请方式[10]进行。
 
-## 感谢
-Swapnil M Mane
-Aditya Sharma
-吴晟
+## 特别感谢
+* Swapnil M Mane (ALC  印度创始成员，ALC Beijing 指导者)
+* Aditya Sharma (ALC  印度创始成员，ALC Beijing 指导者)
 
 ## 参考链接
 [1]https://twitter.com/willemjiang/status/1051302400969957376?s=20

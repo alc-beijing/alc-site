@@ -16,7 +16,7 @@ tags = [
 
 为了更好的管理公司，ASF建立了如下组织架构：
 
-![](../images/apache_corporate_organization/organization.jpg)
+![](../images/apache_corporate_organization/organization.png)
 
 * 现有成员(Member)会定期提名和选举新成员，每年提名并选举9名董事加入董事会。
 
@@ -32,12 +32,12 @@ tags = [
 
 董事会创建并更新项目管理委员会（PMCs）。董事会只是批准孵化器的合理构建请求（毕业成为TLPs）或来自PMCs自身（添加或删除PMC成员）的请求。在每种情况下，向董事会建议进行的变更都已经由相关的PMC完成了投票。如下图所示：
 
-![](../images/apache_corporate_organization/corporate_governance.jpg)
+![](../images/apache_corporate_organization/corporate_governance.png)
 
 # 项目治理
 每个Apache PMC都独立管理他们的项目，以Apache的方式，遵循由所有官员为所有项目设置的一些核心原则。如下图所示：
 
-![](../images/apache_corporate_organization/project_governance.jpg)
+![](../images/apache_corporate_organization/project_governance.png)
 
 * PMC每季度直接向董事会报告一次。董事会对PMC进行监督，以确保PMC健康发展，顺利的管理社区，确保PMC遵守Apache的原则。项目的技术方向由PMC指定，董事会不对项目提供技术治理。
 
@@ -47,9 +47,9 @@ tags = [
 
 * PMCs为项目提名并选举新提交者(Committer)。PMCs还负责提名并投票新的PMC成员，然后PMCs向董事会汇报建议的变化。
 
-* Apache孵化器(Incubator)是一种特殊的（I）PMC：它的工作是指导新的Podding社区，以帮助他们学习Apache Way。在每个Poddle对他们的软件发布进行投票后，IPMC成员也对该Poddle的发布过程进行监督和投票，以确保Podding逐渐成为一个合格的Apache项目。
+* Apache孵化器(Incubator)是一种特殊的（I）PMC：它的工作是指导新的Podding社区，以帮助他们学习Apache Way。在每个Poddle对他们的软件发布进行投票后，IPMC成员也对该Podling的发布过程进行监督和投票，以确保Podding逐渐成为一个合格的Apache项目。
 
-* 根据政策，只有个人可以充当会员，提交者(Committer)或PMC成员(Member)或管理人员。这是ASF和[Apache项目保持其独立性的一种方式 。](http://community.apache.org/projectIndependence)
+* 根据政策，只有个人可以充当会员，提交者(Committer)或PMC成员(Member)或管理人员。这是ASF和[Apache项目保持其独立性的一种方式](http://community.apache.org/projectIndependence)。
 
 # 参考链接
 [1] http://www.apache.org/foundation/governance/orgchart

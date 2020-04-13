@@ -2,10 +2,12 @@
 A POC site for host the page of alc.
 
 ## preview alc-site in local
-0. install hugo. For MacOS: `brew isntall hugo`. For others, download the binary file: https://github.com/gohugoio/hugo/releases
-1. run `git submodule init`
-2. run `git submodule update`
+0. [Install hugo](https://gohugo.io/getting-started/installing/).
+1. Run `git submodule init`
+2. Run `git submodule update`
 3. Run `hugo server` in the root directory
 4. Access the site with "http://localhost:1313/"
 
-## How to add content 
+## How to add content
+If you want to add a new page to the site, you can add a markdown file to content/post directory.
+If you want to add an image file, you can put the file into content/images.

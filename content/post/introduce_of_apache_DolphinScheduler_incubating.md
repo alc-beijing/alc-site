@@ -1,10 +1,10 @@
 +++
-author = "李岗(gang li)"
+author = "代立冬,李岗"
 title = "DolphinScheduler介绍"
 date = "2020-03-15"
-description = "The creation story about ALC-Beijing"
+description = "The introduction about DolphinScheduler"
 tags = [
-    "ALC-Beijing",
+    "The introduction about DolphinScheduler",
 ]
 +++
 # DolphinScheduler介绍

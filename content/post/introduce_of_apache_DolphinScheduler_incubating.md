@@ -117,11 +117,15 @@ Apache 社区是一个公开、平等、精英治理的社区；Apache更多的�
 ### 订阅邮件列表
  * 用自己的邮箱向dev-subscribe@dolphinscheduler.apache.org发送一封邮件，主题和内容任意。
 
- * 接收确认邮件并回复。 完成步骤1后，您将收到一封来自dev-help@dolphinscheduler.apache.org的确认邮件（如未收到，请确认邮件是否被自动归入垃圾邮件、推广邮件、订阅邮件等文件夹）。然后直接回复该邮件，或点击邮件里的链接快捷回复即可，主题和内容任意。
+ * 接收确认邮件并回复。 完成步骤1后，将收到一封来自dev-help@dolphinscheduler.apache.org的确认邮件（如未收到，请确认邮件是否被自动归入垃圾邮件、推广邮件、订阅邮件等文件夹）。然后直接回复该邮件，或点击邮件里的链接快捷回复即可，主题和内容任意。
 
- * 接收欢迎邮件。 完成以上步骤后，您会收到一封主题为WELCOME to dev@dolphinscheduler.apache.org的欢迎邮件，至此您已成功订阅Apache DolphinScheduler（Incubating）的邮件列表。
+ * 接收欢迎邮件。 完成以上步骤后，会收到一封主题为WELCOME to dev@dolphinscheduler.apache.org的欢迎邮件，至此已成功订阅Apache DolphinScheduler（Incubating）的邮件列表。
 
+## 如何成为 ALC Beijing的成员
 
+ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿传播 Apache 以及开源之道的小伙伴都可以参与进来！具体的方式如下：
+ * 加入我们的活动。大家可以通过关注ALC Beijing公众号获取最新的活动信息，并参加我们的线上或者线下的活动。
+ * 成为ALC Beijing会员。ALC Beijing作为一个公益组织，需要大量的志愿者的来帮助协调和组织活动。志愿者成为会员的原则和Apache软件基金的其他项目发展Committer以及PMC成员的方式一样, 基于志愿者在社区中的贡献，采用投票邀请方式成为ALC Beijing 会员。
 
 
 

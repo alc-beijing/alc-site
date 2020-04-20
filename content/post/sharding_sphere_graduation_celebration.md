@@ -25,7 +25,7 @@ tags = [
 ……
 ```
 
-ShardingSphere在经历了500多天的ASF孵化器孵化，毕业成为Apache顶级项目。ASF孵化器作为进入ASF的通道，为进入ASF的项目提供Apache Way的辅导，协调孵化项目与ASF基础实施融合，帮助孵化项目发展社区，通知孵化器项目发布的软件孵化ASF的软件发布规范。 本文是Apache ShardingSphere核心开发团队分享的Apache孵化历程，很值得想加入ASF大家庭的新项目参考。
+ShardingSphere在经历了500多天的ASF孵化器孵化，毕业成为Apache顶级项目。ASF孵化器作为进入ASF的通道，为进入ASF的项目提供Apache Way的辅导，协调孵化项目与ASF基础实施融合，帮助孵化项目发展社区，确保孵化器项目发布的软件符合ASF的软件发布规范。本文是Apache ShardingSphere核心开发团队分享的Apache孵化历程，很值得想加入ASF大家庭的新项目参考。
 
 ### 项目介绍
 
@@ -82,7 +82,7 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 这是社区建设之路的转折点，因为从此community over code的理念开始逐渐渗入人心，并指导我们的行动。
 
 ![1-2](../images/sharding_sphere_graduation_celebration/1-1.png)
-1-2 Committer bar讨论邮件，通过这个示例大家可以体会一下Apache孵化器导师的辅导风格，基本上发现问题，亮出Apache原则，再给出解决方案进行在职培训。
+1-2 Committer bar讨论邮件，通过这个示例大家可以体会一下Apache孵化器导师的辅导风格：采用指出问题，亮出Apache原则，再给出解决方案方式进行对孵化器项目进行在职培训。
 
 仔细阅读Apache way的关注点：**Earned Authority, Community of Peers, Open Communications, Consensus Decision Making, Responsible Oversight。你会发现它一直在强调合规、开放、平等、协作，为的就是建立合规且活跃的项目社区，尽可能地做到让更多的人参与，平等沟通，推动项目发展，促进个人成长。**
 秉持这个理念，ShardingSphere开始在多维度进行调整，

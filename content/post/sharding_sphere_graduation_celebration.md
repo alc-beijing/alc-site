@@ -61,14 +61,14 @@ ShardingSphere在开源之初，就有进入Apache开源组织基金会的计划
 ### 为Apache做准备
 
 找寻mentor是进入Apache基金的最初且最重要的一步。在了解了Apache基金会的运作方式后，我们便踏上了找寻mentor之旅。参加各种与开源相关的分享会或meetup，借此来认识Apache的member。但是，事情却并不顺利。多次的尝试，多次的接触换来的只是口头的认可。这段时间我们确实倍感压力和焦虑，甚至打算以后再说，一切随缘。
-后来一个契机，我们认识了吴晟和华为的姜宁。吴晟是Apache SkyWalking项目的VP，在开源领域有丰富的经验。他和ShardingSphere的前身Sharding-JDBC很有渊源，Sharding-JDBC项目原型也有他参与设计，因此，他最终作为ShardingSphere的PPMC一同建设社区。在参与ShardingSphere社区建设的这一年多的时间里，他又陆续担任了多个Apache孵化项目的Mentor，并在今年被选举为Apache Member；而姜宁同样是一位热心又有经验的老手，是国内最资深的Apache Member之一，在与他交流的过程中，终于让我们看到一些希望，他也最终成为了我们的mentor。再后来，团队VP张亮又前去上海参加HDC大会，认识了我们的另一位mentor—Craig L Russell，Craig当时是Apache的秘书长，所有的SGA、ICLA等法务文件均由他负责签署。在ShardingSphere孵化的过程中，Craig当选了Apache软件基金会的主席。他友善而和气，给予了我们很多有关社区规范的实用建议，也愿意助我们一臂之力；第三位mentor则是由Apache RocketMQ的核心成员冯嘉担任；最后由Roman Shaposhnik担任项目的Champion，为项目寻找导师之旅画上完美句号。
+后来一个契机，我们认识了吴晟和华为的姜宁。吴晟是Apache SkyWalking项目的VP，在开源领域有丰富的经验。他和ShardingSphere的前身Sharding-JDBC很有渊源，Sharding-JDBC项目原型也有他参与设计，因此，他最终作为ShardingSphere的PPMC一同建设社区。在参与ShardingSphere社区建设的这一年多的时间里，他又陆续担任了多个Apache孵化项目的Mentor，并在今年被选举为Apache Member；而姜宁同样是一位热心又有经验的老手，是国内最资深的Apache Member之一，在与他交流的过程中，终于让我们看到一些希望，他也最终成为了我们的mentor。再后来，团队VP张亮又前去上海参加HDC大会，认识了我们的另一位mentor—Craig L Russell，Craig当时是Apache的秘书长，所有的SGA、ICLA等法务文件均由他负责接收签署。在ShardingSphere孵化的过程中，Craig当选了Apache软件基金会的主席。他友善而和气，给予了我们很多有关社区规范的实用建议，也愿意助我们一臂之力；第三位mentor则是由Apache RocketMQ的核心成员冯嘉担任；最后由Roman Shaposhnik担任项目的Champion，为项目寻找导师之旅画上完美句号。
 至今还记得我们当时的欣喜和激动。每个进入Apache基金会的项目，一定都有自己的故事。
 进入ASF孵化难这一问题是由于大家对ASF的孵化流程不了解， 同时缺少有经验的接口人（Champion）的介入。 随着ALC Beijing的建立和越来越多本地开发者被选成Apache Member，相信这一问题能够很快得到解决。
 
 ### 进入Apache孵化器
 
 为了正式进入Apache孵化器，项目代码、社区、文档等都需要进行一系列的规范化整理。这确实是个琐碎但很重要的事情。
-代码层面，合规操作是首要原则。我们梳理第三方依赖的许可协议， 确保满足Apache软件许可协议（ASL）合规的要求；社区方面，我们开始由中文转变成英文；文档方面则需要我们准备英文文档，并准备相关的proposal。由于项目最开始的目标就是进入Apache基金会，所以在项目初期，依赖就尽可能地简单，社区相对规范，文档在不断翻译。不打无准备之仗，这些提前的准备让这部分工作进展顺利，而项目获得Apache域名的那一刻，大家才真切感受到所有付出得到了最有价值的回报。
+代码层面，合规操作是首要原则。我们梳理第三方依赖的许可协议， 确保满足Apache软件许可协议（ASL）合规的要求；社区交流方面，我们开始由中文转变成英文；文档方面则需要我们准备英文文档，并准备相关的提案（proposal）。由于项目最开始的目标就是进入Apache基金会，所以在项目初期，依赖就尽可能地简单，社区相对规范，文档在不断翻译。不打无准备之仗，这些提前的准备让这部分工作进展顺利，而项目获得Apache域名的那一刻，大家才真切感受到所有付出得到了最有价值的回报。
 除了学习写规范代码，团队成员也开始学习Apache的规范、社区运作方式、以及英文邮件沟通等细节问题。我们开始了解到如何关注社区，什么是consensus decision，如何用异步方式进行邮件沟通。特别是邮件列表的学习非常重要，你可以在其中找到历史问题记录、合规的解决方案、优秀的案例等。
 
 ### Apache way的探索
@@ -82,7 +82,7 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 这是社区建设之路的转折点，因为从此community over code的理念开始逐渐渗入人心，并指导我们的行动。
 
 ![1-2](../images/sharding_sphere_graduation_celebration/1-1.png)
-1-2 Committer bar讨论邮件
+1-2 Committer bar讨论邮件，通过这个示例大家可以体会一下Apache孵化器导师的辅导风格，基本上发现问题，亮出Apache原则，再给出解决方案进行在职培训。
 
 仔细阅读Apache way的关注点：**Earned Authority, Community of Peers, Open Communications, Consensus Decision Making, Responsible Oversight。你会发现它一直在强调合规、开放、平等、协作，为的就是建立合规且活跃的项目社区，尽可能地做到让更多的人参与，平等沟通，推动项目发展，促进个人成长。**
 秉持这个理念，ShardingSphere开始在多维度进行调整，

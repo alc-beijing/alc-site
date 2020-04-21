@@ -84,8 +84,6 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 ![1-2](../images/sharding_sphere_graduation_celebration/1-2.png)
 1-2 Committer bar讨论邮件
 
-通过这个示例大家可以体会一下Apache孵化器导师的辅导风格：采用指出问题，亮出Apache原则，再给出解决方案方式进行对孵化器项目进行在职培训。
-
 仔细阅读Apache way的关注点：**Earned Authority, Community of Peers, Open Communications, Consensus Decision Making, Responsible Oversight。你会发现它一直在强调合规、开放、平等、协作，为的就是建立合规且活跃的项目社区，尽可能地做到让更多的人参与，平等沟通，推动项目发展，促进个人成长。**
 秉持这个理念，ShardingSphere开始在多维度进行调整，
 
@@ -97,7 +95,7 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 
 在孵化期间，Apache ShardingSphere先后与Apache SkyWalking、Apache ServiceComb进行项目的合作与集成，不仅彼此的产品功能更加完善，还增加了社区成员之间的交流。此外，还与Apache DolphinScheduler（Incubating）和Apache IoTDB（Incubating）举办了co-meetup，详见图1-3。还与Apach pulsar和Apache APISIX（Incubating）的核心成员们进行了多次交流和探讨。
 
-![1-3](../images/sharding_sphere_graduation_celebration/1-2.png)
+![1-3](../images/sharding_sphere_graduation_celebration/1-3.png)
 1-3 co-meetup
 
 经过时间的积累，社区已有了质的变化。从社区的邮件讨论、GitHub的数据展示中，你会发现ShardingSphere的社区开始真正变得活跃与多元化。图1-4展示了ShardingSphere在Apache孵化器一年多的社区数据变化。

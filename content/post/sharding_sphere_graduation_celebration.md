@@ -81,8 +81,10 @@ Apache Way包含了:
 ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，并且由于过度注重代码风格，以至于参与门槛较高、社区活跃度平平。起初，我们并不知道问题出在哪里，迷茫了很长一段时间，直到在跟Apache的member不断交流的过程中才渐渐意识到问题所在，因此社区发起了有关committer bar的讨论，见图1-2。
 这是社区建设之路的转折点，因为从此community over code的理念开始逐渐渗入人心，并指导我们的行动。
 
-![1-2](../images/sharding_sphere_graduation_celebration/1-1.png)
-1-2 Committer bar讨论邮件，通过这个示例大家可以体会一下Apache孵化器导师的辅导风格：采用指出问题，亮出Apache原则，再给出解决方案方式进行对孵化器项目进行在职培训。
+![1-2](../images/sharding_sphere_graduation_celebration/1-2.png)
+1-2 Committer bar讨论邮件
+
+通过这个示例大家可以体会一下Apache孵化器导师的辅导风格：采用指出问题，亮出Apache原则，再给出解决方案方式进行对孵化器项目进行在职培训。
 
 仔细阅读Apache way的关注点：**Earned Authority, Community of Peers, Open Communications, Consensus Decision Making, Responsible Oversight。你会发现它一直在强调合规、开放、平等、协作，为的就是建立合规且活跃的项目社区，尽可能地做到让更多的人参与，平等沟通，推动项目发展，促进个人成长。**
 秉持这个理念，ShardingSphere开始在多维度进行调整，
@@ -95,12 +97,12 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 
 在孵化期间，Apache ShardingSphere先后与Apache SkyWalking、Apache ServiceComb进行项目的合作与集成，不仅彼此的产品功能更加完善，还增加了社区成员之间的交流。此外，还与Apache DolphinScheduler（Incubating）和Apache IoTDB（Incubating）举办了co-meetup，详见图1-3。还与Apach pulsar和Apache APISIX（Incubating）的核心成员们进行了多次交流和探讨。
 
-![1-3](../images/sharding_sphere_graduation_celebration/1-1.png)
+![1-3](../images/sharding_sphere_graduation_celebration/1-2.png)
 1-3 co-meetup
 
 经过时间的积累，社区已有了质的变化。从社区的邮件讨论、GitHub的数据展示中，你会发现ShardingSphere的社区开始真正变得活跃与多元化。图1-4展示了ShardingSphere在Apache孵化器一年多的社区数据变化。
 
-![1-4](../images/sharding_sphere_graduation_celebration/1-1.png)
+![1-4](../images/sharding_sphere_graduation_celebration/1-4.png)
 1-4 社区数据变化
 
 社区与贡献者之间的依赖和互赢也在整个过程中体现的淋漓尽致。对于贡献者来说，他们会在这个开源社区中与其他人交流、协作。而这个持续的过程，将带来以下成果，
@@ -124,7 +126,7 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 
 所有孵化器的项目最终都希望能走向TLP（Top Level Project）。在mentor的指导、PPMC的探索、committer和contributor的支持与付出下，ShardingSphere开始筹备Apache孵化器毕业。依据Apache的成熟度评估模型图1-5，在以下几个方面评估社区和项目是否成熟。其实在Apache项目社区的初建阶段，我们建议大家就在这几个方面发力，因为这是官方给予的毕业标准及指导方针。以此为方向，探索属于各自项目的独特社区运作方式，也可谓是百花齐放。
 
-![1-5](../images/sharding_sphere_graduation_celebration/1-1.png)
+![1-5](../images/sharding_sphere_graduation_celebration/1-5.png)
 1-5 Apache项目成熟度评估模型
 
 经历Release、社区建设、Apache member的指导、meetup举办等一系列事件，ShardingSphere终于在社区发起了毕业讨论，开始接受Apache member及所有Apache成员的指导和评估。虽然最终以10 +1 binding votes，6 +1 non-binding votes和 no -1 or +/-0 votes通过毕业投票，但过程也是一波三折。
@@ -141,7 +143,7 @@ ShardingSphere在进入Apache孵化器初期并未能完全理解Apache way，�
 从Apache孵化器毕业成为TLP，对ShardingSphere来说，并不是一个结束，而是另一个开始。在产品功能上，ShardingSphere将继续在分布式数据库中间件平台上深耕，打磨出以“分布式”为核心的数据库中间件生态圈，从而提供完整的解决方案，如图1-6所示。从社区角度讲，ShardingSphere仍将继续活跃社区，鼓励更多朋友成为社区的committer和contributor。所以，我们欢迎大家关注ShardingSphere，并加入到社区来，与更多知己结伴前行。
 **未来之路不可预测，但立足当下，眺望未来，初心未改，即便亦步亦趋，也愿一苇以航！**
 
-![1-6](../images/sharding_sphere_graduation_celebration/1-1.png)
+![1-6](../images/sharding_sphere_graduation_celebration/1-6.png)
 1-6 Apache ShardingSphere生态圈
 
 

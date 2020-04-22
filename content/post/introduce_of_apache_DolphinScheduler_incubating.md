@@ -8,7 +8,7 @@ tags = [
 ]
 +++
 # DolphinScheduler介绍
-DolphinScheduler，简称”DS”, 中文名 “小海豚调度”（海豚聪明、人性化，有左右脑可互相换班，终生不用睡觉）。希望 DolphinScheduler 就像它的名字一样，成为一个“开箱即用”的灵活易用的调度系统。
+DolphinScheduler，简称”DS”, 中文名 “小海豚调度”（海豚聪明、人性化，又左右脑可互相换班，终生不用睡觉）。希望 DolphinScheduler 就像它的名字一样，成为一个“开箱即用”的灵活易用的调度系统。
 ## 1概述
 DAG 全称Directed Acyclic Graph，简称DAG。工作流中的Task任务以有向无环图的形式组装起来，从入度为零的节点进行拓扑遍历，直到无后继节点为止。
 
@@ -123,7 +123,7 @@ Apache 社区是一个公开、平等、精英治理的社区；Apache更多的�
 
 ## 如何成为 ALC Beijing的成员
 
-ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿传播 Apache 以及开源之道的小伙伴都可以参与进来！具体的方式如下：
+ALC Beijing 欢迎任何人的参与！不设置任何门槛，只要有意愿传播 Apache 以及开源之道的小伙伴都可以参与进来！具体的方式如下：
  * 加入我们的活动。大家可以通过关注ALC Beijing公众号获取最新的活动信息，并参加我们的线上或者线下的活动。
  * 成为ALC Beijing会员。ALC Beijing作为一个公益组织，需要大量的志愿者的来帮助协调和组织活动。志愿者成为会员的原则和Apache软件基金的其他项目发展Committer以及PMC成员的方式一样, 基于志愿者在社区中的贡献，采用投票邀请方式成为ALC Beijing 会员。
 

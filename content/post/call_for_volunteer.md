@@ -62,12 +62,12 @@ ALC是Apache Local Community的缩写，是全世界范围的 Apache 开源爱�
 
 * 第一时间了解到开源世界发生的新鲜事，并参与其中
 * 得到与 ASF Member 大牛们深度沟通的机会
-* 免费参与 ALC-Beijing 组织的线下活动
+* 随时、深度参与 ALC-Beijing 组织的线下活动
 * 跟随 ALC-Beijing 一起发展、成长
 
 # 加入方式
 
-如果您有意成为 ALC-Beijing 志愿者，请将个人简历发送至xxx@xxx.org，期待您的加入！
+如果您有意成为 ALC-Beijing 志愿者，请将个人简历发送至ningjiang@apache.org，期待您的加入！
 
 [1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
 [2] https://s.apache.org/FY2019AnnualReport

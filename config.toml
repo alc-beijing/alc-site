@@ -3,4 +3,4 @@ languageCode = "en-us"
 title = "ALC Beijing"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "tale"
-publishDir = "alc-site"
+publishDir = "public/alc-site"

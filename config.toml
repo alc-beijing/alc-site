@@ -1,5 +1,6 @@
-baseURL = ""
+baseURL = "https://alc-beijing.github.io/alc-site"
 languageCode = "en-us"
 title = "ALC Beijing"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "tale"
+canonifyURLs = true

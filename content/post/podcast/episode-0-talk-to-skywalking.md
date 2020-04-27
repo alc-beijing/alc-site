@@ -54,7 +54,7 @@ authors:
 
 **吴晟**：Founding Engineer at Tetrate. And lead the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin Apache and ShardingSphere as a PMC member. Speak at multiple conferences, including LC3 China twice, QCon Beijing (star speaker) three times. Also be the member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, contribute for OpenTracing project.
 
-**柯振旭** : Apache Member，PMC成员和孵化器导师；
+**柯振旭** : Apache SkyWalking PMC 成员, Apache Dubbo Committer, ALC Beijing Member, 阿里巴巴高级工程师, 开源爱好者；
 
 **适兕**（联合主持人）：开源之道共同体（opensourceway.community）发起人，self-employee，开源社成员，开源布道师，作家。
 

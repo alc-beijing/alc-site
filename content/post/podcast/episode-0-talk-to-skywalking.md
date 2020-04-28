@@ -5,7 +5,7 @@ categories:
 - 播客
 - 传播
 date: 2020-04-27T16:10:58+08:00
-description: "ALC Beijing Podcast Episode #1， 聊聊Apache  SkyWalking 的故事！是幸运还是坚持？是技术实力过硬？还是人缘杠杆的？Apache TLP 是如何炼成的？这些你都需要了解一下。"
+description: "ALC Beijing Podcast Episode #1， 聊聊Apache  SkyWalking 的故事！是幸运还是坚持？是技术实力过硬？还是人缘杠杆？Apache TLP 是如何炼成的？这些你都需要了解一下。"
 keywords:
 - Open Source
 - Culture
@@ -37,7 +37,7 @@ authors:
 * SkyWalking 获“友商”青睐，受邀在竞品项目的会议上分享
 * .Net 探针的相爱相亲记
 * SkyWalking 受到各大云厂商的支持和追捧
-* SkyWalking 是如何获得一位类似项目开发者的赏识，放弃原有代码，转发全力加入SkyWalking的
+* SkyWalking 是如何获得一位同类项目开发者的赏识，放弃原有代码，转而全力加入SkyWalking的
 * 创始人兼VP兜底自己的Merge “摸鱼”行为
 * 主要的维护者打算什么时候离开项目，彻底交出控制权？
 * 下一个版本，竟然还不知道开发什么功能？(ÒωÓױ)！
@@ -56,7 +56,7 @@ authors:
 
 **柯振旭** : Apache SkyWalking PMC 成员, Apache Dubbo Committer, ALC Beijing Member, 阿里巴巴高级工程师, 开源爱好者；
 
-**适兕**（联合主持人）：开源之道共同体（opensourceway.community）发起人，self-employee，开源社成员，开源布道师，作家。
+**适兕**（联合主持人）：开源之道共同体（opensourceway.community）发起人，self-employee，ALC Beijing Member，开源社成员，开源布道师，作家。
 
 ## 相关链接
 

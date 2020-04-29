@@ -7,6 +7,13 @@ tags = [
     "志愿者，Volunteer",
 ]
 +++
+![avatar](../../images/call_for_volunteer/start_open_source_way.png)
+
+> Open source is changing the world. And if you want to be a part
+
+> of that change, all you have to do is participate.<br>
+
+> Jason Hibbets《 the foundation of an open source city》
 
 # 什么是 ALC?
 
@@ -56,14 +63,15 @@ ALC是Apache Local Community的缩写，是全世界范围的 Apache 开源爱�
 
 # 志愿者福利
 
-首先，我们希望您是真的喜爱、热爱开源，愿意投身到开源服务的事业当中。
+首先，我们希望您是真的喜爱、热爱开源，愿意投身到改变世界的开源事业当中。
 
 其次，通过参与 ALC-Beijing 的志愿活动，您可以：
 
-* 第一时间了解到开源世界发生的新鲜事，并参与其中
-* 得到与 ASF Member 大牛们深度沟通的机会
-* 随时、深度参与 ALC-Beijing 组织的线下活动
-* 跟随 ALC-Beijing 一起发展、成长
+* 学习开源知识，扩展视野
+* 获得训练技能机会：演讲、主持、写作、沟通
+* 得到与 ASF Member、项目 VP/PMC 大牛们深度沟通的机会
+* 随时、深度参与 ALC-Beijing 组织的线上/线下活动
+* 深入理解 Apache 之道，倡导开源哲学
 
 # 加入方式
 

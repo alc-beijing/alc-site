@@ -52,7 +52,7 @@ authors:
 
 **姜宁**：Apache Member 、ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。对微服务架构，WebServices，Enterprise Integration Pattern，SOA， OSGi 有比较深入的研究。
 
-**吴晟**：Founding Engineer at Tetrate. And lead the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin Apache and ShardingSphere as a PMC member. Speak at multiple conferences, including LC3 China twice, QCon Beijing (star speaker) three times. Also be the member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, contribute for OpenTracing project.
+**吴晟**：Founding Engineer at Tetrate. Apache Member. He leads the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin and Apache ShardingSphere as a PMC member. Speak at multiple conferences, including LC3 China twice, QCon Beijing (star speaker) three times. Also be the member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, contribute to the OpenTracing project.
 
 **柯振旭** : Apache SkyWalking PMC 成员, Apache Dubbo Committer, ALC Beijing Member, 阿里巴巴高级工程师, 开源爱好者；
 

@@ -50,7 +50,7 @@ authors:
 
 **潘娟** （主持人）：京东数科高级DBA，Apache ShardingSphere PMC，ALC Beijing Member。
 
-**姜宁**：Apache Member 、ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。对微服务架构，WebServices，Enterprise Integration Pattern，SOA， OSGi 有比较深入的研究。
+**姜宁**：Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache iotDB， Apache Doris， Apache APISIX， Apache Weex。 
 
 **吴晟**：Founding Engineer at Tetrate. Apache Member. He leads the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin and Apache ShardingSphere as a PMC member. Speak at multiple conferences, including LC3 China twice, QCon Beijing (star speaker) three times. Also be the member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, contribute to the OpenTracing project.
 

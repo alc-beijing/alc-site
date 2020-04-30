@@ -4,3 +4,4 @@ title = "ALC Beijing"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 theme = "tale"
 canonifyURLs = true
+uglyurls = true

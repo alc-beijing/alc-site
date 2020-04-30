@@ -17,13 +17,13 @@ tags = [
 
 # 什么是 ALC?
 
-ALC是Apache Local Community的缩写，是全世界范围的 Apache 开源爱好者本地群组 [1]。
+ALC是Apache Local Community的缩写，是全世界范围的 [Apache 开源爱好者本地群组](https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC)。
 因为是本地组织，ALC 是按照城市或地区的方式进行划分的，类似的机构还有 GDG (Google Developer Group), Facebook Developer Circles, Mozilla Reps 等。
 任何 Apache 开源爱好者都可以代表自己所在的城市向 ALC 提出申请创建本地的组织。
 
 # 为什么创建 ACL-Beijing?
 
-根据 ASF 2019 年年度报告 [2]，中国已然成为Apache软件基金会项目下载量最大的地区。
+根据 [ASF 2019 年年度报告](https://s.apache.org/FY2019AnnualReport)，中国已然成为Apache软件基金会项目下载量最大的地区。
 然而，这个看起来脱颖而出的数据背后，却暴露出我国这片土地上几个可能让大家颇为惊讶的现状：
 
 * ASF 拥有7000+代码贡献者，然而为 ASF 项目提交贡献的中国本土工程师仅千人规模，不足七分之一。
@@ -57,9 +57,9 @@ ALC是Apache Local Community的缩写，是全世界范围的 Apache 开源爱�
 
 由于受疫情影响，近期 ALC-Beijing 主要以线上活动为主，您可以帮助我们：
 
-* 解决网站模板的问题 [3]
-* 对ALC Beijing 成员进行采访宣传 [4]
-* 维护、编辑公众号文章
+* [解决网站模板的问题](https://github.com/WillemJiang/alc-site/issues/16)
+* 对ALC Beijing 成员进行[采访宣传](https://github.com/WillemJiang/alc-site/issues/12)
+* [维护、编辑公众号文章](https://github.com/alc-beijing/alc-site/issues?q=is%3Aissue+is%3Aopen+label%3A%E5%85%AC%E4%BC%97%E5%8F%B7%E5%8F%91%E5%B8%83)
 
 # 志愿者福利
 
@@ -76,8 +76,3 @@ ALC是Apache Local Community的缩写，是全世界范围的 Apache 开源爱�
 # 加入方式
 
 如果您有意成为 ALC-Beijing 志愿者，请将个人简历发送至ningjiang@apache.org，期待您的加入！
-
-[1] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
-[2] https://s.apache.org/FY2019AnnualReport
-[3] https://github.com/WillemJiang/alc-site/issues/16
-[4] https://github.com/WillemJiang/alc-site/issues/12

@@ -7,7 +7,7 @@ tags = [
     "志愿者，Volunteer",
 ]
 +++
-![avatar](../../images/call_for_volunteer/start_open_source_way.png)
+![avatar](../images/call_for_volunteer/start_open_source_way.png)
 
 > Open source is changing the world. And if you want to be a part
 

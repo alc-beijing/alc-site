@@ -52,7 +52,7 @@ DolphinScheduler 是从数据处理的痛点出发，其解决的问题以及优
 
 目前，中国平安、美团、嘀嗒出行、多点互动等多家企业都已经将 Apache DolphinScheduler 应用到了实际场景中。
 
-![avatar](../../images/ds/ds_architecture.jpg)
+![avatar](../images/ds/ds_architecture.jpg)
 
 
 ## 5开源推进路线
@@ -76,7 +76,7 @@ DolphinScheduler 是从数据处理的痛点出发，其解决的问题以及优
 
 2019年5月，相继推出了1.0.1、1.0.2和1.0.3版本。
 
-![avatar](../../images/ds/ds_development.png)
+![avatar](../images/ds/ds_development.png)
 
 开源的种子早已种下，只有破土而出，才能扎根于大地。
 ASF作为全球最大的开源基金会，一直致力于开源软件生态的营造，让软件技术能够在全球共享，这是ASF无比耀眼的魅力所在。
@@ -132,4 +132,3 @@ ALC Beijing 欢迎任何人的参与！不设置任何门槛，只要有意愿�
 [1] https://dolphinscheduler.apache.org/zh-cn/index.html
 
 [2] https://www.infoq.cn/article/SeODu1bwlyjCUR70t6KD
-

@@ -24,7 +24,7 @@ tags = [
 ## 缘起
 作为发起人的姜宁，颇为忧伤的语气回忆道：
 
-> 06年的时候国内参与 Apache 软基金会开发的人员很少，当时只有少数几个在外企工作的人员有机会直接参与ASF项目的开发。当时有个问题一直困扰着我，本土的软件开发人员这么多，但有多少人能够以开源项目维护人员的身份深度参与到开源项目开发中来呢？ 
+> 06年的时候国内参与 Apache 软基金会开发的人员很少，当时只有少数几个在外企工作的人员有机会直接参与ASF项目的开发。当时有个问题一直困扰着我，本土的软件开发人员这么多，但有多少人能够以开源项目维护人员的身份深度参与到开源项目开发中来呢？
 >
 > 以我的个人经历来看，加入到开源项目的开发贡献并不困难，因为开源社区会有很多热心的开发者提供指导和帮助，参与者只要保证有足够时间的投入就可以，但是在我维护 Apache Camel 的7，8年间，很少看到有国人会到项目的邮件列表里面用英文提问题，提补丁。
 >
@@ -138,13 +138,22 @@ ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿�
 * Aditya Sharma (ALC  印度创始成员，ALC Beijing 指导者)
 
 ## 参考链接
-[1]https://twitter.com/willemjiang/status/1051302400969957376?s=20
-[2]https://twitter.com/willemjiang/status/1175357977261301760?s=20
-[3]https://servicecomb.apache.org/cn/docs/talk-to-apache-experts
-[4]https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
-[5]https://lists.apache.org/list.html?dev@community.apache.org:lte=1M:%5BALC%5D%20Request%20to%20setup%20ALC%20in%20Beijing
-[6]https://lists.apache.org/list.html?dev@community.apache.org
-[7]https://lists.apache.org/thread.html/ra3590345584a32b04b43794458cf87bf50d411ae024e38a488575413%40%3Cannounce.apache.org%3E
-[8]https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing+Team+meeting
+[1] https://twitter.com/willemjiang/status/1051302400969957376?s=20
+
+[2] https://twitter.com/willemjiang/status/1175357977261301760?s=20
+
+[3] https://servicecomb.apache.org/cn/docs/talk-to-apache-experts
+
+[4] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
+
+[5] https://lists.apache.org/list.html?dev@community.apache.org:lte=1M:%5BALC%5D%20Request%20to%20setup%20ALC%20in%20Beijing
+
+[6] https://lists.apache.org/list.html?dev@community.apache.org
+
+[7] https://lists.apache.org/thread.html/ra3590345584a32b04b43794458cf87bf50d411ae024e38a488575413%40%3Cannounce.apache.org%3E
+
+[8] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing+Team+meeting
+
 [9] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
-[10]https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter#GuidelinestomanageanALCChapter-AddinganewmembertoALCChapter
+
+[10] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter#GuidelinestomanageanALCChapter-AddinganewmembertoALCChapter

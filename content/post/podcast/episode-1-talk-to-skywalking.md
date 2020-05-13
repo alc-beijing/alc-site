@@ -22,7 +22,7 @@ authors:
 
 ## 内容梗概
 
-个人项目、Apache TLP、潇洒的创始人、众多的客户、多个云厂竞相支持、中国本土、APM骨灰级玩家.......拥有众多光环的 SkyWalking ，究竟有何神奇的魔力？在短短的几年内迅猛发展，在竞争如此激烈的APM 市场，获得无数的拥泵！ ALC Beijing Podcast 首秀，诚挚邀请到 Apache SkyWalking的创始人、主要的贡献者来聊聊 SkyWalking的酝酿、命名、开发、开源、建设Community、收获用户、发展壮大、进入Apache、孵化、成为TLP、下一代版本、如何维护的。我们就是来不正经的“八卦” Apache 开源项目背后故事的！
+个人项目、Apache TLP、潇洒的创始人、众多的客户、多个云厂竞相支持、中国本土、APM骨灰级玩家.......拥有众多光环的 SkyWalking ，究竟有何神奇的魔力？在短短的几年内迅猛发展，在竞争如此激烈的APM 市场，获得无数的拥泵！ ALC Beijing Podcast 首秀，诚挚邀请到 Apache SkyWalking的创始人、主要的贡献者来聊聊 SkyWalking的酝酿、命名、开发、开源、建设Community、收获用户、发展壮大、进入Apache、孵化、成为TLP、下一代版本、如何维护的。我们就是来不正经地“八卦” Apache 开源项目背后故事！
 
 >  SkyWalking社区拥有来自全球的，200位以上的贡献者包括30多位以上的 Committer。SkyWalking的项目用户和贡献者来自亚洲、欧洲、北美。那么，SkyWalking的社区到底是什么样子？推进社区发展和合作的原则和背后的逻辑是什么？
 >
@@ -66,7 +66,7 @@ authors:
 3. https://thenewstack.io/apache-skywalking-use-profiling-to-fix-the-blind-spot-of-distributed-tracing/
 4. https://alc-beijing.github.io/alc-site/
 
-## 关于 ALC Beijing Podcast
+## 关于 ALC Beijing
 
 作为全球最大开源消费国， ASF 在国内有广泛的群众基础，如何将这些开源项目用户发展转换成为社区的贡献者、开发者， 甚至成为开源项目的发起者、维护者是一个值得深思的问题。
 

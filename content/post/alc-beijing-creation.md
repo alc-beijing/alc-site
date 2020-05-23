@@ -36,8 +36,8 @@ tags = [
 
 自 2015年至今，ASF 已经接收19个源自中国本土的开源项目的捐赠（如下表所示），这也意味这我们有越来越多的 ASF 项目 Committer，ASF 项目 PMC 成员，或者是 ASF Member 在 Community 里是非常活跃的。这说明本土的人气已经足够, 我们可以一起做更多的事情了。
 
-|序号|项目名称|进入孵化器时间|毕业时间|ppmc/pmc人数|commiter人数(包含ppmc/pmc)|
-| ---- | --------- | ------------- | ------------ | ---- | ---- |
+|序号  |项目名称|进入孵化器时间|毕业时间|ppmc/pmc人数|commiter人数(包含ppmc/pmc)|
+| --- | ----- | :--------- | :---- | --------- | ---------------------- |
 |1|Kylin|2014年11月|2015年11月|23|39|
 |2|Eagle|2015年10月|2016年12月|16|18|
 |3|HAWQ|2015年9月|2018年8月|45|68|
@@ -98,34 +98,35 @@ Apache 的成功之道认为开源项目的健康发展是需要有 Community �
 
 >希望 ALC Beijing 能够为连接开源用户与开发者的一条纽带，让更多的中国开发者能够开启一次精彩的开源之旅。
 >
->———— ALC Beijing 成员 姜宁
+>__—— ALC Beijing 成员 姜宁__
 
 >ALC Beijing 致力于成为一个更具 Beijing 特色的ASF组织，是 ASF 全球推广的 Beijing 中继器。
 >
->———— ALC Beijing 成员 孙金城
+>__—— ALC Beijing 成员 孙金城__
 
 >对于推广 Apache 之道 在本土的发展至关重要。
 >
->———— ALC Beijing 成员 、开源之道发起人 适兕
+>__—— ALC Beijing 成员 、开源之道发起人 适兕__
 
 >期待ALC Beijing能成为培育我国本土开源力量的沃土。期待未来某一天，中国之于Apache不仅仅是下载量第一，贡献度也无与伦比。
 >
->   ———— ALC Beijing 成员 黄向东
+>__—— ALC Beijing 成员 黄向东__
 
 >期待每个人的加入，在这里你会看到另一种开源与开发者的风景；你会感受到中国与世界在开源领域的奇妙融合。Beyond the country, head into this world.
 >
-> ———— ALC Beijing 成员 潘娟
+>__—— ALC Beijing 成员 潘娟__
 
 >ALC Beijing把大家印象中高高在上的Apache基金会，和Apache顶级项目，带到了大家身边。希望大家从ALC起步，走进Apache顶级开源社区
->   ———— ALC Beijing 成员  吴晟
+> 
+>__—— ALC Beijing 成员 吴晟__
 
 >期待 ALC Beijing 作为开源爱好者的家园，吸引、带动更多的志同道合的伙伴加入到 Apache 项目的使用、贡献和推广中。
 >
->  ———— ALC Beijing  翟佳
+>__—— ALC Beijing  翟佳__
 
 >相信ALC Beijing一定会帮助越来越多的开发者、企业拥抱开源、也一定会吸引更多的优秀项目进入apache。
 >
->———— ALC Beijing  李岗
+>__—— ALC Beijing  李岗__
 
 ## 如何成为 ALC Beijing的一员
 ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿传播 Apache 以及开源之道的小伙伴都可以参与进来！具体的方式如下：
@@ -138,22 +139,13 @@ ALC Beijing 欢迎任何人的参与！不设置任何门槛，只有有意愿�
 * Aditya Sharma (ALC  印度创始成员，ALC Beijing 指导者)
 
 ## 参考链接
-[1] https://twitter.com/willemjiang/status/1051302400969957376?s=20
-
-[2] https://twitter.com/willemjiang/status/1175357977261301760?s=20
-
-[3] https://servicecomb.apache.org/cn/docs/talk-to-apache-experts
-
-[4] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
-
-[5] https://lists.apache.org/list.html?dev@community.apache.org:lte=1M:%5BALC%5D%20Request%20to%20setup%20ALC%20in%20Beijing
-
-[6] https://lists.apache.org/list.html?dev@community.apache.org
-
-[7] https://lists.apache.org/thread.html/ra3590345584a32b04b43794458cf87bf50d411ae024e38a488575413%40%3Cannounce.apache.org%3E
-
-[8] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing+Team+meeting
-
-[9] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
-
-[10] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter#GuidelinestomanageanALCChapter-AddinganewmembertoALCChapter
+* [1] https://twitter.com/willemjiang/status/1051302400969957376?s=20
+* [2] https://twitter.com/willemjiang/status/1175357977261301760?s=20
+* [3] https://servicecomb.apache.org/cn/docs/talk-to-apache-experts
+* [4] https://cwiki.apache.org/confluence/display/COMDEV/Apache+Local+Community+-+ALC
+* [5] https://lists.apache.org/list.html?dev@community.apache.org:lte=1M:%5BALC%5D%20Request%20to%20setup%20ALC%20in%20Beijing
+* [6] https://lists.apache.org/list.html?dev@community.apache.org
+* [7] https://lists.apache.org/thread.html/ra3590345584a32b04b43794458cf87bf50d411ae024e38a488575413%40%3Cannounce.apache.org%3E
+* [8] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing+Team+meeting
+* [9] https://cwiki.apache.org/confluence/display/COMDEV/ALC+Beijing
+* [10] https://cwiki.apache.org/confluence/display/COMDEV/Guidelines+to+manage+an+ALC+Chapter#GuidelinestomanageanALCChapter-AddinganewmembertoALCChapter

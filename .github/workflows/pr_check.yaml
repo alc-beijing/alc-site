@@ -14,12 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Publish Site
+name: PR Check
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
 
 jobs:
   build:
@@ -36,8 +34,3 @@ jobs:
           hugo-version: '0.69.1'
       - name: Build
         run: hugo --minify
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public

@@ -6,4 +6,4 @@
 	url = https://github.com/EmielH/tale-hugo.git
 [submodule "themes/tale4zh"]
 	path = themes/tale4zh
-	url = https://github.com/hanyouqing/tale-hugo
+	url = https://github.com/hanyouqing/tale-hugo.git

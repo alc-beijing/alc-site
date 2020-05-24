@@ -1,8 +1,8 @@
 +++
 author = "潘娟（Trista）"
-title = "英雄之旅-"
+title = "英雄之旅-行走在开源领域的一个自叙故事"
 date = "2020-05-24"
-description = "英雄之旅-在开源领域实践的一个自叙故事"
+description = "英雄之旅-行走在开源领域的一个自叙故事"
 tags = [
     "Member-Story",
 ]

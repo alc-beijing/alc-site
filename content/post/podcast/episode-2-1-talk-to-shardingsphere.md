@@ -17,7 +17,7 @@ tags:
 title: "Podcast Episode #2（上） : Apache ShardingSphere 开发者们的欢乐与刺激"
 url: ""
 authors:
-- ALC Beijing 
+- ALC Beijing
 ---
 
 ## 内容梗概
@@ -32,13 +32,13 @@ authors:
 
 10：00 ~~  13：00 Zhyee 的结识、加入分享，强调开源协作的重要
 
-13：21 ~~  17：20     董宗磊和 ShardingSphere 的缘分，由于Apache 而更加紧密
+13：21 ~~  17：20   董宗磊和 ShardingSphere 的缘分，由于Apache 而更加紧密
 
 17：30 ~~  17：50 姜宁表达新的感悟： 开源community 更是一个知识共享的平台
 
 21：30 ~~ 29：30  ShardingSphere 成长的几个阶段
 
- 30：00 ~~ 36:15  娟神：女性既是优势，也是压力！ 从“自我”到“心中有Ta”的转变！
+30：00 ~~ 36:15  娟神：女性既是优势，也是压力！ 从“自我”到“心中有Ta”的转变！
 
 37:10 ~~ 40: 00 另一位女性开发者颜志一 既是 ShardingSphere 的成长之旅，也是开源的晋级之旅。
 
@@ -46,10 +46,8 @@ authors:
 
 ## 请收听
 
-```html
-<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=304115934&type=red" frameborder=0 allowfullscreen></iframe>
-```
 
+{{< ximalaya id="304115934" align="center" type="red" >}}
 
 
 ## 本期嘉宾

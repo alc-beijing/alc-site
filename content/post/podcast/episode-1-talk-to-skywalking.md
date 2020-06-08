@@ -46,7 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="294907345" height="50" widht="260" align="center" type="red" >}}
+{{< ximalaya id="294907345" align="center" type="red" >}}
 
 ## 出场嘉宾
 

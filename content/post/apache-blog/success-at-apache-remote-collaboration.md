@@ -86,3 +86,7 @@ translater:
 ## 关于作者
 
 Marvin Humphrey 目前是Apache 软件基金会的名誉会员，在过去他担当过ASF 的很多主要角色：孵化器的VP、法律事务的VP 、以及董事会成员。目前则将主要精力放在了家庭上，偶尔出来做做咨询。
+
+## 原文链接
+
+[Success at Apache: Remote Collaboration in the Time of Coronavirus](https://blogs.apache.org/foundation/entry/success-at-apache-remote-collaboration)

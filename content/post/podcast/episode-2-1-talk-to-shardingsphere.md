@@ -17,7 +17,7 @@ tags:
 title: "Podcast Episode #2（上） : Apache ShardingSphere 开发者们的欢乐与刺激"
 url: ""
 authors:
-- ALC Beijing 
+- ALC Beijing
 ---
 
 ## 内容梗概
@@ -32,13 +32,13 @@ authors:
 
 10：00 ~~  13：00 Zhyee 的结识、加入分享，强调开源协作的重要
 
-13：21 ~~  17：20     董宗磊和 ShardingSphere 的缘分，由于Apache 而更加紧密
+13：21 ~~  17：20   董宗磊和 ShardingSphere 的缘分，由于Apache 而更加紧密
 
 17：30 ~~  17：50 姜宁表达新的感悟： 开源community 更是一个知识共享的平台
 
 21：30 ~~ 29：30  ShardingSphere 成长的几个阶段
 
- 30：00 ~~ 36:15  娟神：女性既是优势，也是压力！ 从“自我”到“心中有Ta”的转变！
+30：00 ~~ 36:15  娟神：女性既是优势，也是压力！ 从“自我”到“心中有Ta”的转变！
 
 37:10 ~~ 40: 00 另一位女性开发者颜志一 既是 ShardingSphere 的成长之旅，也是开源的晋级之旅。
 
@@ -46,10 +46,8 @@ authors:
 
 ## 请收听
 
-```html
-<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=304115934&type=red" frameborder=0 allowfullscreen></iframe>
-```
 
+{{< ximalaya id="304115934" align="center" type="red" >}}
 
 
 ## 本期嘉宾
@@ -62,7 +60,11 @@ authors:
 
 **颜志一**：DaoCloud 微服务开发工程师，Apache ShardingSphere Committer，开源爱好者，现积极探索于分布式数据库中间件领域
 
-**姜宁**（主持人）：Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache iotDB， Apache Doris， Apache APISIX， Apache Weex。
+**秦金卫**，京东数科架构师，Apache ShardingSphere committer/Apache Dubbo PMC，热爱开源技术，拥抱开源社区。
+
+**吴晟**：Founding Engineer at Tetrate. Apache Member. He leads the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin and Apache ShardingSphere as a PMC member.
+
+**姜宁**（主持人）：Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，2015年开始担任Apache 孵化器导师，参与孵化了多个源于中国Apache孵化器项目孵化。
 
 **适兕**（联合主持人）：开源之道共同体（opensourceway.community）发起人，self-employee，ALC Beijing Member，开源社成员，开源布道师，作家。
 

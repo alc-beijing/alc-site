@@ -52,9 +52,7 @@ authors:
 
 ## 请收听
 
-```html
 {{< ximalaya id="308619842" align="center" type="red" >}}
-```
 
 
 ## 本期嘉宾

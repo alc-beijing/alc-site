@@ -53,7 +53,7 @@ authors:
 ## 请收听
 
 ```html
-<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=308619842&type=red" frameborder=0 allowfullscreen></iframe>
+{{< ximalaya id="308619842" align="center" type="red" >}}
 ```
 
 

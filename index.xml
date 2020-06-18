@@ -8,7 +8,17 @@
 30：00 ~~ 36:15 娟神：女性既是优势，也是压力！ 从“自我”到“心中有Ta”的转变！
 37:10 ~~ 40: 00 另一位女性开发者颜志一 既是 ShardingSphere 的成长之旅，也是开源的晋级之旅。
 卖个关子，下期讲：ShardingSphere 的开源初心是什么？是什么样的力量驱动着Ta们走到今天？
-请收听 本期嘉宾 张亮：京东数科数据研发负责人，Apache ShardingSphere VP，Apache Dubbo PMC，人气开源项目 Elastic-Job 作者。</description></item><item><title>【Apache 博客】之 冠状病毒肆虐之下的远程协作</title><link>https://alc-beijing.github.io/alc-site/post/apache-blog/success-at-apache-remote-collaboration/</link><pubDate>Mon, 25 May 2020 16:06:05 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-blog/success-at-apache-remote-collaboration/</guid><description>ALC Beijing 引言 2020年，对于世界上所有的人都是一场灾难，在刚刚开完的两会，国家希望通过地摊经济来复苏中华大地的经济繁荣，当然这在日常的小商品、食物等方面还可以，那么信息经济下，过去一直都在一个屋檐下工作的人，突然变成了在线会议的方式，一定会出现一定不适应，甚至会出现效率低下。这个时候，最应该考虑的就是开源的协作模式！当然，ASF 以其独特的完全虚拟享誉全球！值得学习的地方实在是太多了。
+请收听 本期嘉宾 张亮：京东数科数据研发负责人，Apache ShardingSphere VP，Apache Dubbo PMC，人气开源项目 Elastic-Job 作者。</description></item><item><title>Podcast Episode #2（下） : Apache ShardingSphere 团队谈Apache</title><link>https://alc-beijing.github.io/alc-site/post/podcast/episode-2-2-talk-to-shardingsphere/</link><pubDate>Sun, 31 May 2020 17:08:49 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/podcast/episode-2-2-talk-to-shardingsphere/</guid><description>内容梗概 2020 年 4 月 16 日，Apache ShardingSphere 最终通过基金会董事会决议，加入了 TLP 梯队！从 2016 年 1 月的第一行代码到现今的 300K+行代码，中间经历了什么？来自创始团队和中坚力量的成员们坐下来和大家分享 Apache ShardingSphere 成长的历程！
+时间线 00：00 ~~ 02：00 张亮谈开源初心， 开源让技术更为优雅、极致，开源的组织让我们走的更远！
+02：10 ~~ 08：30 金卫个人的开源历程，全职做开源梦想成真！
+12：00 ~~ 14：30 ShardingSphere 从个人项目到 Apache TLP 中间发生了哪些关键的跃迁？从技术模块扩展到共同体（Community）多样性
+15：00 ~~ 18：00 模块化架构的重构来龙去脉
+18：40 ~~ 19：00 好的软件是用出来的，不是设计出来的
+19：10 ~~ 23：30 共同体的变化, 从个人主义到 Apache 之道
+24：00 ~~ 25:00 Apache 孵化器的导师绝对“奥利给”
+28: 00 ~~ 29：30 姜宁在参与导师当中的经历，对Apache 的重新认知，尤其是共同体的强调！
+29：40 ~~ 31：00 张亮对开发者参与开源的职业生涯影响： 中国有很多优秀的开发者！
+32：30 ~~ 33：00 吴晟分享在共同体中处理冲突， 开源项目在世界这个更大的舞台</description></item><item><title>【Apache 博客】之 冠状病毒肆虐之下的远程协作</title><link>https://alc-beijing.github.io/alc-site/post/apache-blog/success-at-apache-remote-collaboration/</link><pubDate>Mon, 25 May 2020 16:06:05 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-blog/success-at-apache-remote-collaboration/</guid><description>ALC Beijing 引言 2020年，对于世界上所有的人都是一场灾难，在刚刚开完的两会，国家希望通过地摊经济来复苏中华大地的经济繁荣，当然这在日常的小商品、食物等方面还可以，那么信息经济下，过去一直都在一个屋檐下工作的人，突然变成了在线会议的方式，一定会出现一定不适应，甚至会出现效率低下。这个时候，最应该考虑的就是开源的协作模式！当然，ASF 以其独特的完全虚拟享誉全球！值得学习的地方实在是太多了。
 前序 我（Marvin Humphrey）是在2005年”抵达“ ASF （Apache 软件基金会的简称，下同） 的，起因是我对 Apache Lucene 的一个Bug有了严重的不满情绪，之所以使用“抵达”这个词汇，就像是我找到了某种归属，因为自从那时发起了第一封邮件之后，在接下来的15年里，我发送了数以万计的邮件，可想而知我在ASF花了多长时间，这几乎是我的第二个家。由于 ASF 一直以来都没有实际的“物理”办公室，所以也就免去了很多现实中的麻烦，比如是否穿戴得体、肢体语言是否合规等等，其实就那个Bug 来讲，我当时不满的原因是：Doug Cutting （Hadoop创始人 ——译者注），当时还是Lucene 项目的贡献者，认为他非常没有耐心。
 让我们回到本文的主题上了，因为Apache 这20多年来没有实际的办公室，大家均是基于互联网这个虚拟的线上共同体而工作在一起，所以新冠病毒发生以来，其实对于 Apache 的成员和贡献者们的影响是微乎其微的，尽管对于每位贡献者的个人生活上是确确实实受到了影响，但是就ASF的整体而言，并没有出现什么不适应之类的。
 但是 ASF 之外仍然有很多的人，他们未必有这样的一套机制和习惯，世界各地的人们都在为抗争疫情而努力，尤其是“社交距离”的约定，原有的公司章程等均可为此而进行修订，另外让人痛心不已的是，有些人根本都没有机会来进行改变，直接破产倒闭，人已经失业了。

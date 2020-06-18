@@ -52,8 +52,9 @@ authors:
 
 ## 请收听
 
-
-{{< ximalaya id="304115934" align="center" type="red" >}}
+```html
+<iframe height="230" width="260" src="https://www.ximalaya.com/thirdparty/player/sound/player.html?id=308619842&type=red" frameborder=0 allowfullscreen></iframe>
+```
 
 
 ## 本期嘉宾

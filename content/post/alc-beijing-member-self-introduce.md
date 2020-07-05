@@ -65,4 +65,4 @@ authors:
 
 > ALC  Beijing 的成立意味着中国的声音将在国际的舞台上响起。
 >
-> ​                          Apache 成员，孙金诚
+> ​                          **Apache 成员，孙金诚**

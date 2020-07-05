@@ -13,7 +13,7 @@ keywords:
 - News
 - Blog
 tags:
-- Apache local Communtiy 
+- Apache local Communtiy
 title: "越是全球化，越要本土化：ALC Beijing 成员（部分）自我承诺"
 url: ""
 authors:
@@ -32,9 +32,7 @@ authors:
 
 ## 视频
 
-```html
-<iframe src="//player.bilibili.com/player.html?aid=711196006&bvid=BV1iD4y1Q7bf&cid=208784050&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-```
+{{< bilibili aid="711196006" bvid="BV1iD4y1Q7bf" cid="208784050" align="center" >}}
 
 ### 时间线
 
@@ -68,4 +66,3 @@ authors:
 > ALC  Beijing 的成立意味着中国的声音将在国际的舞台上响起。
 >
 > ​                          Apache 成员，孙金诚
-

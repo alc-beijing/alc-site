@@ -1,1 +1,5 @@
-<img src="../{{ .Destination }}">
+{{ $isRelativePath := true }}
+{{ if strings.HasPrefix .Destination "http" }}
+    {{ $isRelativePath = false }}
+{{ end }}
+<img src= {{ if $isRelativePath }}"../{{ .Destination }}"{{ else }}"{{ .Destination }}" {{ end }}>

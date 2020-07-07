@@ -45,7 +45,7 @@ Apache APISIX 在2019年10月份的进入了 Apache 软件基金会孵化器，�
 
 ## 请收听
 
-{{< ximalaya id="" align="center" type="red" >}}
+{{< ximalaya id="314055931" align="center" type="red" >}}
 
 ## 本期嘉宾
 

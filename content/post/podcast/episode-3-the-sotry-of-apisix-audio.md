@@ -22,7 +22,7 @@ authors:
 
 ## 内容梗概
 
-Apache APISIX 在2019年10月份的进入了 Apache 软件基金会孵化器，到现在（采访期2020年六月）有7个多月的时间，就做了多达 6 次的 release 发布，也就是说差不多是每个月就会发布1个release，在进入Apache之前，APISIX 只有20多位contributor，截止到现在，已经拥有了80多位committer，在如此之短的时间内，Apache APISIX 是如何做到的？是什么样的魔力，让Apache APISIX 项目、团队、Community 有这么快的加速发展了呢？
+Apache APISIX 在2019年10月份进入了 Apache 软件基金会孵化器，到现在（采访期2020年六月）有7个多月的时间，就做了多达 6 次的 release 发布，也就是说差不多是每个月就会发布1个release，在进入Apache之前，APISIX 只有20多位contributor，截止到现在，已经拥有了80多位committer，在如此之短的时间内，Apache APISIX 是如何做到的？是什么样的魔力，让Apache APISIX 项目、团队、Community 有这么快的加速发展了呢？
 
 请仔细聆听，两位创始人和一位导师的精彩分享。
 

@@ -1,9 +1,7 @@
 # Apache基金会项目孵化过程中知识产权转移的讨论
 
-+ 作者：张伟玲
-+ 审核：谭中意
-       姜宁
-       张亮
++ 作者：张伟玲 谭中意
++ 审核：姜宁 张亮
 
 ###   作者简介：
 *张伟玲，多年大型互联网知识产权法律经验，擅长商标、开源、著作权等知识产权法律领域的合规制度建设、 培训和诉讼支持，在互联网信息网络传播/合规/品牌等领域有丰富实战经验。*
@@ -154,3 +152,4 @@ https://github.com/apache/beam/blob/master/NOTICE
 + ASF SGA template http://www.apache.org/licenses/software-grant-template.pdf
 + ASF CCLA http://www.apache.org/licenses/cla-corporate.pdf
 + Apache 文件头说明 https://www.apache.org/legal/src-headers.html
++ ASF 2004 Board meeting 记录 https://www.apache.org/foundation/records/minutes/2004/board_minutes_2004_11_14.txt

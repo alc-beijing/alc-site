@@ -98,7 +98,7 @@ https://github.com/apache/beam/blob/master/NOTICE
 	This product includes software developed at
 	The Apache Software Foundation (http://www.apache.org/).
 
-那是因为按照Apache基金会发版的要求，每个项目在发布软件版本的时候，是需要把源码中的每个文件的头部都加上Apache基金会指定的License Header，而这个License Header的内容统一指向该项目的NOTICE文件。
+那是因为按照Apache基金会发版的要求，每个项目在发布软件版本的时候，是需要把源码中的每个文件的头部都加上Apache基金会指定的License Header，而这个License Header的内容统一指向该项目的NOTICE文件。（当然如果包含了其他第三方开源代码，需要按照该开源项目许可证的要求，在Header上保留源作者的版权申明的，详见https://www.apache.org/legal/src-headers.html#3party。）
 	
     /*
      * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -140,10 +140,15 @@ https://github.com/apache/beam/blob/master/NOTICE
 
 因此，作为项目所有人的版权信息，有的会在NOTICE部分予以体现。但是Apache的发版和毕业政策都会约定最新版本的Copyright Owner声明是Apache基金会，虽然可以保留之前版本的Copyright说明。只有统一被授权方均为Apache基金会，该软件的用户基于对Apache基金会的品牌和信心，才会持续在该项目上进行投入，不担心出现该软件的主导公司未来的某一天把该软件闭源的情况。因为即使出现该软件主导方不再继续投入，或者另起炉灶的情况，Apache的知识产权制度保证了还有社区的其他人在继续维护。而该软件最新版本的Copyright Owner是Apache基金会，则在法律上减少了该社区在继续维护上的知识产权纠纷。
 
-这是Apache开源基金会精心的知识产权政策的设计，为了保证它旗下的项目在毕业后是一个可信赖的产品，因为知识产权问题已经理清，持续维护的问题也已经解决，所以Apache的项目才会如此受到欢迎，所以才会有更多的公司或者个人把项目捐献给Apache基金会。
+这是Apache开源基金会精心的知识产权政策的设计，为了保证它旗下的项目是一个可信赖的产品，因为知识产权问题已经理清，持续维护的问题也已经解决，所以Apache的项目才会如此受到欢迎，所以才会有更多的公司或者个人把项目捐献给Apache基金会。
 
 
 ## 总结：
 综合上面的说明来看，当有新的项目需要经ASF孵化毕业，作为项目所有人需要承担的义务主要在于版权授权、专利授权和商标转让，版权原始权利并未转让，因此，在项目的实际操作中请记得根据ASF的官方格式保留自己的权利声明。
 本文主要是基于实践操作和ASF官方规定作出的一些讨论，在您具体项目确定孵化或捐赠之前，请一定与您的律师进行个案的综合评估以保障您的权益哦。当然也欢迎微信联系跟本人共同沟通讨论。
 
+### 参考资料：
++ ASF Contributor agreement http://www.apache.org/licenses/contributor-agreements.html
++ ASF SGA template http://www.apache.org/licenses/software-grant-template.pdf
++ ASF CCLA http://www.apache.org/licenses/cla-corporate.pdf
++ Apache 文件头说明 https://www.apache.org/legal/src-headers.html

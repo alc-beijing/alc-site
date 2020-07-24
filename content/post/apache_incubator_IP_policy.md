@@ -1,4 +1,14 @@
-# Apache基金会项目孵化过程中知识产权转移的讨论
++++
+author = "张伟玲 谭中意"
+title = "Apache基金会项目孵化过程中知识产权转移的讨论"
+date = "2020-07-24"
+description = "ASF项目孵化流程对知识产权授权与转移有完备的定义，本文从公开发表的资料和文档，并结合亲身经历的项目捐献和孵化过程中总结"
+tags = [
+    "ASF项目孵化流程", "知识产权转移"
+]
++++
+
+# Apache软件基金会项目孵化过程中知识产权转移的讨论
 
 + 作者：张伟玲 谭中意
 + 审核：姜宁 张亮
@@ -9,7 +19,7 @@
 ## 讨论背景：
 自2002年Apache Software Foundation（**ASF**）开始孵化项目以来，ASF至今已经毕业了200多个顶级项目。在这些项目中，无论是个人捐赠还是企业捐赠的，都必须严格遵守其孵化流程和政策要求。尤其是近几年来，越来越多的国人发起的开源项目进入Apache基金会孵化，并有不断的项目毕业，Apache开源基金会在国内的影响力越来越大。而它作为一个国际范围内host项目最多的开源基金会，它的各种政策和流程也越来越为更多人熟悉。
 
-![apache projects](../images/apache_incubator_IP_policy/apache_incubator_ip_1.png "apache projects")
+![apache projects](../images/apache_incubator_IP_policy/apache_incubator_ip_1.png)
 
 
 而其中最重要的一个流程---项目孵化，在知识产权方面也有很独特的政策。那么，作为项目所有者的您，在面对这些政策和可能会遇到各种文件时，是否有过困惑“我签署了什么？项目的知识产权还是我的吗？或者说我还剩些什么权利呢？…”，为了解决这些困惑，本文会对您可能遇到的问题进行初步讨论分析，当然本人是从公开发表的资料和文档，并结合亲身经历的项目捐献和孵化过程中总结，也有些认识不到位的地方，请多多讨论，有问题可跟本人微信号**weiweizhang0410**讨论，thanks
@@ -26,7 +36,7 @@
 开源项目要进入Apache基金会进行孵化，原有版权所有人必须要签署如下两个文件，一个是SGA（Software Grant Agreement），另外一个是CCLA/ICLA（公司或者个人贡献协议ICLA: Individual Contributor License Agreement，CCLA: Corporate Contributor License Agreement）。我们一起来看看这两个文件的内容。
 
 先看看SGA（Software Grant Agreement），以下是协议原文信息：
-![Apache SGA](../images/apache_incubator_IP_policy/apache_incubator_ip_2.png "Apache SGA")
+![Apache SGA](../images/apache_incubator_IP_policy/apache_incubator_IP_2.png)
 
 下面我们来仔细看下这篇文档的重点部分。
 
@@ -51,15 +61,15 @@
  infringed by the use or sale of the Software alone.***
 
 
-许可人授予基金会如下权利: 
+许可人授予基金会如下权利:
 - a） 以源代码和目标代码的形式在全球范围内复制、准备衍生作品、公开展示、公开表演、分发和再授权软件及其衍生作品的非排他性、免版税、不可撤销的版权许可；以及，
 - b） 非排他性的、全球范围内的、免版税的、不可撤销的专利许可证，根据许可专利以源代码和目标代码的形式获得、使用、销售、许诺销售、进口和以其他方式转让该软件。”
 
 
 我们再看下CCLA（Corporate Contributor License Agreement），原文相对较长，截取原文知识产权重点部分：
 
-![Apache CLA1](../images/apache_incubator_IP_policy/apache_incubator_ip_3.png "Apache CLA1")
-![Apache CLA2](../images/apache_incubator_IP_policy/apache_incubator_ip_4.png "Apache CLA2")
+![Apache CLA1](../images/apache_incubator_IP_policy/apache_incubator_IP_3.png)
+![Apache CLA2](../images/apache_incubator_IP_policy/apache_incubator_ip_4.png)
 
 简单摘要如下：
 
@@ -84,7 +94,7 @@
 
   	Apache Kafka
     Copyright 2020 The Apache Software Foundation.
-	
+
 	This product includes software developed at
 	The Apache Software Foundation (https://www.apache.org/).
 
@@ -94,12 +104,12 @@ https://github.com/apache/beam/blob/master/NOTICE
 
 	Apache Beam
     Copyright 2016-2018 The Apache Software Foundation
-	
+
 	This product includes software developed at
 	The Apache Software Foundation (http://www.apache.org/).
 
 那是因为按照Apache基金会发版的要求，每个项目在发布软件版本的时候，是需要把源码中的每个文件的头部都加上Apache基金会指定的License Header，而这个License Header的内容统一指向该项目的NOTICE文件。（当然如果包含了其他第三方开源代码，需要按照该开源项目许可证的要求，在Header上保留源作者的版权申明的，详见https://www.apache.org/legal/src-headers.html#3party。）
-	
+
     /*
      * Licensed to the Apache Software Foundation (ASF) under one or more
 	 * contributor license agreements. See the NOTICE file distributed with
@@ -117,18 +127,19 @@ https://github.com/apache/beam/blob/master/NOTICE
 	 * See the License for the specific language governing permissions and
 	 * limitations under the License.
 	 */
+
 而该NOTICE文件一般内容都是指明当前的Copyright Owner是Apache基金会。但是在该NOTICE文件中，是可以保留一些之前版本的Copyright Owner的声明的。
 例如Netbeans这个项目，它最早的Owner是Sun Microsystem，之后Sun被Oracle收购后，Copyright Owner变成Oracle，而之后Oracle把这个项目捐献给Apache基金会。为了保护各个Owner的知识产权，把各个时期的Copyright Owner都列了出来，所以现在的内容https://github.com/apache/netbeans/blob/master/NOTICE如下：
 
 	Apache Netbeans
     Copyright 2017-2020 The Apache Software Foundation
-	
+
 	This product includes software developed at
 	The Apache Software Foundation (http://www.apache.org/).
-	
+
 	The code is based on NetBeans, that has been kindly donated to the Apache
 	Software Foundation by Oracle.
-	
+
 	The code was Copyright 1997-2016 Oracle and/or its affiliates.  The Initial
 	Developer of the Original Software was Sun Microsystems, Inc. Portions
 	Copyright 1997-2006 Sun Microsystems, Inc.

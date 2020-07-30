@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache基金会项目孵化过程中知识产权转移的讨论</title><link>https://alc-beijing.github.io/alc-site/post/apache_incubator_ip_policy/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache_incubator_ip_policy/</guid><description>Apache软件基金会项目孵化过程中知识产权转移的讨论 作者：张伟玲 谭中意 审核：姜宁 张亮 作者简介： 张伟玲，多年大型互联网知识产权法律经验，擅长商标、开源、著作权等知识产权法律领域的合规制度建设、 培训和诉讼支持，在互联网信息网络传播/合规/品牌等领域有丰富实战经验。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 30 Jul 2020 11:01:48 +0800</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ALC Beijing 成员采访之李岗: 用青春谱写开源</title><link>https://alc-beijing.github.io/alc-site/post/interview/alc-beijing-member-ligang/</link><pubDate>Thu, 30 Jul 2020 11:01:48 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/interview/alc-beijing-member-ligang/</guid><description>内容梗概 来自Apache DolphinScheduler （孵化中）项目的李岗，年轻、对开源充满激情和憧憬，这次参与到ALC Beijing来，也是灌注了慢慢的热爱和斗志！本次采访将为大家展现一下这位用青春赌上开源的梦想之路。
+时间线 01：00 ~~ 01：20 李岗自我介绍
+01：20 ~~ 03：10 是如何接触到开源的，然后工作后自然而然的选择开源。感到非常幸运的是参与Apache的项目。
+03：30 ~~ 04：10 从上学到工作，中间所经历的开源共同体的经历。
+04：15 ~~ 09：00 Apache 文化中的个人与公司的见解，自己在经历成长的过程中遇到了那些坑。
+09：10 ~~ 11：10 参与开源对于自己个人的改变
+11：20 ~~ 13: 20 从开源Community中如何获得“荣誉”
+13：30 ~~ 16：10 Apache 带给个人的社会认可
+17：00 ~~ 21：00 是什么样的动力？或者是在没有明确的直接的报酬的情况下，是如何在周末和工作之外的时间做开源？
+21：10 ~~ 25：10 Apache local Community Beijing 是如何理解的。
+25：20 ~~ 26：00 DS项目中的Peer Review是如何实现的。
+26：40 ~~ 28：00 DS为什么选择Apache 软件基金会。
+28：00 ~~ 33：00 DS 在发展过程中克服了那些困难。如何进入Apache 孵化器、许可协议、沟通模式。
+33：00 ~~ 35 ：30 微信在开发中遇到的障碍。</description></item><item><title>Apache基金会项目孵化过程中知识产权转移的讨论</title><link>https://alc-beijing.github.io/alc-site/post/apache_incubator_ip_policy/</link><pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache_incubator_ip_policy/</guid><description>Apache软件基金会项目孵化过程中知识产权转移的讨论 作者：张伟玲 谭中意 审核：姜宁 张亮 作者简介： 张伟玲，多年大型互联网知识产权法律经验，擅长商标、开源、著作权等知识产权法律领域的合规制度建设、 培训和诉讼支持，在互联网信息网络传播/合规/品牌等领域有丰富实战经验。
 讨论背景： 自2002年Apache Software Foundation（ASF）开始孵化项目以来，ASF至今已经毕业了200多个顶级项目。在这些项目中，无论是个人捐赠还是企业捐赠的，都必须严格遵守其孵化流程和政策要求。尤其是近几年来，越来越多的国人发起的开源项目进入Apache基金会孵化，并有不断的项目毕业，Apache开源基金会在国内的影响力越来越大。而它作为一个国际范围内host项目最多的开源基金会，它的各种政策和流程也越来越为更多人熟悉。
 而其中最重要的一个流程&amp;mdash;项目孵化，在知识产权方面也有很独特的政策。那么，作为项目所有者的您，在面对这些政策和可能会遇到各种文件时，是否有过困惑“我签署了什么？项目的知识产权还是我的吗？或者说我还剩些什么权利呢？…”，为了解决这些困惑，本文会对您可能遇到的问题进行初步讨论分析，当然本人是从公开发表的资料和文档，并结合亲身经历的项目捐献和孵化过程中总结，也有些认识不到位的地方，请多多讨论，有问题可跟本人微信号weiweizhang0410讨论，thanks
 先说结论： 总的来说，捐献项目给Apache基金会，Apache基金会需要您的“版权授权 + 专利授权 + 商标转让”。

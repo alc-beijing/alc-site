@@ -60,7 +60,7 @@ authors:
 
 ## 本期嘉宾
 
-**李岗**：Apache DolphinScheduler （孵化中）PMC，开源的爱好者和实践者，易观开源工程师。
+**李岗**：Apache DolphinScheduler (Incubating) PPMC，开源的爱好者和实践者，易观开源工程师。
 
 **适兕**：主持人，开源布道师。
 

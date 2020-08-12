@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Aug 2020 18:46:08 +0800</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ALC Beijing Meetup #1 嘉宾和主题介绍</title><link>https://alc-beijing.github.io/alc-site/post/event/first-meetup-guest-introducation/</link><pubDate>Tue, 11 Aug 2020 18:46:08 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/event/first-meetup-guest-introducation/</guid><description>主持人 潘娟：
-![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/panjuan.jpeg?version=1&amp;amp;modificationDate=1582171670000&amp;amp;api=v2 =200x260)
 江湖人尊称为“娟神”,京东数科高级DBA，Apache ShardingSphere PMC，ALC Beijing Membe。才艺俱佳！
 Hold 全场！
-暖场嘉宾 ![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/jiangning2.jpg?version=1&amp;amp;modificationDate=1582159112000&amp;amp;api=v2 =200x260)
-姜宁 华为开源软件中心技术专家，前红帽软件首席软件工程师，Apache软件基金会成员，Apache软件基金孵化器导师，参与了绝大多个中国发起的Apache基金会项目的孵化。本人06年开始加入到Apache社区项目开发，就被社区开放协作的氛围深深吸引，成为开源深度信徒。现在致力于开源社区建设，以及开源文化推广，尽其所能帮助国内开源项目成功。
-主题分享嘉宾1 李钰 ![](https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-6_15-33-44.png?version=1&amp;amp;modificationDate=1596699225000&amp;amp;api=v2 =200x260）
-Apache Flink 社区 PMC 成员, Apache HBase 社区 PMC 成员, ALC-beijing 成员, 阿里巴巴高级技术专家
+暖场嘉宾 姜宁 华为开源软件中心技术专家，前红帽软件首席软件工程师，Apache软件基金会成员，Apache软件基金孵化器导师，参与了绝大多个中国发起的Apache基金会项目的孵化。本人06年开始加入到Apache社区项目开发，就被社区开放协作的氛围深深吸引，成为开源深度信徒。现在致力于开源社区建设，以及开源文化推广，尽其所能帮助国内开源项目成功。
+主题分享嘉宾1 李钰 Apache Flink 社区 PMC 成员, Apache HBase 社区 PMC 成员, ALC-beijing 成员, 阿里巴巴高级技术专家
 李钰将为我们带来的分享是：&amp;laquo;Flink中文社区的发展与挑战&amp;raquo;，会从如下几个视角切入：
-Apache Flink 简介 Apache Flink 中文社区从零开始面临的挑战、困难和经验 Apache Flink中文社区取得的成果和发展计划 主题分享嘉宾2 郭炜 ![](https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-4_17-7-8.png?version=1&amp;amp;modificationDate=1596532030000&amp;amp;api=v2 =200x260）
-中国软件行业协会智能应用服务分会副主任委员，全球中小企业创业联合会副会长，TGO鲲鹏会 北京分会会长，虎啸十年 杰出数字技术人物，Apache Dolphin Scheduler PPMC，ClickHouse 华人社区发起人
+Apache Flink 简介 Apache Flink 中文社区从零开始面临的挑战、困难和经验 Apache Flink中文社区取得的成果和发展计划 主题分享嘉宾2 郭炜 中国软件行业协会智能应用服务分会副主任委员，全球中小企业创业联合会副会长，TGO鲲鹏会 北京分会会长，虎啸十年 杰出数字技术人物，Apache Dolphin Scheduler PPMC，ClickHouse 华人社区发起人
 分享的主题是： 会从多个视角来看待开源：
 开源的初心 几个失败开源项目的案例 优秀开源项目的特性 如何申请进入Apache基金会 开源不是一时兴起，而是一辈子的事情 开源不是天才的甜点，而是勤奋者的盛宴 圆桌嘉宾 1 上面介绍过的暖场大神，ALC Beijing的发起者：姜宁</description></item><item><title>ALC Beijing 活动</title><link>https://alc-beijing.github.io/alc-site/post/event/first-meetup-open-source-roadblock/</link><pubDate>Tue, 11 Aug 2020 18:45:20 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/event/first-meetup-open-source-roadblock/</guid><description/></item><item><title>ALC Beijing 成员采访之李岗: 用青春谱写开源</title><link>https://alc-beijing.github.io/alc-site/post/interview/alc-beijing-member-ligang/</link><pubDate>Thu, 30 Jul 2020 11:01:48 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/interview/alc-beijing-member-ligang/</guid><description>内容梗概 来自Apache DolphinScheduler （孵化中）项目的李岗，年轻、对开源充满激情和憧憬，这次参与到ALC Beijing来，也是灌注了慢慢的热爱和斗志！本次采访将为大家展现一下这位用青春赌上开源的梦想之路。
 时间线 01：00 ~~ 01：20 李岗自我介绍

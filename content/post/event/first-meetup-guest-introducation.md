@@ -27,11 +27,7 @@ authors:
 **潘娟**：
 
 
-
-<p>
-<img align="right" width="200" height="260" src="https://cwiki.apache.org/confluence/download/thumbnails/147427636/panjuan.jpeg?version=1&modificationDate=1582171670000&api=v2">
-</p>
-
+![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/panjuan.jpeg?version=1&modificationDate=1582171670000&api=v2)
 
 
 >  江湖人尊称为“娟神”,京东数科高级DBA，Apache ShardingSphere PMC，ALC Beijing Membe。才艺俱佳！
@@ -44,9 +40,8 @@ authors:
 
 ## 暖场嘉宾
 
-<p>
-<img align="right" width="200" height="260" src="https://cwiki.apache.org/confluence/download/thumbnails/147427636/jiangning2.jpg?version=1&modificationDate=1582159112000&api=v2">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/jiangning2.jpg?version=1&modificationDate=1582159112000&api=v2)
+
 
 ### 姜宁
 
@@ -56,9 +51,8 @@ authors:
 
 ### 李钰
 
-<p>
-<img align="right" width="200" height="260" src="https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-6_15-33-44.png?version=1&modificationDate=1596699225000&api=v2">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-6_15-33-44.png?version=1&modificationDate=1596699225000&api=v2)
+
 
 > Apache Flink 社区 PMC 成员, Apache HBase 社区 PMC 成员, ALC-beijing 成员, 阿里巴巴高级技术专家
 
@@ -72,9 +66,8 @@ authors:
 
 ### 郭炜
 
-<p>
-<img align="right" width="200" height="260" src="https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-4_17-7-8.png?version=1&modificationDate=1596532030000&api=v2">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-4_17-7-8.png?version=1&modificationDate=1596532030000&api=v2)
+
 
 > 中国软件行业协会智能应用服务分会副主任委员，全球中小企业创业联合会副会长，TGO鲲鹏会 北京分会会长，虎啸十年 杰出数字技术人物，Apache Dolphin Scheduler PPMC，ClickHouse 华人社区发起人
 
@@ -97,9 +90,7 @@ authors:
 
 **孙金城**:
 
-<p>
-<img align="right" width="200" height="260" src="https://cwiki.apache.org/confluence/download/thumbnails/147427636/small-me.png?version=1&modificationDate=1582157154000&api=v2">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/small-me.png?version=1&modificationDate=1582157154000&api=v2)
 
 > （金竹），2011年加入阿里，9年的阿里工作中，主导过很多内部核心系统，如，阿里集团行为日志，阿里郎，云转码，文档转换等云服务！在2016年初开始了解 Apache Flink 社区，由初期的参与社区开发到后来逐渐主导具体模块的开发，到负责 Apache Flink Python API(PyFlink) 的建设。目前是阿里巴巴 Tech Lead，ASF Member，PMC Member of Apache Flink and Apache IoTDB 以及 Committer for Apache Flink, Apache Beam and Apache IoTDB
 
@@ -107,9 +98,7 @@ authors:
 
 **温铭**：
 
-<p>
-<img align="right" width="200" height="260" src="https://opentalk-blog.b0.upaiyun.com/prod/2020-01-03/f402c9d0698a132a6abb575503ce73fe">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/158868125/image2020-8-12_22-5-44.png?version=1&modificationDate=1597241145347&api=v2)
 
 >深圳支流科技创始人，云原生 API 网关 Apache APISIX(Incubating) PPMC 成员，360 开源委员会发起人，《OpenResty 从入门到实战》专栏作者。在互联网安全公司和黑产对抗多年，有 40 多项中美安全专利。
 
@@ -117,9 +106,8 @@ authors:
 
 **适兕**：
 
-<p>
-<img align="right" width="200" height="260" src="http://www.opensourceway.community/public/lijiansheng-os.jpg">
-</p>
+![](https://cwiki.apache.org/confluence/download/thumbnails/147427636/lijiansheng-os.jpg?version=1&modificationDate=1582619160000&api=v2)
+
 
 > 开源布道师
 

@@ -46,7 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="" align="center" type="red" >}}
+{{< ximalaya id="326735355" align="center" type="red" >}}
 
 ## 本期嘉宾: ALC  BeiJing Podcast 三位常驻主持
 

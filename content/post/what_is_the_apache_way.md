@@ -1,3 +1,12 @@
++++
+author = "谭中意"
+title = "到底什么是The Apache Way？"
+date = "2020-08-30"
+description = "What is the Apache Way?"
+tags = [
+    "Apache Way",
+]
++++
 # 到底什么是The Apache Way？
 + 作者：谭中意
 + 审核：姜宁 李健盛
@@ -37,7 +46,7 @@ Apache基金会的副主席说“The Apache Way”是一些行为规范或者惯
 
 我的解读如下：
 ***“The Apache Way”是Apache开源软件基金会长期以来，一直奉行并证明行之有效的开源社区的一整套成体系的方法论，包括Vision/价值观/原则/行为规范等，用于实现可持续成功开源。***
- 
+
 见下图
 ![apache projects](../images/what_is_the_apache_way/the_apache_way.png)
 
@@ -54,7 +63,7 @@ Apache开源软件基金会的使命描述如下：
 Apache开源软件基金会作为基于501（C）（3）规则运作的一个非盈利组织，目的就是指导和帮助各个apache开源项目来发展，确保可持续的健康发展。
 
 然后看看它的价值观：Community Over Code.
-Apache基金会认为：社区比代码更重要，因为有好的社区，代码会越变越好，即使一开始代码比较差，但是通过活跃社区的协同合作，差的代码会变好；反之如果没有好的社区，代码会逐渐腐化，最终死亡。同时，Apache基金会也认为，对社区的贡献，不仅仅局限于代码，bug report，文档，测试，blog，event等都是对该项目的贡献。
+Apache基金会认为：社区比代码更重要，因为有好的社区，代码会越变越好，即使一开始代码比较差，但是通过活跃社区的协同合作，差的代码会变好；反之如果没有好的社区，代码会逐渐腐化，最终死亡。同时，Apache基金会也认为，对社区的贡献，不仅仅局限于代码，bug report，文档，测试，撰写博客，参与线上线下活动等都是对该项目的贡献。
 而要建设一个好的社区，是需要Open即开放，transparency即透明，collaboration即协同等基本价值观的。
 
 再来看看它的原则：
@@ -76,6 +85,7 @@ http://www.apache.org/foundation/how-it-works.html
 
 最后看看它的行为规范和惯例。
 http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html#7
+
 关于行为准则和惯例，Shane又分为如下几个部分
 1.	Community - Over code
 2.	Merit – recognizing your work
@@ -84,8 +94,8 @@ http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html#7
 5.	Communication – How we write
 
 其中最重要的Community部分，解读如下：
-Community，即社区，国内著名开源布道师适兕把他翻译为共同体并大力推广，Community是开源项目中最重要的一个概念，因为我们不在一起生活，工作，很多人没有见过面，是同一个开源项目把我们链接到了一起。Community包含开发者，文档工程师，测试工程师，系统管理员，当然还包括最终用户。
-Apache Community的两个最重要规则是：No Jerks Allowed。Apache的Community不欢迎独狼或者独裁者，而欢迎集体贡献者。第二个规则即用个人身份。你参与Apache项目是以个人身份，而不是以某某公司雇员的身份。所以对于公司的团队参与者来说，他们必须以独立个人的身份活动，当然好处是贡献和口碑永远属于个人。
+Community，即社区，国内著名开源布道师适兕把他翻译为共同体并大力推广，Community是开源项目中最重要的一个组成部分，因为我们不在一起生活，工作，很多人未成谋面，是同一个开源项目把我们链接到了一起。Community包含开发者，文档工程师，测试工程师，系统管理员，当然还包括最终用户。
+Apache Community的两个最重要规则是：No Jerks Allowed。Apache的Community不欢迎独狼或者独裁者，而欢迎集体贡献者。第二个规则即以个人身份参与。你参与Apache项目是以个人身份，而不是以某某公司雇员的身份。所以对于公司的团队参与者来说，他们必须以独立个人的身份参与Community活动，当然好处是贡献和口碑永远属于个人。
 
 第二部分：Merit
 Merit： 即你贡献的越多，你越有更多的权限（代码提交权限，在committer中vote的权限）。这是用于激励贡献者做出更多贡献的一个很重要措施。
@@ -115,7 +125,3 @@ Merit： 即你贡献的越多，你越有更多的权限（代码提交权限�
 * https://www.apache.org/theapacheway/
 * https://blogs.apache.org/foundation/entry/the-apache-way-to-sustainable
 * http://shaneslides.com/apachecon/TheApacheWay-ApacheConEU2019.html#7
-
-
-
-

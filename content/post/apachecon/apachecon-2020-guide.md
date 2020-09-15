@@ -7,6 +7,9 @@ tags = [
     "ApacheCon",
 ]
 +++
+
+![](../../images/apachecon/achome_banner.png)
+
 每年一度的 Apache北美大会因为疫情的原因转到线上来举行了， 这次会议的主题是[ApacheCon@Home](https://apachecon.com/acna2020/), 也就是说借助网络我们可以足不出户就可以参加Apache大会了。
 今年的会议为了针对不同的地域特点，特地安排了不同时间段的演讲，同时还专门增加了[中文的演讲](https://www.apachecon.com/acah2020/tracks/mandarin.html
 )，欢迎大家关注。

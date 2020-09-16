@@ -10,25 +10,28 @@ tags = [
 
 # 简介
 
-ApacheCon是久负盛名的开源盛宴，是开源界备受关注的会议之一，也是开源运动早起的活动之一，其最早的一期要追溯1998年，也是在这一届上，开发HTTPD服务的开发者们欢聚一堂，并决定成立 Apache 软件基金会。
+ApacheCon 是久负盛名的开源盛宴，为开源界备受关注的会议之一，也是开源运动早期的知名活动之一，其最早的一期要追溯1998年，也是在这一届上，开发HTTPD服务的开发者们欢聚一堂，并决定成立 Apache 软件基金会。
 
 ![](../../images/apachecon/1998-apachecon.png)
 
 1998年首次ApacheCon大会照片
+
 [photo attribution (CC BY) Mark Cox. Tagged image at https://www.flickr.com/photos/iamamoose/63963722/in/album-1381277/ ; gallery at https://www.flickr.com/photos/iamamoose/albums/1381277]
 
 
-ApacheCon是Apache软件基金会举办的年度社区盛会，汇聚众多Apache项目与社区成员，交流思想、共话协作，大会议题从大数据到机器学习、Web框架等都有覆盖，是你了解和熟悉未来科技发展趋势的绝佳窗口。
+ApacheCon由Apache软件基金会举办，现在是每年举办一次，一般在欧洲或北美举行，是Apache开发者们线下交流、讨论、见面的绝佳机会，也是分享想法、思想激荡的难得的场合。随着计算机技术的发展，ApacheCon每年的议题也在不断的增多，尤其是火热的大数据，干脆分离出来独立开启会议。
 
 ApacheCon 大会官网：https://apachecon.com/acah2020/index.html。
 
-2020年ApacheCon大会全程线上举办，从9月29日到10月1日，会议共持续3天。官方议程已公布，可前往官网查看[议题详情](https://apachecon.com/acah2020/tracks/)。同时，大会免费开放注册，可在[Hopin平台报名](https://hopin.to/events/apachecon-home)。
+2020是特殊的一年，尽管对于Apache的整体开发来说没有什么影响，但是线下交流是无法实现了，毕竟病毒仍在肆虐，只好像其它的大型会议一样，今年选择了在线上举办，线上举办的好处就是加大了更多可能性，比如支持多语言的分论坛，要知道讲中文的议题还是在ApacheCon上头一次出现。如此的机会怎能错过？
 
-# ApachCon中文演讲论坛
+从9月29日到10月1日，会议共持续3天。官方议程已公布，可前往官网查看[议题详情](https://apachecon.com/acah2020/tracks/)。同时，大会免费开放注册，可在[Hopin平台报名](https://hopin.to/events/apachecon-home)。
 
-本次ApacheCon大会专门设置了中文演讲论坛（[APACHE MANDARIN TRACK](https://apachecon.com/acah2020/tracks/mandarin.html)），方便国内观众参与。该论坛共邀请12位Apache Member/Contributor、开源人士和工程师，围绕Apache项目、开源等话题展开分享各自的实践与经验。
+# ApachCon普通话论坛
 
-目前国内开源项目与社区不断发展壮大，相信本论坛嘉宾的分享会给大家带来更多思考。下面对本论坛议题做下简单介绍，以供诸位参考。如果你想参加本论坛，记得[提前注册](https://hopin.to/events/apachecon-home)哟。
+本次ApacheCon大会专门设置了普通话演讲论坛（[APACHE MANDARIN TRACK](https://apachecon.com/acah2020/tracks/mandarin.html)），方便国内观众参与。该论坛共邀请12位Apache Member/Contributor、开源人士和工程师，围绕Apache项目、开源等话题展开分享各自的实践与经验。
+
+目前国内开源项目与社区不断发展壮大，相信本论坛嘉宾的分享会给大家带来更多思考。下面对本论坛议题做下简单介绍，以供诸位参考。如果你想参加本论坛，记得[提前注册](https://hopin.to/events/apachecon-home)哟。同时，也附上[ApacheCon 2020 参会指南](https://alc-beijing.github.io/alc-site/post/apachecon/apachecon-2020-guide)，为了获得更好的参会体验，请确保事先阅读哦。
 
 ## 议题详情
 
@@ -130,10 +133,5 @@ Apache Doris(Incubating) 是一款支持对海量数据进行快速分析的MPP�
 或扫码报名：
 
 ![](../../images/apachecon/qrcode-apachecon.png)
-
-
-# 相关指南
-
-- [ApacheCon 2020 参会指南](https://alc-beijing.github.io/alc-site/post/apachecon/apachecon-2020-guide/)
 
 

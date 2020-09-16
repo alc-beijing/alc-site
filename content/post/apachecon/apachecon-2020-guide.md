@@ -16,12 +16,26 @@ tags = [
 
 下面今年ApacheCon的参会指南译自 https://apachecon.com/acah2020/guide.html，祝大家参会愉快！
 
-
 ### 前期准备
 为了您在ApacheCon@Home可以得到最好的体验，我们为你准备了以下清单，这样参会者就可以提前准备。 请提前浏览以下的技术要求和参会前可以准备的事项，这样就不需要在会议的过程中进行任何准备了。
 
 ### 注册
-请确认你已经在 [ApacheConf @Home at Hopin](https://hopin.to/events/apachecon-home) 注册，如果你在右上角看到一条消息写着“You‘re in” 说明注册成功，借此机会可以点击“Add to calendar”将会议时间加入到日历。
+请确认你已经在 [ApacheConf @Home at Hopin](https://hopin.to/events/apachecon-home) 完成注册，如果你在右上角看到一条消息写着“You‘re in” 说明注册成功，借此机会可以点击“Add to calendar”将会议时间加入到日历。
+
+1. 点击注册链接 [ApacheConf @Home at Hopin](https://hopin.to/events/apachecon-home)
+
+2. 选择一个ticket，点击下方蓝色按钮checkout。（官网标注：General Admission即注册为免费，但如果你愿意帮助和支持活动可以选择Donation Ticket进行捐款）
+![ac1](../../images/apachecon/apachecon2020-1.png)
+
+3. 此时页面会跳转到注册页，请填写您的名（First name），姓（Last name），邮箱地址（Email address）和设定一个密码（Password）。勾选下方的条款与隐私协议，点击蓝色按钮sign up即可。
+![ac2](../../images/apachecon/apachecon2020-2.png)
+
+4. 检查是否注册成功
+看到页面上有“You‘re in!”的提示则注册成功
+![ac3](../../images/apachecon/apachecon2020-3.png)
+或在右上角的个人信息中找到Events，点击进入看到如下页面，同样意味着注册成功
+![ac4](../../images/apachecon/apachecon2020-4.png)
+
 
 ### 网络速度
 请尝试接入到至少 5Mbit/s 下载速度和2Mbit/s 上传速度的网络。下载速度和上传速度越高越能够提供一个更好的体验，30Mbit/s 的下载速度和10Mbit/s 上传速度是最理想的。尝试限制其他可能占用网速的访问客户，比如：提前一天将软件更新完成，避免软件在会议中运行，暂停或停止所有大型下载项目，如果需要可以断开其他设备的网络连接。推荐用网线进行网络连接。可以用一个在线网站进行网络速度检查，搜索 [Internet speed test](https://duckduckgo.com/?q=internet+speed+test&ia=web)。

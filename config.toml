@@ -1,4 +1,5 @@
 baseURL = "https://alc-beijing.github.io/alc-site"
+googleAnalytics = "UA-6539751-3"
 languageCode = "en-us"
 title = "ALC Beijing"
 disableKinds = ["taxonomy", "taxonomyTerm"]

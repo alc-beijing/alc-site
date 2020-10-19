@@ -68,7 +68,7 @@ ALC Beijing Podcast 在今年年中和 Apache APISIX 团队核心成员聊：[Ap
 
 > Apache APISIX 只用了 9 个月就从 Apache 孵化器顺利毕业，成为顶级项目。在其他人看来是顺风顺水，但其实不然，Apache APISIX 社区和贡献者们从最初对 Apache 文化的疑虑，到尝试，最终认同，背后也有不少波折。#在这次分享中，我将为大家带来 Apache APISIX 在 Apache 孵化器中的一些实践，来印证 Apache Way 在中国依然是行得通的。
 
-**温铭**：深圳支流科技创始人，云原生 API 网关 Apache APISIX(Incubating) PPMC 成员，360 开源委员会发起人，《OpenResty 从入门到实战》专栏作者。在互联网安全公司和黑产对抗多年，有 40 多项中美安全专利。
+**温铭**：深圳支流科技创始人，云原生 API 网关 Apache APISIX PMC 成员，360 开源委员会发起人，《OpenResty 从入门到实战》专栏作者。在互联网安全公司和黑产对抗多年，有 40 多项中美安全专利。
 
 （音频版：[Apache APISIX 的快速之旅](https://alc-beijing.github.io/alc-site/post/podcast/episode-3-the-sotry-of-apisix-audio/) ）
 
@@ -87,4 +87,3 @@ Craig Russell 先生对于国内的朋友来说不是很陌生，他在2019年�
 来，用心感受一下，还需要更多理由吗？
 
 Craig Russell (clr@apache.org) is a Member and Director of The Apache Software Foundation, Assistant Secretary, and former Board Chair. He is a member of the Incubator Project Management Committee responsible for bringing new projects into Apache.
-

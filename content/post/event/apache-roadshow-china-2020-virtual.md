@@ -58,7 +58,7 @@ authors:
 
 > ASF孵化器作为进入Apache软件基金会（ASF）的通道，为进入ASF的项目提供Apache way的辅导，协调孵化项目与ASF基础设施融合，帮助孵化项目发展社区，保证孵化项目软件发布符合ASF的软件发布规范。本次演讲我将结合实际案例讲解ASF的孵化器的运行机制，孵化辅导的基本原则，以及孵化过程需要注意的问题。
 
-姜宁老师是Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache iotDB， Apache Doris， Apache APISIX， Apache Weex。
+姜宁老师是Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache IoTDB， Apache Doris(Incubating)， Apache APISIX， Apache Weex(Incubating)。
 
 
 

@@ -68,3 +68,6 @@ Hopin [支持](https://support.hopin.to/en/articles/2559500-hopin-compatibility)
 要最大化演讲者视频或演示视频，请双击该视频流，这将放大视频流的该部分。
 使用耳机播放音频，这将有助于理解演讲者的发言，并防止在网络连接过程中出现任何音频反馈。
 请注意提示您允许访问麦克风或摄像头的提示，一旦被拒绝，则需要明确允许访问。请查阅有关在 [Firefox](https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions) 和 [Chrome](https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&hl=en) 中允许访问的文档。
+
+### 欢迎大家关注 ALC Beijing 公众号
+![ac1](../../images/ALC-Beijing-WeChat.JPG)

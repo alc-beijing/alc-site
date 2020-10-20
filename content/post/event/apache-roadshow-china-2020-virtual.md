@@ -36,7 +36,7 @@ authors:
 | 6    | Griffin          | 2016年12月     | 2018年11月 | 18           | 20                         |
 | 7    | Weex             | 2016年11月     |            | 14           | 26                         |
 | 8    | ServiceComb      | 2017年11月     | 2018年10月 | 20           | 23                         |
-| 9    | SkyWalking       | 2017年12月     | 2019年4月  | 24           | 34                         |
+| 9    | SkyWalking       | 2017年12月     | 2019年4月  | 27           | 37                         |
 | 10   | Dubbo            | 2018年2月      | 2019年5月  | 17           | 55                         |
 | 11   | ECharts          | 2018年1月      |            | 13           | 19                         |
 | 12   | Doris            | 2018年7月      |            | 13           | 17                         |
@@ -58,7 +58,7 @@ authors:
 
 > ASF孵化器作为进入Apache软件基金会（ASF）的通道，为进入ASF的项目提供Apache way的辅导，协调孵化项目与ASF基础设施融合，帮助孵化项目发展社区，保证孵化项目软件发布符合ASF的软件发布规范。本次演讲我将结合实际案例讲解ASF的孵化器的运行机制，孵化辅导的基本原则，以及孵化过程需要注意的问题。
 
-姜宁老师是Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache iotDB， Apache Doris， Apache APISIX， Apache Weex。
+姜宁老师是Apache Member ， ALC Beijing 发起人，华为开源软件中心技术专家，前红帽软件首席软件工程师，有十五年以上企业级开源中间件开发经验，有丰富的 Java 开发和使用经验，函数式编程爱好者。从 2006 年开始一直从事 Apache 开源中间件项目的开发工作，先后参与 Apache CXF， Apache Camel，Apache ServiceMix，以及Apache ServiceComb的开发。2015年开始担任Apache 孵化器导师，参与孵化了 Apache Rocket， Apache Skywalking， Apache ShardingSphere， Apache IoTDB， Apache Doris(Incubating)， Apache APISIX， Apache Weex(Incubating)。
 
 
 
@@ -68,7 +68,7 @@ ALC Beijing Podcast 在今年年中和 Apache APISIX 团队核心成员聊：[Ap
 
 > Apache APISIX 只用了 9 个月就从 Apache 孵化器顺利毕业，成为顶级项目。在其他人看来是顺风顺水，但其实不然，Apache APISIX 社区和贡献者们从最初对 Apache 文化的疑虑，到尝试，最终认同，背后也有不少波折。#在这次分享中，我将为大家带来 Apache APISIX 在 Apache 孵化器中的一些实践，来印证 Apache Way 在中国依然是行得通的。
 
-**温铭**：深圳支流科技创始人，云原生 API 网关 Apache APISIX(Incubating) PPMC 成员，360 开源委员会发起人，《OpenResty 从入门到实战》专栏作者。在互联网安全公司和黑产对抗多年，有 40 多项中美安全专利。
+**温铭**：深圳支流科技创始人，云原生 API 网关 Apache APISIX PMC 成员，360 开源委员会发起人，《OpenResty 从入门到实战》专栏作者。在互联网安全公司和黑产对抗多年，有 40 多项中美安全专利。
 
 （音频版：[Apache APISIX 的快速之旅](https://alc-beijing.github.io/alc-site/post/podcast/episode-3-the-sotry-of-apisix-audio/) ）
 
@@ -87,4 +87,3 @@ Craig Russell 先生对于国内的朋友来说不是很陌生，他在2019年�
 来，用心感受一下，还需要更多理由吗？
 
 Craig Russell (clr@apache.org) is a Member and Director of The Apache Software Foundation, Assistant Secretary, and former Board Chair. He is a member of the Incubator Project Management Committee responsible for bringing new projects into Apache.
-

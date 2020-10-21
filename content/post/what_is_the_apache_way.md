@@ -75,7 +75,8 @@ http://www.apache.org/foundation/how-it-works.html
 * Respectful, honest, technical-based interaction
 * Faithful implementation of standards
 * Security as a mandatory feature
-这些价值观，可以对应翻译如下
+
+这些价值观，可以对应翻译如下:
 * 协同软件开发
 * 商业友好的许可证
 * 持续的高质量软件
@@ -103,7 +104,10 @@ Merit： 即你贡献的越多，你越有更多的权限（代码提交权限�
 第三部分：Open Development：
 使用异步沟通方式，使用mail list。
 提交一个大feature的方式：
-1.	告诉你的意图 2. 给出你的设计 3.提交代码  4。每一步都欢迎社区的反馈
+1. 告诉你的意图
+2. 给出你的设计
+3. 提交代码
+4. 每一步都欢迎社区的反馈
 
 第四部分：决策机制
 共识+投票

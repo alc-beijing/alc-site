@@ -48,7 +48,7 @@ ALC Beijing 这次邀请到了Apache ShardingSphere 的核心团队成员来谈�
 
 ## 请收听
 
-{{< ximalaya id="" align="center" type="red" >}}
+{{< ximalaya id="340106589" align="center" type="red" >}}
 
 ## 本期嘉宾
 

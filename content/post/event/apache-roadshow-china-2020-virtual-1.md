@@ -66,9 +66,10 @@ Upsteam first 是企业走开源之路的不二法门，小米作为新一代IT�
 
 ## 主讲嘉宾介绍
 
-**Craig Russell **(clr@apache.org) is a Member and Director of The Apache Software Foundation, Assistant Secretary, and former Board Chair. He is a member of the Incubator Project Management Committee responsible for bringing new projects into Apache.
 
-**张铎 **,毕业于清华大学计算机科学与技术系，长年从事开源软件的开发与维护。2015年成为Apache HBase项目的Committer，2016年成为Apache HBase项目在大陆的第一位PMC成员，2019年7月成为Apache HBase项目的主席，2020年4月成为Apache软件基金会member。2018年，在Apache软件基金会全球近7000名Committer中，贡献数量排名第三。在开发和维护HBase项目的同时，也是数个Apache孵化项目的mentor，例如NuttX，Pegasus等。目前在小米公司云平台部负责存储相关工作，兼任小米开源委员会主席。
+**Craig Russell** (clr@apache.org) is a Member and Director of The Apache Software Foundation, Assistant Secretary, and former Board Chair. He is a member of the Incubator Project Management Committee responsible for bringing new projects into Apache.
+
+**张铎**,毕业于清华大学计算机科学与技术系，长年从事开源软件的开发与维护。2015年成为Apache HBase项目的Committer，2016年成为Apache HBase项目在大陆的第一位PMC成员，2019年7月成为Apache HBase项目的主席，2020年4月成为Apache软件基金会member。2018年，在Apache软件基金会全球近7000名Committer中，贡献数量排名第三。在开发和维护HBase项目的同时，也是数个Apache孵化项目的mentor，例如NuttX，Pegasus等。目前在小米公司云平台部负责存储相关工作，兼任小米开源委员会主席。
 
 **李卓桓**，Tencent TVP of Chatbot。清华大学本科，中欧国际工商学院EMBA，北京邮电大学计算机系博士在读。现任PreAngel合伙人，Plug and Play Venture Partner，关注钟子期AI创业项目。zixia BBS、叽歪网创始人，曾任优酷网首席科学家、水木清华BBS站长，ChinaRen系统工程师。拥有丰富的互联网创业投资和编程经验，著有《Linux网络编程》《反垃圾邮件完全手册》《智能对话与深度学习》《Chatbot从0到1》《简明的 TensorFlow 2》等技术图书。2016 年在 GitHub 发布基于 Apache-2.0 许可证的 Conversational SDK Wechaty 开源项目，现有数十位 Committers，百余位 Contributors ，并被近万名 GitHub 开发者 Star 。
 

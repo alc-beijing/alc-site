@@ -54,6 +54,8 @@ Upsteam first 是企业走开源之路的不二法门，小米作为新一代IT�
 
 >  做开源项目要经历哪些槛？郭炜将以自己的实际经历来分享前几次失败后的反思，终于将大数据任务调度 DolphinScheduler 贡献给Apache，并在1年时间社区用户达到了3000多人
 
+>  Apache Pulsar是Apache软件基金会顶级项目，是下一代云原生分布式消息流平台。除了在功能特性发面不断发展演进，Apache Pulsar社区也在最近一年取得不断成长和发展，全球贡献者人数突破300位，周边生态快速发展，国内社区发展也是一大特色。在本演讲中，将为大家详细介绍Apache Pulsar社区最新进展与动态、所取得的成绩与后续发展计划，并分享我们在Apache Pulsar社区运营方面的经验与心得。
+
 ### 不走寻常路
 
 对于沟通的工具上，本土有着巨大的阻力，异步、公开这两项是严重不符合中国本土的现有文化的，那么在邮件列表很难推行，微信群、QQ群大行其道的当下，是否有可能通过技术手段，将这个文化差异打通了呢？我们来看看国人的尝试：
@@ -64,6 +66,7 @@ Upsteam first 是企业走开源之路的不二法门，小米作为新一代IT�
 
 ## 主讲嘉宾介绍
 
+
 **Craig Russell** (clr@apache.org) is a Member and Director of The Apache Software Foundation, Assistant Secretary, and former Board Chair. He is a member of the Incubator Project Management Committee responsible for bringing new projects into Apache.
 
 **张铎**,毕业于清华大学计算机科学与技术系，长年从事开源软件的开发与维护。2015年成为Apache HBase项目的Committer，2016年成为Apache HBase项目在大陆的第一位PMC成员，2019年7月成为Apache HBase项目的主席，2020年4月成为Apache软件基金会member。2018年，在Apache软件基金会全球近7000名Committer中，贡献数量排名第三。在开发和维护HBase项目的同时，也是数个Apache孵化项目的mentor，例如NuttX，Pegasus等。目前在小米公司云平台部负责存储相关工作，兼任小米开源委员会主席。
@@ -73,3 +76,5 @@ Upsteam first 是企业走开源之路的不二法门，小米作为新一代IT�
 **郭炜**，2015年加入易观，担任易观CTO，负责构建易观技术团队、完成易观大数据采集、平台、数据挖掘等技术架构与体系；从无到有完成易观混合云的搭建、以及易观SDK的升级，并发布易观秒算实时计算平台。目前易观大数据平台日处理数据量达30T，日处理数据200亿条。# 郭炜先生毕业于北京大学，加入易观之前，曾任联想研究院大数据总监，万达电商数据部总经理，并曾在中金、IBM、Teradata公司担任大数据方向重要岗位，对大数据前沿领域颇有研究。#并在 infoq、TGO、CSDN、51CTO、ArchSummit等会议上多次做过分享.
 
 **乔嘉林**（笔名铁头乔），物联网数据库 Apache IoTDB 项目初始成员及 PMC，清华大学软件学院博士生，负责 IoTDB 核心模块研发和实施运维，同时致力于社区运营与宣传，帮助开源小白加入社区。#曾参加过IoTDB与Pulsar见面会的演讲《时序数据全生命周期的开源解决方案》#即将在Apache con2020介绍IoTDB用户案例及优化。
+
+**王殿进**： 目前就职于由 Apache Pulsar 、Apache BookKeeper 原生核心开发者组建的开源团队 StreamNative，负责 Apache Pulsar 社区运营及市场工作。个人始终保持对开源的关注，拥有数年的开源行业经验，贡献过多个开源项目，曾服务于技术媒体、云计算、SaaS等行业公司，在社区运营方面经验丰富。

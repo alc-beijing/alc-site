@@ -44,7 +44,7 @@ Rich Bowen 介绍了吴晟的出场：Apache SkyWalking VP
 
 在去年的 Apache 软件基金会年度报告里，中国是下载量最大的地域，如下图所示，来自中国的用户下载Apache项目的量是很大的，这
 
-![](../..images/Apache-active-of-2019-annual-report.png)
+![](../../images/Apache-active-of-2019-annual-report.png)
 
 说明中国本土拥有共同体最基础的部分——用户，来自中国的用户使用apache软件，认可Apache软件的质量，认同Apache 文化，这是一切行之有效的开始：只有先成为用户，在未来的某一天才会可能进一步的成为apache 贡献者，或许还会游说别人加入我们，我们再来看看来自中国的商业公司对于Apache软件基金会的赞助情况，首先我们非常感谢这些赞助我们的厂商，他们分别是：
 

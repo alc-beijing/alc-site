@@ -1,5 +1,5 @@
 # alc-site
-The web site for host the pages of alc-beijing, we 
+The web site for host the pages of alc-beijing, normally we publish a WeChat public account article after creating a new post in this site.
 
 ## preview alc-site in local
 0. [Install hugo](https://gohugo.io/getting-started/installing/).

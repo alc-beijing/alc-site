@@ -42,7 +42,7 @@ ALC Beijing 这次邀请到了Apache ShardingSphere 的核心团队成员来谈�
 | 31:10 ～～ 34:00  | 关于项目的工程：持续集成、持续交付等                         |
 | 34:30 ～～ 38:00  | Apache ShardingSphere community 的构成。                     |
 | 38:10 ～～ 41:00  | 一个初入community如何成长为核心成员                          |
-| 41:20 ～～ 44:00  | 技术架构的选择对于Comminity建设是非常关键的选择              |
+| 41:20 ～～ 44:00  | 技术架构的选择对于community建设是非常关键的选择              |
 | 45:00 ～～ 52:00  | 参与community成员得到的益处～                                |
 | 52:10 ～～ 54:00  | 引入下一期如何在Apache发版                                   |
 

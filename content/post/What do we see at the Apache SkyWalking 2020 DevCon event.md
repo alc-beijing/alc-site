@@ -19,7 +19,7 @@
 
 ####09：55-10：30 贝壳全链路跟踪实践
 赵禹光老师（作者）本次分享：回顾了贝壳找房2018年至今，贝壳找房的全链路跟踪项目与SkyWalking的渊源，分享了SkyWalking在实践中遇到的问题，和解决方案。以及SkyWalking近10%的Committer都曾经或正在贝壳人店平台签中研发部，工作过的趣事。
-![赵禹光](../images/What_do_we_see_at_the_Apache_SkyWalking_2020_DevCon_event/赵禹光.jpeg)
+![赵禹光](../images/What_do_we_see_at_the_Apache_SkyWalking_2020_DevCon_event/zhaoyuguang.jpeg)
 
 ####10：35-11：15 刘嘉鹏老师分享 SkyWalking在百度爱番番部门实践
 刘嘉鹏老师本次分享：回顾了百度爱番番部门在使用SkyWalking的发展历程&现状，CRM SAAS产品在近1年使用SkyWalking实践经验，以及如何参与SkyWalking的贡献，并成为的Apache Committer。

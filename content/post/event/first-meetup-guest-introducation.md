@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community 
 title: "ALC Beijing Meetup #1 嘉宾和主题介绍"
 url: ""
 authors:
@@ -82,7 +82,7 @@ authors:
 
 ## 圆桌嘉宾
 
-### 1 
+### 1
 
 上面介绍过的暖场大神，ALC Beijing的发起者：姜宁
 

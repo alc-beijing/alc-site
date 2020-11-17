@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community 
 title: "文化融合 —— Apache 中国路演2020在 COSCon'2020（Community 建设篇）  "
 url: ""
 authors:

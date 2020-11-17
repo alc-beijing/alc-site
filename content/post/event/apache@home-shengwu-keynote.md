@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community 
 title: "正在成长中的中国本土 Apache —— 吴晟在 ApacheCon@Home 2020的主题演讲"
 url: ""
 authors:
@@ -36,8 +36,8 @@ Rich Bowen 介绍了吴晟的出场：Apache SkyWalking VP
 
 大家好！欢迎来到今年的ApacheCon@Home，我加入ASF也有四年的时间了，在过去的四年中我参与和见证了很多的Apache 项目，也为很多项目做了应有的贡献，今天非常荣幸的能够在ApacheCon上和大家分享我的经验，我的分享主题是：**成长中的中国本土 Apache**，在正式开始之前，我还是介绍一下我本人吧：
 
-* Founding Engineer at Tetrate. 
-* Apache Member. 
+* Founding Engineer at Tetrate.
+* Apache Member.
 * He leads the Apache open source APM/Observability analysis platform project, SkyWalking, which has been included in cncf cloud native landscape. Be a PMC member of Apache Incubator. Take part in Zipkin and Apache ShardingSphere as a PMC member. Speak at multiple conferences, including LC3 China twice, QCon Beijing (star speaker) three times. Also be the member of Cloud Native Computing Foundation (CNCF) OpenTracing Specification Council, contribute to the OpenTracing project.
 
 看起来，我都是在开源圈内活动的，呵呵。

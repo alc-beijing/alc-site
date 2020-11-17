@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community 
 title: "增长与挑战 —— Apache 中国路演2020在 COSCon'2020（项目孵化篇）  "
 url: ""
 authors:
@@ -80,7 +80,7 @@ Craig Russell 先生对于国内的朋友来说不是很陌生，他在2019年�
 
 >  Apache recently celebrated our 20-year anniversary as a software foundation. Our mission is to provide software for the public good, available at 100% no charge.#The Foundation now oversees over 300 projects with over 7,900 committers from more than 100 countries, and more than half a million contributors over the years, with nearly 40,000 this year alone.#Apache has many contributors and projects from China, including some that were originally developed in China and later became Apache projects through the Incubator.#The permissive Apache License ensures all Apache software is safe by allowing anyone to use, extend, and provide services. The only requirement is to acknowledge the source of the code.
 >
-> # Apache communities are safe for users and developers, with shared goals, a strict Code of Conduct, and the guidance and protection from the Foundation. 
+> # Apache communities are safe for users and developers, with shared goals, a strict Code of Conduct, and the guidance and protection from the Foundation.
 >
 > # The Apache community welcomes participation from all people willing to help make world-class software for the common good.
 

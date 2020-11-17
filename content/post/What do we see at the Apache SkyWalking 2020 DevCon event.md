@@ -51,7 +51,7 @@
 
 
 ###Apache SkyWalking 2020 DevCon 讲师PPT
-[Apache SkyWalking 2020 DevCon 讲师 PPT](https://github.com/alc-beijing/alc-site/blob/master/content/images/What_do_we_see_at_the_Apache_SkyWalking_2020_DevCon_event/)
+[Apache SkyWalking 2020 DevCon 讲师 PPT](https://github.com/alc-beijing/alc-site/blob/master/content/images/What_do_we_see_at_the_Apache_SkyWalking_2020_DevCon_event/ppt)
 
 ###SkyWalking 后续发展计划
 正如吴晟老师所说：No plan, open to the community，Apache SkyWalking是没有RoadMap。社区的后续发展，依赖于每个人在社区的贡献。与其期待，不如大胆设想，将自己的设计按照Apache Way贡献到SkyWalking，你就是下一个Apache SkyWalking Commiter，加入Member of SkyWalking大家庭，让社区因为你，而更加有活力。

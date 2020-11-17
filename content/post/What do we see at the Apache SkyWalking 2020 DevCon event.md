@@ -79,6 +79,9 @@
 * 有丰富的互联网经验优先
 * 对技术有热情、有追求，愿意加入贝壳一起成长
 
+##### 招聘详细信息
+![招聘详细信息](../images/What_do_we_see_at_the_Apache_SkyWalking_2020_DevCon_event/beikezhaopin.png)
+
 ##### 内推邮箱
 * zhaoyuguang@ke.com
 * 微信：zhaoyuguang777

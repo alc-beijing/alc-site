@@ -5,7 +5,7 @@ categories:
 - 播客
 - 传播
 date: 2020-11-15T11:18:04+08:00
-description: "在开源的项目中，或者是更扩大一些，任何做项目的工程中，人员的组织关系是和要做的工程是有很大关系的。不确定读者你是否意识到这些，《人月神话》中提到了，更多的软件工程中也提到了这个，随着你参与Apache项目的深入，接下来该如何处理？"
+description: "随着开源的发展，越来越多企业开始把开源的最佳实践应用到企业内部开发。今天我们就跟大家聊一下这一有趣的现象 InnerSource。"
 keywords:
 - Open Source
 - Culture
@@ -36,7 +36,7 @@ authors:
 | 00:12:12 - 00:23:12  | 内源带来的好处有哪些？                                    |
 | 00:23:12 - 00:26:45 | 企业中哪些项目适合内源?             |
 | 00:26:45 - 00:31:33  | 员工参与企业内源项目能收获到什么? |
-| 00:31:33 - 00:38:57 | 大家真的是没有时间参与内源项目吗？ |
+| 00:31:33 - 00:38:57 | 内源地盘之争的解法？ |
 | 00:38:57 - 00:46:47  | 大家真的是没有时间参与内源项目吗？           |
 | 00:46:47 - 00:50:19  | 异步式沟通对程序员提高效率的重要性                        |
 | 00:50:19 - 00:57:20  | 内源和开源有什么区别？                    |
@@ -61,7 +61,7 @@ authors:
 
 1. 修复n年前的bug博客 https://willemjiang.github.io/opensource/2019/05/04/How-to-maintain-n-years-old-code.html
 
-2. 谭到底什么是Apache Way https://alc-beijing.github.io/alc-site/post/what_is_the_apache_way/
+2. 到底什么是Apache Way https://alc-beijing.github.io/alc-site/post/what_is_the_apache_way/
 
 ## 关于 ALC Beijing Podcast
 

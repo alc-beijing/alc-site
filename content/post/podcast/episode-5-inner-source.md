@@ -30,9 +30,9 @@ authors:
 
 | 时间区间          | 精彩话语提炼                                                 |
 | ----------------------- | ------------------------------------------------------------ |
-| 00:00:10 - 00:03:00 | 本次嘉宾的自我介绍                                           |
+| 00:00:10 - 00:03:00 | 本次嘉宾的自我介绍。                                           |
 | 00:03:26 - 00:06:53 | 内源是什么？InnerSource Commons背后的故事。    |
-| 00:06:53 - 00:09:05 | 内源兴起的原因                       |
+| 00:06:53 - 00:09:05 | 内源兴起的原因。                       |
 | 00:12:12 - 00:23:12  | 内源带来的好处有哪些？                                    |
 | 00:23:12 - 00:26:45 | 企业中哪些项目适合内源?             |
 | 00:26:45 - 00:31:33  | 员工参与企业内源项目能收获到什么? |
@@ -59,7 +59,7 @@ authors:
 
 ## 相关链接
 
-1. 修复n年前的bug博客 https://willemjiang.github.io/opensource/2019/05/04/How-to-maintain-n-years-old-code.html
+1. 修复N年前的Bug博客 https://willemjiang.github.io/opensource/2019/05/04/How-to-maintain-n-years-old-code.html
 
 2. 到底什么是Apache Way https://alc-beijing.github.io/alc-site/post/what_is_the_apache_way/
 

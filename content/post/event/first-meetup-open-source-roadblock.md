@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community
 title: "ALC Beijing 活动"
 url: ""
 authors:

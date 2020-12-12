@@ -15,7 +15,7 @@ keywords:
 - Blog
 - Spread
 tags:
-- Apache local Communtiy 
+- Apache local Community 
 title: "追赶与创新 —— Apache 中国路演2020在 COSCon'2020（技术篇）  "
 url: ""
 authors:

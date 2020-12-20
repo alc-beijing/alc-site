@@ -34,7 +34,7 @@ tags = [
 
 第三是通过参与 SkyWalking Python Agent 以及其他部分的开发，我的贡献得到了社区的承认，并在最近被邀请作为 Committer 加入了社区，这对我而言是很高的认可，也提升了我的自信心。
 
-​	![committer](../images/summer2020_activity_sharing2/committer.png)
+![committer](../images/summer2020_activity_sharing2/committer.png)
 
 第四点就是我通过这个活动认识了不少新朋友，同时也开拓了我的视野，使得我对于开源项目与开源社区有了很多新的认识。
 

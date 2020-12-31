@@ -19,11 +19,11 @@ canonifyURLs = true
     identifier = "about"
     name = "关于 ALC Beijing"
     title = "About"
-    url = "/about/"
+    url = "/post/alc-beijing-creation/"
     weight = 0
 [[menu.main]]
     identifier = "translation"
     name = "翻译"
     title = "Translation"
-    url = "/translation/"
+    url = "https://github.com/alc-beijing/translation"
     weight = 0

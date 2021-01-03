@@ -3,7 +3,7 @@ categories:
 - 开源
 - Apache way
 - 播客
-- 传播
+- 教育
 date: 2021-01-01T11:18:04+08:00
 description: "这次 ALC Beijing 特别邀请到了在“点亮计划暑期2020”新晋成为Apache Committer的学生以及他们的导师一同与我们分享他们参与暑期2020的心路历程。"
 keywords:
@@ -71,9 +71,9 @@ authors:
 
 * 点亮计划暑期2020： https://isrc.iscas.ac.cn/summer2020/
 * 点亮计划暑期2020结项公示： https://isrc.iscas.ac.cn/summer2020/#/announcement
-* 江华禧同学的项目申请报告： https://github.com/fgksgf/Summer-2020
+* 江华禧同学的项目报告： https://github.com/fgksgf/Summer-2020
 * 江华禧同学的实习经验总结： https://alc-beijing.github.io/alc-site/post/summer2020_activity_sharing/
-* 张可同学的项目申请报告： https://github.com/Humbertzhang/summer2020
+* 张可同学的项目报告： https://github.com/Humbertzhang/summer2020
 * 张可同学的实习经验总结： https://alc-beijing.github.io/alc-site/post/summer2020_activity_sharing2/
 * GSoC MiniTask示例： https://github.com/chaoss/grimoirelab/issues/288
 * 一个GSoC 项目报告示例： https://github.com/ria18405/GSoC

@@ -15,7 +15,7 @@ tags = [
 
 
 
-###CHAOSS
+### CHAOSS
 
 CHAOSS（Community Health Analytics Open Source Software）是Linux基金会下专注于开源社区度量标准与软件开发的开源项目。从风险、演化、多样性、价值等角度持续制定与发布指标。
 

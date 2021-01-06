@@ -1,19 +1,17 @@
 +++
 author = "夏小雅"
-title = "夏小雅：从认识社区到玩转社区"
+title = "从初识社区到融入社区"
 date = "2021-01-05"
 description = "Get yourself involved in the community"
 tags = [
     "开源",
+    "非社区贡献“
 ]
 
 +++
+推荐语：夏小雅是华东师范大学数据学院的在读研究生，也是X-lab成员之一。我认识小雅还是在去年年初的时候，我和她聊了一下她选的ServiceComb的实践项目，当时能感觉得到她参与开源的经验还很少；后续在CHOASS 项目例会中发现她逐渐活跃起来，逐步在社区中找到自己的位置了；在刚刚结束的 CHOASS Shanghai Meetup，小雅忙前忙后俨然成为一个在 CHOASS 社区很相当活跃的活动组织者。
 
-# 从认识社区到玩转社区
-
-作者介绍：夏小雅是华东师范大学数据学院的在读研究生，也是X-lab成员之一。
-
-
+-- ALC Beijing 发起人 姜宁
 
 ### CHAOSS
 
@@ -72,7 +70,6 @@ CHAOSS（Community Health Analytics Open Source Software）是Linux基金会下�
 ### 写在最后
 
 有时候，成就感、认同感、归属感就是一件事情的最大支撑，如果你在这件事情中找到了自己的意义，就不是在被push着往前走，那么做它的过程也是快乐的。 
-
 
 
 2021年，我的开源社区之旅依旧在路上。

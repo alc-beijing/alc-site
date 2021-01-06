@@ -5,7 +5,7 @@ date = "2021-01-05"
 description = "Get yourself involved in the community"
 tags = [
     "开源",
-    "非社区贡献“
+    "非社区贡献"
 ]
 
 +++

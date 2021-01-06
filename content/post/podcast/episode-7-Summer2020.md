@@ -75,7 +75,7 @@ authors:
 
 * 点亮计划暑期2020： https://isrc.iscas.ac.cn/summer2020/
 * 点亮计划暑期2020结项公示： https://isrc.iscas.ac.cn/summer2020/#/announcement
-* 吴舒旸同学的项目报告：https://github.com/yiyiyimu/summer2020
+* 吴舒旸同学的项目报告： https://github.com/yiyiyimu/summer2020
 * 江华禧同学的项目报告： https://github.com/fgksgf/Summer-2020
 * 江华禧同学的实习经验总结： https://alc-beijing.github.io/alc-site/post/summer2020_activity_sharing/
 * 张可同学的项目报告： https://github.com/Humbertzhang/summer2020

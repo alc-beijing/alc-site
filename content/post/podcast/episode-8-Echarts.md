@@ -56,7 +56,7 @@ authors:
 ## 本期嘉宾
 **羡辙** Apache ECharts PMC Chair
 
-**沈毅** Apache ECharts PMC，Apache ECharts 3D 图表插件 Apache ECharts GL 的作者。
+**沈毅** Apache ECharts PMC，Apache ECharts 3D 图表插件 ECharts GL 的作者。
 
 **宿爽** Apache ECharts PMC
 

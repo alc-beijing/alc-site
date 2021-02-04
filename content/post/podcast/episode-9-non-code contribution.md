@@ -46,7 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="TBC" align="center" type="red" >}}
+{{< ximalaya id="382771451" align="center" type="red" >}}
 
 
 ## 本期嘉宾
@@ -63,5 +63,5 @@ authors:
 ## 相关链接
 
 * CHAOSS 中所列的开源贡献类型： https://chaoss.community/metric-types-of-contributions/
-* ALC 文档翻译GitHub repo：https://github.com/alc-beijing/translation
-* Google Season of Docs 官网：https://developers.google.com/season-of-docs
+* ALC 文档翻译GitHub repo： https://github.com/alc-beijing/translation
+* Google Season of Docs 官网： https://developers.google.com/season-of-docs

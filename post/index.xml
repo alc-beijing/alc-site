@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 16:18:00 +0800</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ALC Beijing Episode #9 开源社区中的非代码贡献</title><link>https://alc-beijing.github.io/alc-site/post/podcast/episode-9-non-code-contribution/</link><pubDate>Sun, 31 Jan 2021 16:18:00 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/podcast/episode-9-non-code-contribution/</guid><description>音频编辑: 周禹任
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache孵化器指南</title><link>https://alc-beijing.github.io/alc-site/post/apache-way/incubator-cook-book/</link><pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-way/incubator-cook-book/</guid><description>Apache孵化器指南 翻译:狄晓晓
+Apache孵化器是项目捐赠到ASF的入口。目前国内越来越多的开源项目通过Apache孵化器进入Apache软件基金会孵化。
+本文翻译至 https://incubator.apache.org/cookbook/，为大家介绍了项目进入Apache孵化器需要做的准备，以及孵化过程中做的工作。
+该指南与孵化器主页为大家提供了在ASF孵化项目所需的必要信息。该指南汇集了所有孵化器的相关问题，给出了孵化器目标和过程的概述，并提供了更多详细信息的链接。
+该指南内容按照项目从被接收孵化到毕业成为顶级项目（Top-Level Project，TLP）的时间顺序进行组织。
+欢迎大家通过general@incubator.a.o邮件列表或INCUBATOR-234任务单对该指南提出反馈意见，也可以向该指南所在的项目仓库提交补丁。
+一、我们的项目适合Apache孵化器吗？ 正如ASF在2018年的愿景声明中所讲的那样，ASF为公共利益提供软件。
+ASF的项目会遵循Apache之道进行运转，Apache之道是一套指导原则和最佳实践。
+ASF非常重视“社区重于代码”（Community Over Code）这一理念，ASF严格独立于公司和组织，并强调在工作各方面保持开放。
+捐赠项目到ASF，意味着您将放弃对该项目以及项目商标（如果有）的控制。非常欢迎您参与该项目，但是除了成为PMC（Project Management Committee，项目管理委员会）成员之外，您没有其他特殊的地位。好消息是，由于ASF的独立性和对项目可持续性的重视，您的项目可以自己成长，并可能具有更广泛的影响力。
+假设您的项目符合这种观念模式，我们不会根据项目功能来判断项目的接收情况，这是由ASF特意不设置技术策略所决定的。如果您的项目与ASF已有项目非常相似，我们可能会要求你考虑加入该项目。尽管如此，我们仍然有一些项目具有相似的目标，但这并不一定是一个问题。
+为了给“podlings”（incubating projects，孵化项目）带来最大的成功机会，我们通常要求他们进入孵化器，并至少有一个围绕现有代码库构建的社区的开端。
+二、成为ASF顶级项目的步骤是什么？ 孵化的目标是成为ASF的顶级项目。您可以通过How the ASF works页面，了解孵化以及不同角色（提交者committers、PMC成员等）的内涵。
+为此，孵化项目（incoming project，podling）需要执行以下步骤：
+寻找领路人（champion）和孵化导师（mentor），讨论并准备孵化提案； 决定在ASF孵化； 与孵化器PMC讨论提案； 如果需要，完善提案中的初始提交者和导师列表； 如果需要，基于孵化器PMC的反馈，完善提案； 孵化器PMC对提案进行投票； 配置项目的基础设施； 围绕项目代码开始构建社区； 邀请新的提交者和PPMC成员； 发布项目并记录，完善代码和发布过程； 当准备毕业时，与导师一起评估项目的就绪情况； 准备将现有商标转让给ASF（如果情况符合）； 与孵化器PMC讨论毕业； 孵化器PMC开始毕业投票，这会使ASF董事会决议建立TLP。 以上描述的是乐观的情况，概述了典型的孵化流程，项目真正孵化的顺序可能会与该流程略有不同。以下是该流程的详细内容：
+三、与孵化器沟通 孵化器PMC负责管理孵化器，帮助孵化项目完成孵化过程。
+可以通过公开链接：general@incubator.a.o访问邮件列表，与孵化器PMC进行沟通。
+四、寻找接口人和导师 为了进入孵化器，您的项目需要一名接口人和至少2-3名导师。这些人需要是孵化器PMC中的成员，ASF成员只需提出即可加入孵化器PMC。
+接口人负责在创建提案过程中帮助孵化项目，他们在前面的步骤中（至少直到项目提案被接收）充当孵化项目与孵化器PMC之间的联络员，之后可能会继续担任导师。
+导师则会在项目成长为顶级项目的道路上全程陪伴。
+起点通常是寻找接口人，您可以在general@incubator.a.o邮件列表中提交项目的简短介绍，附上相关链接，并说明您正在寻找接口人，努力引起大家的兴趣。如果您认识任何ASF成员或孵化导师，可以直接询问他们是否愿意提供帮助。
+五、创建孵化提案 接口人会帮助项目准备孵化提案，提案会对新项目进行描述，以便后续与孵化器PMC进行初步讨论。 提案需要包含若干标准段落，详情请参考podling proposal template.
+ASF项目的孵化提案都保存在Incubator wiki页面上，可以将它们作为示例进行参考，上一自然段中的链接给出的是方案的最新模板。
+六、讨论孵化提案 提案准备好后，项目代表需将其发送至general@incubator.a.o进行讨论，主题行应如下，以引起孵化器PMC的注意。
+[DISCUSS] Foo Proposal
+该讨论通常会要求提案进行一些改动。
+该讨论阶段没有规定讨论时长，通常会持续几天，直到所有关注问题都被妥善讨论并形成解决方案。
+以下是最近的讨论，请参考：
+Nuttx proposal (in progress) StreamPipes proposal (accepted) Sparkr proposal (withdrawn) TubeMQ proposal (accpeted) MetaObjects proposal (on hold) 七、孵化提案投票 讨论阶段一结束，接口人或项目代表就会在general@incubator.</description></item><item><title>ALC Beijing Episode #9 开源社区中的非代码贡献</title><link>https://alc-beijing.github.io/alc-site/post/podcast/episode-9-non-code-contribution/</link><pubDate>Sun, 31 Jan 2021 16:18:00 +0800</pubDate><guid>https://alc-beijing.github.io/alc-site/post/podcast/episode-9-non-code-contribution/</guid><description>音频编辑: 周禹任
 文案: 周禹任
 内容梗概 在开源社区中，除了代码贡献之外，非代码贡献同样也有着十分重要的作用。两者相辅相成，才能一起构建起更加蓬勃的社区。本期节目中，ALC Beijing 邀请到了两位在校的大学生嘉宾，她们都是以非代码贡献者身份分别加入到 CHAOSS 和 Apache 的社区当中。她们在融入社区的同时，也丰富了自身的经历并获得了成长。
 那么在本期节目中，就让我们一起来聊一聊大学生究竟该如何参与到开源社区中，以及她们在开源社区中都能得到哪些收获。通过与他们的对谈，我们也可以对开源社区中的非代码贡献的方式及其对社区的意义有一个更深的了解。

@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache 软件基金会品牌使用指南</title><link>https://alc-beijing.github.io/alc-site/post/apache-policy/asf-mark-policy/</link><pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-policy/asf-mark-policy/</guid><description>Apache 软件基金会品牌使用指南 翻译: 王堉琛
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ALC Beijing</title><link>https://alc-beijing.github.io/alc-site/post/</link><description>Recent content in Posts on ALC Beijing</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 13 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alc-beijing.github.io/alc-site/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache ServiceComb带您对话Apache大咖</title><link>https://alc-beijing.github.io/alc-site/post/apache-way/talk-to-apache-experts/</link><pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-way/talk-to-apache-experts/</guid><description>Apache ServiceComb带您对话Apache大咖 前言： 这是一篇两年半前的活动记录，应该最早的一批Apache项目Committer参加的Meetup,在这次会上跟大家分享了很多Apache项目孵化的相关的经验，以及开源软件商业的故事。特别值得说明的是在最近结束的ASF成员大会中，文中的有四位专家当选成为ASF董事会成员，这些经验今天看来对大家也是很有启发的。
+PMC沉睡了怎么办？首次发版项目不一定能够跑起来，甚至不一定能成功编译，一定要先把合规性问题解决！有人给项目提交Patch，我们从来不说“No“！我曾工作过的Cloudera，利用开源赚钱，至少赚到了买下Hortonworks公司的钱&amp;hellip;&amp;hellip;开源微服务项目ServiceComb带您对话Apache大咖，领略Apache专家风采。
+2018年10月13日下午，开源微服务项目ServiceComb的团队邀请Apache基金会三位专家成员：Apache孵化器主席Justin Mclean，Apache董事会董事Roman Shaposhnik, 以及Apache基金会秘书长兼形象大使Craig Rossell，与国内Apache项目开发者相聚于上海。针对开发者所关心的Apache精英管理模式、从孵化器毕业成为顶级项目以及开源软件的商业化等主题进行了深入的交流。本文对活动当日的交流进行了纪实和总结。
+（现场为英文分享，本文对其进行翻译整理和校正归纳）
+开场介绍 [姜宁]今天咱们聚集了国内大部分的Apache相关项目的committer，这些项目包括Beam、ServiceComb、Dubbo、Gearpump、Griffin、Kerlin、Skywalking和Weex。这些Apache项目大部分都还在孵化器中孵化，同时还有一些准备进入Apache孵化的项目。
+我在2006年9月作为Apache CXF 项目 初始 committer与Apache软件基金会结缘，2011年1月正式成为 Apache基金会成员。我作为基金会项目导师（Mentor）参与了多个来自中国的Apache孵化器项目。2017年，我作为项目负责人推动ServiceComb进入Apache 孵化器进行孵化，现在 ServiceComb已经很快就要从Apache孵化器毕业了。
+虽然参与了许多Apache开源项目，坦白地说我对Apache的项目孵化流程并未有系统化全面的理解。直到ServiceComb这个项目，我经历了寻找Mentor，捐赠协议签署，迁移项目，孵化器发版，以及毕业准备这些流程之后，才对Apache孵化器孵化流程有了更加深刻的认识。
+就在刚刚的交流中，我发现大家最关心的问题就是如何从Apache孵化器毕业。 我们今天邀请到远道而来的Apache Member，Roman，Justin，Craig，和国内Apache项目开发者一起分享他们有关Apache孵化器孵化经验，以及开源相关的感悟。
+如何从Apache软件基金会孵化器毕业成为顶级项目 [Justin]
+从Apache孵化器毕业，首要为孵化项目构建一个社区，项目毕业意味着很多事情，比如要保持开发者的多样性，项目贡献者不能仅仅来自一个公司。此外，还应该尝试小版本发布（make micro releases）。
+[Roman]
+发布版本时，除了项目本身，还有许多合规性工作（mechanical stuff）要做，例如开源协议，发版签名，发版投票等等。项目进入孵化器后，要尽快尝试发布第一个版本。许多孵化项目（podling）都想在发布版本时中搞定这样或那样的功能，我总是跟他们说，没关系，项目不一定能够跑起来，甚至不一定能成功编译，一定要先把合规性问题解决，然后再专注于功能开发。
+[Justin]
+没错，要尽早发版、多做发版。
+[姜宁]
+发布版本尽管痛苦，但是要尽早去做。ServiceComb在发布第一个版本时，团队也非常痛苦，但是经历过这个阶段，后面会变得越来越顺利。
+总结：孵化器毕业要点解读
+构建社区 ASF一直坚信好的软件是由强大的社区构建出来的。诚然，代码是一个软件社区的重中之重，但Apache之道**”Community over code”**同样强调社区的重要性。它意味着我们的行事方式，如何看待彼此，如何进行决策，甚至如何编写代码。健康、互相尊重的社区非常重要，这不仅让社区的开发者有被尊重的感觉，也会带来切实的好处。一个健康、多样、包容的社区，可以促进项目不断成长，可持续发展。甚至，有助于用开源技术提供服务的公司获得商业上的成功。 保持贡献者多样性 ASF非常强调多样性原则。 大部分开源软件项目都是创新型项目，多样性保证了开源项目的持续创新， 也保证了社区的健康发展。 开源项目鼓励所有个体或公司参与， 让他们感觉能对项目有所掌控，或者会对项目产生一定影响。这样可以保证意见的多样性、用户的多样性、系统的的多样性。Apache项目通常是要求有三个以上不同公司的人参与开发，以保证项目不会因为其中某个公司的退出而终止。 ** 尽早、尽量多的进行版本发布** 对于构建持续增长的社区，有何建议？ [郑士汉，Weex]：社区建设、多样性对于毕业非常重要，您能给出一些相关建议吗？
+[Justin]
+要让大家觉得自己是受欢迎的。当有人在邮件列表中提问时，我通常会分配PMC成员关注问题，并咨询提问者是否还需要其他帮助，或者有其他问题，我把这个作为日常工作。这样也有利于开发者从用户变成提交者甚至PMC成员。良好的文档可以让大家更容易使用你的项目。而文档的缺失则可能造成用户的流失，人们编译编译代码，就再也不使用这个项目了，因为项目上手太难了。
+[Roman]
+良好的文档确实非常重要。此外，我也有其他方面的建议。Apache软件基金会参与了一些项目，吸引了不少开贡献者。我们一直指导Google代码夏令营活动，夏令营由Google赞助，帮开发者更好的发展他们自己的项目。如果你可以让自己的社区参加类似的活动，对于社区建设无疑是有很大帮助的。因为大家来自中国的社区，我也建议一些中国的大公司，例如华为，也可以举办类似的学生项目，学生是一个项目最好的新鲜血液。
+[Justin]
+在会议中分享项目、建立技术博客也是不错的方式。
+[吴晟，Skywalking]
+Skywalking是中国开发者发起的一个Apache孵化项目，刚加入孵化时只有15个committer，而现在，代码层面的提交者已经达到了70人。我们提倡大家提交小的改动，这样很容易提交代码来做贡献，所以我们每次发布版本都会吸引一些开发者。当我们没有太多精力投入到测试时，我们会吸引开发者来提供测试，他们可以提交集成测试结果，可以提交测试模型，只要保持正确的编程风格，PMC的成员就可以进行审查，并合并代码。
+[Justin]
+这里我想多提一点，很多项目过于注重质量。有些Apache项目收到一些代码不太完美的提交，就直接丢弃了这些提交，然后自己从头搞起。其实这并没有关系，如果你收到了不太完美的PR，可以请社区成员帮忙改进质量。另外，在JIRA或Github上浏览issue时，如果发现一些比较简单的issue，你可以加个”easy to fix”标签，告诉大家这个issue比较容易解决，这样也可以吸引人来贡献。</description></item><item><title>Apache 软件基金会品牌使用指南</title><link>https://alc-beijing.github.io/alc-site/post/apache-policy/asf-mark-policy/</link><pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate><guid>https://alc-beijing.github.io/alc-site/post/apache-policy/asf-mark-policy/</guid><description>Apache 软件基金会品牌使用指南 翻译: 王堉琛
 原文出处:http://www.apache.org/foundation/marks/
 Apache® 品牌被 200 多个 Apache 软件基金会（ASF）项目社区共享，它也是我们使命——为公众利益提供软件——的重要组成部分。本品牌使用指南为引用 Apache® 软件项目和产品提供了示例。
 重要提示： 如果您请求在域名、活动或服务中使用 Apache 品牌，则必须遵循本指南。

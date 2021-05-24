@@ -65,4 +65,4 @@ authors:
  ## 相关链接
 
  * 国际内源基金会官网（InnerSource Commons）：https://innersourcecommons.org
- * 上期内源主题播客：
+ * 上期内源主题播客：https://alc-beijing.github.io/alc-site/post/podcast/episode-5-inner-source/

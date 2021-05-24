@@ -48,7 +48,7 @@ authors:
 
  ## 请收听
 
- {{< ximalaya id="TBC" align="center" type="red" >}}
+ {{< ximalaya id="418249939" align="center" type="red" >}}
 
 
  ## 本期嘉宾

@@ -5,7 +5,7 @@ categories:
 - Apache way
 - 播客
 - 教育
-date: 2021-05-3T20:00:00+08:00
+date: 2021-05-03T20:00:00+08:00
 description: "本期节目中, ALC Beijing 再度邀请到了上一期关于内源的节目中的姜宁老师和谭中意老师，和我们一起聊聊内源的适用场景、责任方和动力等问题。"
 keywords:
 - Open Source

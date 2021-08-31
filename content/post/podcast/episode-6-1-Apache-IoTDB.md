@@ -42,8 +42,8 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="370382501" align="center" type="red" >}}
-
+[ALC Beijing Podcast Episode #6： IoTDB 背后的科研故事 (上)](https://www.ximalaya.com/keji/37853515/370382501)
+)
 
 ## 本期嘉宾
 

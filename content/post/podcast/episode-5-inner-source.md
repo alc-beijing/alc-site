@@ -44,7 +44,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="353516198" align="center" type="red" >}}
+[ALC Beijing Podcast Episode #5：内源 InnerSource](https://www.ximalaya.com/keji/37853515/353516198)
 
 ## 本期嘉宾
 

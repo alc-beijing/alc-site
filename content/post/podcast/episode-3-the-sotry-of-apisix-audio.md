@@ -45,7 +45,7 @@ Apache APISIX 在2019年10月份进入了 Apache 软件基金会孵化器，到�
 
 ## 请收听
 
-{{< ximalaya id="314055931" align="center" type="red" >}}
+[ALC Beijing Podcast Episode #3: Apache APISIX的孵化故事](https://www.ximalaya.com/keji/37853515/314055931)
 
 ## 本期嘉宾
 

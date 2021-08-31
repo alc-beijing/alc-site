@@ -46,8 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="382771451" align="center" type="red" >}}
-
+[ALC Beijing Podcast Episode #9: 开源社区中的非代码贡献](https://www.ximalaya.com/keji/37853515/382771451)
 
 ## 本期嘉宾
 **夏小雅**: 华东师范大学在读研究生, X-lab 实验室成员，CHAOSS 社区成员

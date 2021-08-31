@@ -17,7 +17,7 @@ tags:
 title: "Podcast Episode #0 : ALC Beijing Podcast 的承诺"
 url: ""
 authors:
-- ALC Beijing 
+- ALC Beijing
 ---
 
 ## 内容梗概
@@ -46,7 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="326735355" align="center" type="red" >}}
+[ALC Beijing Podcast Episode #0：Say Hello World!](https://www.ximalaya.com/keji/37853515/326735355)
 
 ## 本期嘉宾: ALC  BeiJing Podcast 三位常驻主持
 

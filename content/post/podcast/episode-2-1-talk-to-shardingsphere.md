@@ -46,9 +46,7 @@ authors:
 
 ## 请收听
 
-
-{{< ximalaya id="304115934" align="center" type="red" >}}
-
+[ALC Beijing Podcast Episode #2：Apache ShardingSphere开发者们的欢乐与刺激(上)](https://www.ximalaya.com/keji/37853515/304115934)
 
 ## 本期嘉宾
 

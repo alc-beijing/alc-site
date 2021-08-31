@@ -46,7 +46,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="294907345" align="center" type="red" >}}
+[ALC Beijing Podcast Episode #1: Apache SkyWalking 精彩开源故事](https://www.ximalaya.com/keji/37853515/294907345)
 
 ## 出场嘉宾
 

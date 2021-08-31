@@ -51,8 +51,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="370806391" align="center" type="red" >}}
-
+[ALC Beijing Podcast Episode #7：“点亮计划暑期2020” 优秀学生导师经验分享](https://www.ximalaya.com/keji/37853515/370806391)
 
 ## 本期嘉宾
 

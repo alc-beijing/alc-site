@@ -17,7 +17,7 @@ tags:
 title: "ALC Beijing Episode #4 : 技术架构、Community 和康威定律"
 url: ""
 authors:
-- ALC Beijing 
+- ALC Beijing
 ---
 
 ## 内容梗概
@@ -48,7 +48,7 @@ ALC Beijing 这次邀请到了Apache ShardingSphere 的核心团队成员来谈�
 
 ## 请收听
 
-{{< ximalaya id="340106589" align="center" type="red" >}}
+[ALC Beijing Podcast Episode #4: 康威定律在开源项目中的应用](https://www.ximalaya.com/keji/37853515/340106589)
 
 ## 本期嘉宾
 

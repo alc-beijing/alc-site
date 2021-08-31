@@ -50,8 +50,7 @@ authors:
 
 ## 请收听
 
-{{< ximalaya id="379500071" align="center" type="red" >}}
-
+[ALC Beijing Podcast Episode #8：Apache EChart毕业访谈](https://www.ximalaya.com/keji/37853515/379500071)
 
 ## 本期嘉宾
 **羡辙** Apache ECharts PMC Chair

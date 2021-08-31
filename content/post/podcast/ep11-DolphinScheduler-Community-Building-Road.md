@@ -46,7 +46,7 @@ authors:
 
  ## 请收听
 
- {{< ximalaya id="418249939" align="center" type="red" >}}
+ [ALC Beijing Podcast Episode #11：DophinScheduler社区构建之旅](https://www.ximalaya.com/keji/37853515/449101273)
 
 
  ## 本期嘉宾

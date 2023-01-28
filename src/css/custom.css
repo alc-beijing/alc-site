@@ -1,0 +1,354 @@
+:root {
+  --ifm-color-primary: #5494ff;
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary-dark: #1d68e1;
+  --ifm-color-primary-darker: #1b62d4;
+  --ifm-color-primary-darkest: #1751af;
+  --ifm-color-primary-light: #4e89e8;
+  --ifm-color-primary-lighter: #5a91ea;
+  --ifm-color-primary-lightest: #80aaef;
+  --ifm-dark-value: 10%;
+  --ifm-darker-value: 15%;
+  --ifm-darkest-value: 30%;
+  --ifm-light-value: 15%;
+  --ifm-lighter-value: 30%;
+  --ifm-lightest-value: 50%;
+  --ifm-color-secondary: #ebedf0;
+  --ifm-color-secondary-dark: rgb(212, 213, 216);
+  --ifm-color-secondary-darker: rgb(200, 201, 204);
+  --ifm-color-secondary-darkest: rgb(164, 166, 168);
+  --ifm-color-secondary-light: rgb(238, 240, 242);
+  --ifm-color-secondary-lighter: rgb(241, 242, 245);
+  --ifm-color-secondary-lightest: rgb(245, 246, 248);
+  --ifm-color-success: #00a400;
+  --ifm-color-success-dark: rgb(0, 148, 0);
+  --ifm-color-success-darker: rgb(0, 139, 0);
+  --ifm-color-success-darkest: rgb(0, 115, 0);
+  --ifm-color-success-light: rgb(38, 178, 38);
+  --ifm-color-success-lighter: rgb(77, 191, 77);
+  --ifm-color-success-lightest: rgb(128, 210, 128);
+  --ifm-color-info: #54c7ec;
+  --ifm-color-info-dark: rgb(76, 179, 212);
+  --ifm-color-info-darker: rgb(71, 169, 201);
+  --ifm-color-info-darkest: rgb(59, 139, 165);
+  --ifm-color-info-light: rgb(110, 207, 239);
+  --ifm-color-info-lighter: rgb(135, 216, 242);
+  --ifm-color-info-lightest: rgb(170, 227, 246);
+  --ifm-color-warning: #ffba00;
+  --ifm-color-warning-dark: rgb(230, 167, 0);
+  --ifm-color-warning-darker: rgb(217, 158, 0);
+  --ifm-color-warning-darkest: rgb(179, 130, 0);
+  --ifm-color-warning-light: rgb(255, 196, 38);
+  --ifm-color-warning-lighter: rgb(255, 207, 77);
+  --ifm-color-warning-lightest: rgb(255, 221, 128);
+  --ifm-color-danger: #fa383e;
+  --ifm-color-danger-dark: rgb(225, 50, 56);
+  --ifm-color-danger-darker: rgb(213, 48, 53);
+  --ifm-color-danger-darkest: rgb(175, 39, 43);
+  --ifm-color-danger-light: rgb(251, 86, 91);
+  --ifm-color-danger-lighter: rgb(251, 116, 120);
+  --ifm-color-danger-lightest: rgb(253, 156, 159);
+  --ifm-color-white: #fff;
+  --ifm-color-black: #000;
+  --ifm-color-gray-0: var(--ifm-color-white);
+  --ifm-color-gray-100: #f5f6f7;
+  --ifm-color-gray-200: #ebedf0;
+  --ifm-color-gray-300: #dadde1;
+  --ifm-color-gray-400: #ccd0d5;
+  --ifm-color-gray-500: #bec3c9;
+  --ifm-color-gray-600: #8d949e;
+  --ifm-color-gray-700: #606770;
+  --ifm-color-gray-800: #444950;
+  --ifm-color-gray-900: #1c1e21;
+  --ifm-color-gray-1000: var(--ifm-color-black);
+  --ifm-color-emphasis-0: var(--ifm-color-gray-0);
+  --ifm-color-emphasis-100: var(--ifm-color-gray-100);
+  --ifm-color-emphasis-200: var(--ifm-color-gray-200);
+  --ifm-color-emphasis-300: var(--ifm-color-gray-300);
+  --ifm-color-emphasis-400: var(--ifm-color-gray-400);
+  --ifm-color-emphasis-500: var(--ifm-color-gray-500);
+  --ifm-color-emphasis-600: var(--ifm-color-gray-600);
+  --ifm-color-emphasis-700: var(--ifm-color-gray-700);
+  --ifm-color-emphasis-800: var(--ifm-color-gray-800);
+  --ifm-color-emphasis-900: var(--ifm-color-gray-900);
+  --ifm-color-emphasis-1000: var(--ifm-color-gray-1000);
+  --ifm-color-content: var(--ifm-color-emphasis-900);
+  --ifm-color-content-inverse: var(--ifm-color-emphasis-0);
+  --ifm-color-content-secondary: #606770;
+  --ifm-code-background: var(--ifm-color-emphasis-200);
+  --ifm-code-color: var(--ifm-color-emphasis-900);
+  --ifm-code-padding-horizontal: 0.4rem;
+  --ifm-code-padding-vertical: 0.1rem;
+  --ifm-pre-background: var(--ifm-color-emphasis-100);
+  --ifm-pre-color: inherit;
+  --ifm-pre-line-height: 1.45;
+  --ifm-pre-padding: 1rem;
+  --ifm-container-width-xl: 1200px;
+  --ifm-navbar-height: 60px;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-variant: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.navbar {
+  height: 70px;
+  box-shadow: none !important;
+  padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal);
+}
+
+.navbar__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar__link {
+  color: #444950;
+  font-size: 15px;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 15px;
+}
+.navbar__link--active {
+  color: var(--ifm-navbar-link-hover-color) !important;
+}
+
+.navbar__items {
+  margin-left: 20px;
+}
+
+.navbar__logo {
+  height: 60px;
+}
+
+.footer__link-item svg,
+.navbar__link svg {
+  display: none;
+}
+
+code {
+  border: none;
+  margin: 0px 1px 0px 3px;
+}
+
+pre {
+  background-color: #ecf4fa !important;
+}
+
+.codeBlockLines_1zSZ {
+  min-width: unset !important;
+}
+
+.copyButton_M3SB {
+  padding: 0.2rem 0.4rem !important;
+}
+
+.tabs__item {
+  padding: 0.5rem 1rem;
+}
+
+.markdown > pre,
+.markdown > ul,
+.markdown > p {
+  line-height: 30px !important;
+  font-weight: normal;
+}
+
+.markdown > h2 {
+  font-size: 1.65rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #eaecef;
+}
+
+.tabs {
+  font-weight: 500;
+}
+
+.footer .container {
+  padding-top: 80px !important;
+  padding-bottom: 20px !important;
+  font-weight: 500;
+}
+
+
+/* new footer */
+.footer__item:not(:first-child) {
+  margin-top: 10px;
+}
+
+.footer__item .footer-left-box {
+  margin-top: -36px;
+}
+.footer__item .footer-left-box p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #d5d8dd;
+}
+.footer__item .footer-left-box p:hover {
+  color: #fff;
+}
+
+.footer__item .footer-system img {
+  width: 50px;
+}
+.footer__item .footer-system .system-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer__item .footer-system {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.footer__title,
+.footer__link-item {
+  padding-left: 60px;
+}
+footer .footer__col:nth-child(2) .footer__title,
+footer .footer__col:nth-child(2) .footer__item .footer__link-item {
+  padding-left: 120px;
+}
+@media only screen and (max-width: 575px) {
+  .footer__title,
+  .footer__link-item {
+    padding-left: 0 !important;
+  }
+}
+.footer__title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 35px;
+  font-family: "Poppins", sans-serif!important;
+}
+.footer__link-item{
+  color: #d5d8dd;
+}
+.footer__link-item:hover {
+  color: #fff;
+}
+.footer__col:last-child .footer__title {
+  padding-left: 0;
+}
+
+footer .footerLogoLink{
+  opacity: .5;
+  transition: opacity var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+footer .footerLogoLink:hover{
+  opacity: 1;
+}
+
+footer .footer__logo{
+  width:380px;
+  margin-right:40px;
+  max-width:inherit;
+  margin-top:0;
+  padding: 10px;
+}
+
+footer .subscribe-box{
+  position:relative;
+}
+footer .subscribe-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .subscribe-box ul li {
+  margin-right: 15px;
+  display: inline-flex;
+  padding-bottom: 15px;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+footer .subscribe-box ul li a {
+  font-size: 16px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #8d95a6;
+  transition: all 0.3s ease-in-out;
+  color: #d5d8dd;
+  position: relative;
+}
+footer .subscribe-box ul li a:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+footer .subscribe-box ul li a:hover .wechat-dropdown {
+  display:block;
+}
+
+.subscribe-input input{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.subscribe-submit-inner{
+  background: #0088FF;
+  height: calc(1.5em + .75rem + 2px);
+  -webkit-border-top-right-radius: 0.25em;
+  -webkit-border-bottom-right-radius: 0.25em;
+  -moz-border-radius-topright: 0.25em;
+  -moz-border-radius-bottomright: 0.25em;
+  border-top-right-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+}
+
+.subscribe-submit-inner:hover {
+  background: #0099FF;
+}
+
+.wechat-dropdown{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px #ffffff1a;
+  display:none;
+  height: 8.75rem;
+  padding: 0.625rem;
+  position: absolute;
+  right: -3rem;
+  top: 3.5rem;
+  width: 8.75rem;
+  z-index: 2;
+  transition: all 0.25s ease-in-out;
+}
+.wechat-dropdown::before{
+  border: .5rem solid #0000;
+  border-bottom: .5rem solid #fff;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 3.625rem;
+  top: -1rem
+}
+.alc-avatar {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.socialMedia .fa {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.socialMedia i {
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #1d253d;
+  color: #1d253d;
+}
+
+.bg-sendword-primary {
+  color: #fff;
+  background-color: #282661;
+  height: 300px;
+}

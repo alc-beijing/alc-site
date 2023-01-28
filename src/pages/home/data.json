@@ -1,0 +1,101 @@
+{
+  "slogan": {
+    "key": "make stream processing easier!",
+    "description": "Make stream processing easier! easy-to-use streaming application development framework and operation platform"
+  },
+  "feature": [
+    {
+      "title": "【Apache 博客】之 ASF 软件安全报告",
+      "details": "2021年末的log4jshell问题让开源软件的安全问题再次成为大家关注的热点问题。 希望这篇报告能够帮助大家对Apache软件基金会基于志愿者的软件安全处理有更加全面的了解。"
+    },
+    {
+      "title": "ALC Beijing Episode #11 DolphinScheduler社区构建之旅",
+      "details": "今年4月 Apache DolphinScheduler 正式毕业成为Apache顶级项目，在本次ALC Beijing的播客中，我们非常有幸请到郭炜和代立冬分享一下项目的孵化心得。"
+    },
+    {
+      "title": "ALC Beijing Episode #10 谈谈内源2",
+      "details": "目前，越来越多的软件开发者把开源的优秀实践带到企业内部，在组织内部建立起了一种类似开源的文化氛围。在上期关于内源的节目中，姜宁老师和谭中意老师让我们了解了内源和开源的关系，以及内源究竟是什么."
+    }
+  ],
+  "mentor": [
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18818196?v=4",
+      "gitUrl": "https://github.com/tisonkun",
+      "name": "tison"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/219644?v=4",
+      "gitUrl": "https://github.com/WillemJiang",
+      "name": "Willem Ning Jiang"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4958168?v=4",
+      "gitUrl": "https://github.com/Apache9",
+      "name": "Duo Zhang"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1727146?v=4",
+      "gitUrl": "https://github.com/StephanEwen",
+      "name": "Stephan Ewen"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/263695?v=4",
+      "gitUrl": "https://github.com/tweise",
+      "name": "Thomas Weise"
+    }
+  ],
+  "PMC": [
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13284744?v=4",
+      "gitUrl": "https://github.com/wolfboys",
+      "name": "Huajie Wang"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22493821?v=4",
+      "gitUrl": "https://github.com/Al-assad",
+      "name": "Linying Yu"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60029759?v=4",
+      "gitUrl": "https://github.com/MonsterChenzhuo",
+      "name": "Zhuoyu Chen"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5511181?v=4",
+      "gitUrl": "https://github.com/GuoNingNing",
+      "name": "Ning Guo"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7881241?v=4",
+      "gitUrl": "https://github.com/xinzhuxiansheng",
+      "name": "Yang Zhou"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29084491?v=4",
+      "gitUrl": "https://github.com/lvshaokang",
+      "name": "Shaokang Lv"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45427129?v=4",
+      "gitUrl": "https://github.com/monrg",
+      "name": "Qingrong Wang"
+    }
+  ],
+  "committer": [
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39726513?v=4",
+      "gitUrl": "https://github.com/wangsizhu0504",
+      "name": "Sizhu Wang"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38427477?v=4",
+      "gitUrl": "https://github.com/1996fanrui",
+      "name": "Rui Fan"
+    },
+    {
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19602424?v=4",
+      "gitUrl": "https://github.com/macksonmu",
+      "name": "Chunjin Mu"
+    }
+  ]
+}

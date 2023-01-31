@@ -1,0 +1,68 @@
+.item {
+  padding: 10px;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+
+  &__block {
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+    p {
+      font-style: italic;
+      color: #888888;
+    }
+
+    .image {
+      margin-top: 30px;
+      margin-bottom: 5px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+      }
+    }
+
+    .cite {
+      font-style: normal;
+      font-size: 14px;
+      color: #161616;
+    }
+  }
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+
+.dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #000;
+}

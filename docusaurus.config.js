@@ -61,7 +61,7 @@ const config = {
     },
     navbar: {
       logo: {
-        alt: 'StreamPark Logo',
+        alt: 'Alc Logo',
         src: 'asf/ALC-Avatar.png',
       },
       items: [

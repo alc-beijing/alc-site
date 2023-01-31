@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Layout from '@theme/Layout';
+import Layout from './theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Home from './home'
 import useIsBrowser from '@docusaurus/useIsBrowser';

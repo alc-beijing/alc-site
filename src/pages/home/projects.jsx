@@ -3,7 +3,7 @@ import Committer from "@site/static/asf/committers.svg";
 
 export default function () {
   return (
-      <div className="section bg-light p-xl-3">
+      <div className="section p-xl-3">
           <div className="container">
               <div className="row text-left">
                   <div className="col-12">

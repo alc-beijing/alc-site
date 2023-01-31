@@ -4849,6 +4849,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+keen-slider@^6.8.5:
+  version "6.8.5"
+  resolved "https://registry.npmmirror.com/keen-slider/-/keen-slider-6.8.5.tgz"
+  integrity sha512-9yoosfffgTCrkmbX8kCUMWsn9KDgPSkxBof5/0yXde001D1xao7i9ppfxQCCK0MLnoCa+Rdssby0jFbTTUM4rw==
+
 keyv@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/keyv/-/keyv-3.1.0.tgz"
@@ -4909,7 +4914,7 @@ leven@^3.1.0:
 
 lightgallery@2.4.0:
   version "2.4.0"
-  resolved "https://registry.npmmirror.com/lightgallery/-/lightgallery-2.4.0.tgz#b22b355bdbd48d3129e15c9d7d17e8e65bb2a17c"
+  resolved "https://registry.npmmirror.com/lightgallery/-/lightgallery-2.4.0.tgz"
   integrity sha512-9i/E/w3yaqs56y3k6SWIUS3JTLpeDCZIVnIuNppzAmj5KjLGy5wrFisoDUD0HdxVUdX0wHG5mjvB4h0TXtyf/w==
 
 lilconfig@^2.0.3:

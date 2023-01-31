@@ -95,7 +95,7 @@ html {
 }
 
 .navbar {
-  height: 70px;
+  height: 80px;
   box-shadow: none !important;
   padding: var(--ifm-navbar-padding-vertical) var(--ifm-navbar-padding-horizontal);
 }

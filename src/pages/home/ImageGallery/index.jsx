@@ -10,7 +10,7 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import lgVideo from 'lightgallery/plugins/video';
 
 export default function (props) {
-  const { list } = props;
+  const { list = [] } = props;
   return <LightGallery plugins={[lgZoom, lgVideo]} mode="lg-fade">
     {list.map((item, index) => {
       return <div key={index} className={props.className} {...item.attribute}>

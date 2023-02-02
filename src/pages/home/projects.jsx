@@ -1,6 +1,7 @@
 import React from 'react'
-import Committer from "@site/static/asf/committers.svg";
+// import Committer from "@site/static/asf/committers.svg";
 
+import Committer from './Committer'
 export default function () {
   return (
       <div className="section p-xl-3">

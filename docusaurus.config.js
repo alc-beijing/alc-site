@@ -55,6 +55,12 @@ const config = {
   ],
 
   themeConfig: ({
+    announcementBar: {
+      id: 'support_us',
+      content: '⭐️ <a href="/about" style="color:#477de9">点我查看</a> 关于ALC 北京的介绍',
+      textColor: '#333',
+      isCloseable: false,
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true

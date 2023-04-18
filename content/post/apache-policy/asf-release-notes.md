@@ -32,7 +32,7 @@ authors:
 - ASF 文档中对有些规范/规则并未**严格**要求, 但发版投票时不同的 Reviewer 可能有不同的习惯/偏好, 从而会提出一些改进"**建议**"
 - "中/英"语言/语义上的理解偏差，从而误解了某些内容
 
-借着 [HugeGraph](https://github.com/apache/incubator-hugegraph) 首次发版的机会，我也顺便总结了一些 PR / 邮件中遇到的事项和经验，由于是个人理解，可能存在不严谨的地方，欢迎大家一起来 review 和补充完善，避免相似的问题反复出现在 incubator 项目的发版过程中:)
+借着 [Apache HugeGraph](https://github.com/apache/incubator-hugegraph) 首次发版的机会，我也顺便总结了一些 PR / 邮件中遇到的事项和经验，由于是个人理解，可能存在不严谨的地方，欢迎大家一起来 review 和补充完善，避免相似的问题反复出现在 `incubator` 项目的发版过程中:)
 
 #### 名词
 
@@ -57,10 +57,11 @@ authors:
 2. `LICENSE` 文件原始版本必须**格式/内容**完整正确, 请直接**下载**官方提供[版本](https://www.apache.org/licenses/LICENSE-2.0.txt)然后放在项目目录中 (避免手动复制粘贴文本)
 3. 建议 `LICENSE/NOTICE` 文件不要包含**不必要**的信息, 比如不要包含你没有使用到的依赖的 LICENSE, 如果**移除/更新**了依赖则需要及时更新/移除对应的 `LICENSE/NOTICE` 信息
 4. 引用的第三方`license`, 必须将详细信息附加到我们的 `LICENSE` 文件后, 如果引用的 `LICENSE` 很长, 则需要单独存储一个文件并**指向**它们, 如 `LICENSE-<dependency-name>.txt`
-5. **二进制包**还需要特别注意, 通常它携带的 `LICENSE + NOTICE` 文件内容和源码包有许多区别, 请勿直接**复用**同一文件
+5. 如果是引用代码方是标准的(未经修改)的 `APL2.0` 协议, 则可以说明对方是标准版本, 直接参考根目录下的 `APL2.0 LICENSE`, 无需重复拷贝
+6. **二进制包**还需要特别注意, 通常它携带的 `LICENSE + NOTICE` 文件内容和源码包有许多区别, 请勿直接**复用**同一文件
    - 源码包通常不携带二进制/jar 包/图片等依赖, 所以它的 `LICENSE` 和` NOTICE` 会简单干净得多, 它主要是对**源码**引用做声明
    - 二进制包一般是在源码包的两个文件引用基础上, 还需补充所有引用的**第三方**依赖/图片/二进制等文件及其对应指向的 `LICENSE` 文件
-6. 一个第三方依赖如果有多个 `LICENSE`许可(例如 `ASL2.0` & `GPL`), **建议**仅选择一个 `LICENSE`引用 , 而不是列出所有 (不方便他人 review)
+7. 一个第三方依赖如果有多个 `LICENSE`许可(例如 `ASL2.0` & `GPL`), **建议**仅选择一个 `LICENSE`引用 , 而不是列出所有 (不方便他人 review)
    - 一般多选一的基本依据是选择 ASF 文档中提到的 [A 类](https://www.apache.org/legal/resolved.html#category-a)宽松许可, 如没有再考虑 B 类等
    - 如果这个依赖的 `LICENSE` 文件是独立存在的, 也应该只选取其中所选的内容 (例如去掉其中 `GPL` 或其他多余的声明引用)
    - 的确可见有 ASF 项目在 `LICENSE` 文件中引入了依赖所有 LICENSE 条目, 但可能并非提倡的写法 (应避免参考照搬)
@@ -73,7 +74,7 @@ authors:
 - [linkis - source](https://github.com/apache/linkis/blob/master/LICENSE)
 - [linkis - binary](https://github.com/apache/linkis/blob/master/linkis-dist/release-docs/LICENSE)
 
-**注:**  `linkis` 现已毕业, 请谨慎参考最新的文档, 可跳转到毕业前的**快照**
+**注:**  `linkis` 现已毕业, 请谨慎参考其最新的文档, 可跳转到毕业前的**快照**
 
 ## 2. License Header
 
@@ -81,7 +82,7 @@ authors:
 
 - 首先, 大部分开源组织都要求项目的每个**源文件**都有一个明显的 `License` 声明, 这样当他人单独引用某个文件时才最容易保留声明/也最直观清晰
 - 其次, 考虑到原始的 [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) 文件一般很长, 为了简洁起见它就规定在**文件头部**引用一个简略版本, 简称  `license header`, 然后完整版本放在根下(`LICESEN`文件), 形成一个**引用**关系
-- 所以可以看到哪怕同为 `ASL2.0`协议, 不同项目的 `license header`可能并不完全相同, 有增/减部分内容都是正常的 (请勿随意"统一")
+- 所以可以看到哪怕同为 `ASL2.0`协议, 不同项目的 `license header`可能并不完全相同, 有增/减部分内容都是正常的 (请勿自行"统一")
 
 #### 核心
 
@@ -136,14 +137,12 @@ ASF 规定了[部分](https://www.apache.org/legal/src-headers.html#faq-exceptio
 
 ## 4. Disclaimer
 
-**孵化中**的项目的任何发行包(包括网站)都需要携带 `DISCLAIMER` (免责声明)文件, 这个听起来很法务化的文件有两个选择: (详见官方[说明](https://incubator.apache.org/policy/incubation.html#disclaimers))
+**孵化中**的项目的任何发行包(包括网站)都需要携带 `DISCLAIMER` (免责声明)文件, 这个听起来挺**法务化**的文件有两个选择: (详见官方[说明](https://incubator.apache.org/policy/incubation.html#disclaimers))
 
-1. **标准版:** 可以遵循 ASF 的所有发布政策的孵化项目, 命名为 `DISCLAIMER` 文件
-2. **WIP ** (Work In Progress) 版本: 意味着发版过程中会**有部分**不能满足 ASF 要求的发布政策, 命名为 `DISCLAIMER-WIP`
+1. **标准版:** 可以遵循 ASF 的所有发布政策的孵化项目, 命名为 `DISCLAIMER` 文件 (条件允许应优先考虑)
+2. **WIP ** (Work In Progress) 版本: 意味着发版过程中会**有部分**不能满足 ASF 要求的发布政策, 命名为 `DISCLAIMER-WIP`, 这里"**不满足**"的条件较为宽松, 例如 `*GPL/CC-BY` 等 X 类不兼容的许可都可以容忍 (若更特殊的情况最好是咨询导师/邮件)
 
-两个说明的模板内容是不一样的, WIP 版本需要具体列出"**已知问题列表**", 也就是提醒使用方这些地方可能需要留意检查, 另外要注意的是, 孵化项目在毕业前需要转为标准的 DISCLAIMER 声明 (也就意味着相关发布问题都被解决了)
-
- TODO: 哪些情况是 `WIP` 版本的免责声明可以容忍/携带的呢? 例如说 `GPL` 或是` CC-By` 协议的二进制依赖可以么? 还是说它只适用于一些比较模糊的许可或者是合规性问题呢? (这个需要确认一下)
+两种说明的模板内容是不一样的, 尤其是 `WIP` 版本需要具体列出"**已知问题列表**", 也就是提醒使用方这些地方可能需要留意检查, 另外要注意的是, 孵化项目在毕业前需要转为标准的 `DISCLAIMER` 声明 (也就意味着 `WIP` 版提到相关发布问题都被解决了)
 
 ## 5. Copyright
 
@@ -161,7 +160,7 @@ ASF 的项目要求 `Copyright` 需放在 `NOTICE` 文件中而不能是 `licens
 
 1. 将这种 ASF 不允许携带的引用变为**可选项**, 例如 oracle 的 `ojdbc.jar` 包, 可以写文档告诉需要的用户去自行下载然后关联/启用上
 2. 若一个项目协议允许 **多种许可**, 只要包含和 `ASL2.0` 兼容的许可即可使用，并且在项目 `LICENSE` 文件中指定我们选择的许可
-3. 另外要注意 `CC (Creative Commons)` 洗了, 如果单独出现 ASF 也是[不允许](https://www.apache.org/legal/resolved.html#cc-by)的 (这个可能大家很容易忽视, 建议使用插件扫描)
+3. 另外要注意 `CC (Creative Commons)` 许可, 若单独出现 ASF 也是[不允许](https://www.apache.org/legal/resolved.html#cc-by)的 (这个可能大家容易忽视, 建议使用插件扫描)
 
 ## 7. Binary/Archive
 
@@ -205,12 +204,15 @@ ASF 的项目要求 `Copyright` 需放在 `NOTICE` 文件中而不能是 `licens
 2. 关于 `license header` 的几个点:
 
    - (**原则**)不建议大家片段化使用第三方代码, 应**优先考虑**分离开 or 自己重写, 不得已引用的时候需要保留原有代码的 `license header`
+   
    - (**原则**)将第三方代码从一种**编程语言**转换成**另一种**编程语言, 不属于重大修改, 需保留原 `license header` (在一些**算法**相关的代码中较常见)
-   - (**特殊情况**) 如果引入的第三方代码只是某个代码文件中的一小部分, 是否应该用它的 `license header` 作为整个文件的头? (**待定**)
+   
+   - (**特殊情况**) 如果引入的第三方代码只是某个代码文件中的一小部分, 是否应该用它的 `license header` 作为整个文件的头?
      1. 如果引入的是一个接口定义/子类/结构体, 可否直接在这部分代码片段上引入它的 `license header`
      2. 如果不能在代码中间位置引入 `license header`, 那么头部是否允许保留两个`license header` (一个是 ASF 的, 一个是引入的)
-     3. 如果建议如无必要, 仅保留一个`license header`, 是否需要在 `LICENSE` 文件中说明引入的代码行范围, 不引入的话似乎有点模糊(其他人不知道哪部分代码是 refer 的)
-     4. 比较建议的还是避免在大文件中引入一小段第三方代码, 
+     3. 如仅保留一个`license header`, 是否需要在 `LICENSE` 文件中说明引入的代码行范围, 不引入的话似乎他人不知道哪部分代码是 refer 的
+     
+     **A:** 上述情况尽可能还是应通过头文件/独立类等方式单独**引入**, 少量**代码/函数**如需引用, 建议优先考虑**重写** (否则也应单独抽出, 避免陷入上述问题中)
 
 _持续更新 ing_
 

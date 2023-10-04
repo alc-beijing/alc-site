@@ -1,8 +1,7 @@
 baseURL = "https://alc-beijing.github.io/alc-site"
 googleAnalytics = "UA-6539751-3"
 languageCode = "en-us"
-title = "ALC Beijing"
-# disableKinds = ["taxonomy", "taxonomyTerm"]
+title = "ALC Beijing 博客"
 
 author = "Hugo Authors"
 
@@ -29,18 +28,18 @@ pygmentscodefencesguesssyntax = true
 	keywords = ["ALC Beijing","Blogs"]
 
 	# Add meta description in head part
-	description = "Vitae is a blog theme for Hugo that focuses on your content."
+	description = "The blogs maintained by ALC Beijing for Open Source information"
 	# Add pagetitle to homepage <title> tag
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+	subtitle = "介绍 Apache 之道，传播 Apache 精神，让更多的年轻人了解 ASF 和开源之道， 让本土项目被更多的人知道！"
 
 	# Add math typesetting with KaTeX (Global with this Param)
 	math = true
 
 	# Optional 80x80 avatar image.
-	avatar = "img/vitae.jpg"
+	avatar = "images/ALCBejing-Avatar.png"
 
 	# Optional favicons for website
 	#favicon = true

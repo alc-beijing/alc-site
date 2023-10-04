@@ -1,0 +1,13 @@
+{{- if .Site.Copyright }}
+<footer>
+{{ with .Site.Copyright }}{{ . | markdownify }}{{ end }}
+{{- if not .Site.IsServer }}
+{{- template "_internal/google_analytics_async.html" . }}
+{{- end }}
+</footer>
+{{- else }}
+{{- if not .Site.IsServer }}
+{{- template "_internal/google_analytics_async.html" . }}
+{{- end }}
+{{- end -}}
+<script src="{{ relURL "js/dark-mode.js" }}"></script>

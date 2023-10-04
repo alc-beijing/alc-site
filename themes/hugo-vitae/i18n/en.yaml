@@ -1,0 +1,21 @@
+# i18n/en.yaml
+- id: prevpage
+  translation: "← Prev page"
+
+- id: nextpage
+  translation: "Next page →"
+
+- id: nojscomments
+  translation: "Please enable JavaScript to load the comments."
+
+- id: 404title
+  translation: "HTTP-404 Error"
+
+- id: 404text
+  translation: "There is not content here."
+
+- id: minutes
+  translation: "minutes"
+
+- id: words
+  translation: "words"

@@ -2,11 +2,51 @@ baseURL = "https://alc-beijing.github.io/alc-site"
 googleAnalytics = "UA-6539751-3"
 languageCode = "en-us"
 title = "ALC Beijing"
-disableKinds = ["taxonomy", "taxonomyTerm"]
-theme = "tale4zh"
+# disableKinds = ["taxonomy", "taxonomyTerm"]
+
+author = "Hugo Authors"
+
+theme = "hugo-vitae"
 canonifyURLs = true
+paginate = 5
+enableRobotsTXT = true
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[params]
+	# Use homepage.md instead of a list of posts
+	homepage = false
+
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = ["ALC Beijing","Blogs"]
+
+	# Add meta description in head part
+	description = "Vitae is a blog theme for Hugo that focuses on your content."
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "All about static site generation"
+
+	# Add a subtitle to your website
+	subtitle = "[Vitae](https://github.com/dataCobra/hugo-vitae) is a blog theme for Hugo that focuses on your content."
+
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
+
+	# Optional 80x80 avatar image.
+	avatar = "img/vitae.jpg"
+
+	# Optional favicons for website
+	#favicon = true
+
+	# Add list of sections that should show up on the homepage
+	mainSections = ["post"]
 
 [menu]
   [[menu.main]]
@@ -20,10 +60,21 @@ canonifyURLs = true
     name = "关于 ALC Beijing"
     title = "About"
     url = "/post/alc-beijing-creation/"
-    weight = 0
+    weight = 1
 [[menu.main]]
     identifier = "translation"
     name = "翻译"
     title = "Translation"
     url = "https://github.com/alc-beijing/translation"
-    weight = 0
+    weight = 2
+
+[[menu.main]]
+name = "标签"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "分类"
+url = "/categories"
+weight = 5
+

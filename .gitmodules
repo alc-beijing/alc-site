@@ -1,7 +1,3 @@
 [submodule "themes/tale4zh"]
 	path = themes/tale4zh
 	url = https://github.com/alc-beijing/tale-hugo.git
-[submodule "themes/hugo-vitae"]
-	path = themes/hugo-vitae
-	url = https://github.com/dataCobra/hugo-vitae.git
-	branch = 3.0.2

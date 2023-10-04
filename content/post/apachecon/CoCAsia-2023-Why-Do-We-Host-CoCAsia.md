@@ -1,8 +1,8 @@
 +++
-author = "Willem Jiang"
+author = "姜宁"
 title = "从参会到办会的入’坑’指南"
 date = "2023-09-25"
-description = ""
+description = "在CommunityOverCode Asia 2023的闪电演讲中， 姜宁花5分钟总结了他与ApacheCon之间的故事以及收获, 也解释了为什么能够坚持三年办会的原因。"
 tags = [
     "OpenSource",
     "ApacheCon",

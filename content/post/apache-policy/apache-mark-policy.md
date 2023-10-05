@@ -5,7 +5,7 @@ title = "Apache 商标使用管理原则"
 date = "2021-03-02"
 description = "介绍了Apache商标在使用过程中需要注意的原则问题"
 tags = [
-    "Apache Way"
+    "Apache Policy"
 ]
 +++
 # Apache 商标使用管理原则

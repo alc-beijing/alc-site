@@ -1,6 +1,6 @@
 ---
 categories:
-- Apache way
+- Apache Policy
 - Release
 date: 2023-04-07T17:07:07+08:00
 description: "对于每个初入 ASF 的项目来说，第一次发版都会多少遇到不少小问题和麻烦事，尤其以 License/Notice/Copyright 相关的问题为典型代表"

@@ -1,7 +1,7 @@
 ---
 categories:
 - 开源
-- Apache way
+- Apache Way
 - 博客
 - 传播
 date: 2020-05-25T16:06:05+08:00

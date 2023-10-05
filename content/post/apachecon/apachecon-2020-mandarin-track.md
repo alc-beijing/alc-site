@@ -167,5 +167,3 @@ Apache Doris(Incubating) 是一款支持对海量数据进行快速分析的MPP�
 或扫码报名：
 
 ![](../../images/apachecon/qrcode-apachecon.png)
-
-

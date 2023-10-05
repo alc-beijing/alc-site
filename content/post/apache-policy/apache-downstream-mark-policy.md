@@ -4,7 +4,7 @@ title = "Apache 下游项目的品牌使用原则"
 date = "2021-03-02"
 description = "介绍了Apache下游项目的品牌使用过程中需要注意的原则问题"
 tags = [
-    "Apache policy"
+    "Apache Policy"
 ]
 +++
 # Apache Apache 下游项目的品牌使用原则

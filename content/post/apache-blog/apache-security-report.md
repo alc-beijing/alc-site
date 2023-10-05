@@ -1,11 +1,11 @@
 ---
 categories:
 - 开源
-- Apache way
+- Apache Way
 - 博客
 - 传播
 date: 2022-01-12T16:06:05+08:00
-description: "Apache 之道的异步通信，是否在疫情发生的非常时期能够凸显出其优势了呢？还是只是没有被影响到罢了？让我们来听听 ASF 的名誉会员怎么讲。"
+description: "本文翻译了 Apache 安全团队的2021年度报告，介绍了Apache软件基金会是的安全响应流程， 安全响应团队的日常的工作任务， 以及2021年度Apache软件基金会旗下项目关键安全事件。"
 keywords:
 - Open Source
 - Culture

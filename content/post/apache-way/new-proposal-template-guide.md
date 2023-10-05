@@ -1,11 +1,12 @@
 
 +++
 author = "刘天栋 "
-title = "新孵化项目提案指导"
+title = "[翻译]新孵化项目提案指导"
 date = "2023-09-18"
-description = "描述了进入ASF孵化器提案需要做的工作"
+description = "本文翻译了孵化提案指导文档， 详细描述了撰写进入ASF孵化器提案需要做的准备工作并提供了相关的文档示例."
 tags = [
-    "Apache Way"
+    "Apache Way",
+    "孵化提案"
 ]
 +++
 

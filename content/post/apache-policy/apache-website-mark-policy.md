@@ -4,7 +4,7 @@ title = "Apache 项目网站商标原则"
 date = "2021-03-01"
 description = "介绍了Apache项目网站商标在使用过程中需要注意的原则问题"
 tags = [
-    "Apache policy"
+    "Apache Policy"
 ]
 +++
 # Apache 项目网站商标原则

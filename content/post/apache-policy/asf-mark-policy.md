@@ -4,7 +4,7 @@ title = "Apache 软件基金会品牌使用指南"
 date = "2021-03-03"
 description = "介绍了Apache 软件基金会品牌在使用过程中需要注意的原则问题"
 tags = [
-    "Apache Way"
+    "Apache Policy"
 ]
 +++
 

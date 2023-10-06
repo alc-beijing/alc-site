@@ -1,4 +1,3 @@
-
 +++
 author = "刘天栋 "
 title = "[翻译]新孵化项目提案指导"
@@ -311,7 +310,7 @@ This is the right place to indicate the initial balance between salaried develop
 > Most of the developers are paid by their employer to contribute to this project, but given the anticipation from the Java community for the a JPA implementation and the committers' sense of ownership for the code, the project would continue without issue if no salaried developers contributed to the project.
 
 示例Example (River):
-> 预计 Jini 的开发工作将利用受雇时间和下班后的志愿者时间进行。虽然依赖于受薪开发人员（目前来自 Sun，但预计其他公司的受薪开发人员也会参与进来），但 Jini 社区非常活跃，事情应该很快就会平衡。与此同时，Sun 将在未来支持该项目，为 Jini 提供 "工作时间"，以便顺利过渡。
+> 预计 Jini 的开发工作将利用受雇时间和下班后的志愿者时间进行。虽然依赖于受雇开发人员（目前来自 Sun，但预计其他公司的受雇开发人员也会参与进来），但 Jini 社区非常活跃，事情应该很快就会平衡。与此同时，Sun 将在未来支持该项目，为 Jini 提供 "工作时间"，以便顺利过渡。
 >
 > It is expected that Jini development will occur on both salaried time and on volunteer time, after hours. While there is reliance on salaried developers (currently from Sun, but it's expected that other company's salaried developers will also be involved), the Jini Community is very active and things should balance out fairly quickly. In the meantime, Sun will support the project in the future by dedicating 'work time' to Jini, so that there is a smooth transition.
 
@@ -533,7 +532,7 @@ Note this. Consider creating a separate section where interested developers can 
 
 A little bit of a controversial subject. Committers at Apache are individuals and work here on their own behalf. They are judged on their merits, not their affiliations. However, in the spirit of full disclosure, it is useful for any current affiliations which may affect the perceived independence of the initial committers to be listed openly at the start.
 
-例如，那些从事项目工作的受薪职位人员应列出其所属单位。有了这份名单，就可以判断初步名单的多样性程度，从而判断还有多少工作要做。
+例如，那些从事项目工作的受雇职位人员应列出其所属单位。有了这份名单，就可以判断初步名单的多样性程度，从而判断还有多少工作要做。
 
 For example, those in salaried positions whose job is to work on the project should list their affiliation. Having this list helps to judge how much diversity exists in the initial list and so how much work there is to do.
 

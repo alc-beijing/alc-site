@@ -37,9 +37,11 @@
 {{- end }}
 <li><a><i title="Switch Dark Mode" class="dark-mode icons fas fa-moon"></i></a></li>
 </ul></nav>
+<div id="docsearch"></div>
 </div>
 {{- end }}
 </div>
+
 {{- if isset .Site.Menus "main" }}
 <div id="mainmenu">
 <nav>
@@ -48,7 +50,9 @@
 <li><a href="{{ .URL }}">{{ .Name }}</a></li>
 {{- end }}
 </ul>
+
 </nav>
+
 </div>
 {{- end }}
 </header>

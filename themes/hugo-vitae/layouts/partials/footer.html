@@ -11,3 +11,14 @@
 {{- end }}
 {{- end -}}
 <script src="{{ relURL "js/dark-mode.js" }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+<script type="text/javascript">
+  docsearch({
+    appId: "L7P2JYQ2KE",
+    apiKey: "6d20c4a2c1df6c447fe354de73fe1ed9",
+    indexName: "alc",
+    insights: true, // Optional, automatically send insights when user interacts with search results
+    container: '#docsearch',
+    debug: false // Set debug to true if you want to inspect the modal
+  });
+</script>

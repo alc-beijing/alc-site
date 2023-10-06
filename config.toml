@@ -21,6 +21,7 @@ pygmentscodefencesguesssyntax = true
 	series = "series"
 
 [params]
+    
 	# Use homepage.md instead of a list of posts
 	homepage = false
 
@@ -77,3 +78,18 @@ name = "分类"
 url = "/categories"
 weight = 5
 
+# Social Menu
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/dataCobra/hugo-vitae"
+
+#[[params.social]]
+#name = "Email"
+#icon = "fas fa-envelope"
+#cmd = "mailto:example@example.com"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"

@@ -82,7 +82,7 @@ weight = 5
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-url = "https://github.com/dataCobra/hugo-vitae"
+url = "https://github.com/alc-beijing/alc-site"
 
 #[[params.social]]
 #name = "Email"

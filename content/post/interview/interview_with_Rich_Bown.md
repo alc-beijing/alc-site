@@ -4,10 +4,16 @@ title = "Rich Bowen: 无论你在创造什么，最终交付的是信任。"
 date = "2023-10-06"
 description = "2023 年 CommunityOverCode Asia Rich 发表了“与管理层谈论开源”的主题演讲后，我们和 Rich 坐下来一起探讨了演讲背后的更多内容。除了管理层和开源，我们还讨论了 AWS 和 Apache 软件基金会在开源项目中的方法和策略，构建开源生态系统最重要的因素，以及 Rich 是如何平衡不同的角色等话题。"
 tags = [
-    "ApacheCon",
+    "开源战略",
     "CommunityOverCode"
+    "Open Source"
 ]
-+++
+categories = [
+  "开源",
+  "Apache way",
+  "人物访谈“
+]
++++ 
 
 
 

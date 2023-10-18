@@ -34,7 +34,7 @@ pygmentscodefencesguesssyntax = true
 	pagetitle = "All about static site generation"
 
 	# Add a subtitle to your website
-	subtitle = "介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 和开源之道！"
+	subtitle = "介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 以及开源文化！"
 
 	# Add math typesetting with KaTeX (Global with this Param)
 	math = true

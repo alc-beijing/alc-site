@@ -4,7 +4,7 @@ categories:
 - Apache Way
 - 博客
 - 传播
-date: 2022-10-30T16:06:05+08:00
+date: 2023-10-30T16:06:05+08:00
 description: "本文翻译了 Apache 安全团队的2022年度报告，介绍了Apache软件基金会是的安全响应流程， 安全响应团队的日常的工作任务， 以及2022年度Apache软件基金会旗下项目关键安全事件。"
 keywords:
 - Open Source
@@ -96,3 +96,4 @@ ASF 安全委员会与项目团队、社区和报告者密切合作，确保快�
 如果您有想要分享的漏洞信息，[请联系我们](https://apache.org/security/#reporting-a-vulnerability)，或者使用[公共安全讨论邮件列表](https://lists.apache.org/list.html?security-discuss@community.apache.org)来获取对此报告的评论。
 
 由安全副总裁 Mark Cox 发布 2023 年 1 月 31 日
+[Apache Software Foundation Security Report: 2022](https://blogs.apache.org/security/entry/asf-security-report-2022)

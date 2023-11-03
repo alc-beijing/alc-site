@@ -19,13 +19,13 @@ authors:
 
 missing-9 翻译，郭雪雯、薛杨洁 修改，姜宁、王荷舒审校
 
-原文出处:https://www.apache.org/legal/resolved.html
+原文出处: https://www.apache.org/legal/resolved.html
 
 ## 目的
 
 本政策向 Apache 软件基金会的项目提供许可指引，列出了第三方开源组件纳入 Apache 软件基金会产品时可接受的许可证。
 
-项目可将许可问题提交给法务委员会 JIRA space。
+项目可将许可问题提交给法务委员会[JIRA](https://issues.apache.org/jira/browse/LEGAL)进行讨论。
 
 ### 许可证标准
 

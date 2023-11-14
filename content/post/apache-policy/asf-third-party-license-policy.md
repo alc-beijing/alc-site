@@ -10,9 +10,8 @@ keywords:
 - License
 - Blog
 tags:
-- Release
+- License
 title: "ASF 第三方许可证政策"
-
 authors:
 - missing-9
 ---

@@ -1,6 +1,6 @@
 +++
 author = "刘天栋 Ted"
-title = "Apache 项目成熟度模型"
+title = "[翻译] Apache 项目成熟度模型"
 date = "2023-11-14"
 description = "Apache 项目成熟度模型为评估 Apache 项目社区及其维护的代码库的整体成熟度提供了一个建议框架。"
 tags = [

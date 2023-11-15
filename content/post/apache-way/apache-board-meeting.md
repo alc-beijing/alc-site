@@ -1,6 +1,6 @@
 +++
 author = "姜宁"
-title = "ASF如何准备董事会会议"
+title = "[翻译] ASF如何准备董事会会议"
 date = "2020-10-21"
 description = "ASF如何准备一个月一次的董事会"
 tags = [

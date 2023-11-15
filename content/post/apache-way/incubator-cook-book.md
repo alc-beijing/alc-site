@@ -1,6 +1,6 @@
 +++
 author = "狄晓晓"
-title = "Apache孵化器指南"
+title = "[翻译] Apache孵化器指南"
 date = "2021-02-28"
 description = "描述了进入ASF孵化过程中各个阶段需要注意的问题。"
 tags = [
@@ -8,9 +8,8 @@ tags = [
 ]
 +++
 
-# Apache孵化器指南
 
-翻译:狄晓晓 
+翻译:狄晓晓
 
 Apache孵化器是项目捐赠到ASF的入口。目前国内越来越多的开源项目通过Apache孵化器进入Apache软件基金会孵化。
 

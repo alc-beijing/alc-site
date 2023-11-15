@@ -13,7 +13,7 @@ tags = [
 **原文链接**:
 <https://community.apache.org/apache-way/apache-project-maturity-model.html>
 
-翻译：刘天栋 Ted，审核：姜宁 Willem
+翻译：刘天栋 Ted，校对：姜宁 Willem
 
 Apache 项目成熟度模型为评估 Apache 项目社区及其维护的代码库的整体成熟度提供了一个建议框架。虽然该模型专门针对 Apache 软件基金会（ASF）的项目，但其中许多因素适用于任何开源项目。
 

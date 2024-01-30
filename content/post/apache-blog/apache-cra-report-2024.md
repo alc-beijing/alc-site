@@ -29,13 +29,13 @@ translater:
 
 这两项法案都将对我们的软件行业产生巨大影响。总的来说，这意味着在互联网上发布、销售等的软件需要被认为是“适合其用途的”。它需要在合理的时间内确保安全。而这项法规推翻或废除了我们大多数人所喜爱的“如果出现问题，后果自负（if it breaks you get the pieces）”的免责声明。
 
-CRA 现在基本上已经[定稿](https://openforumeurope.org/eu-cyber-resilience-act-takes-a-leap-forward/)，只剩下将其翻译成 24 种官方语言的法律文本，以及通常只是走个形式的批准程序。这是 ASF 和许多开源社区最关心的法案，其中也有不少好消息。
+CRA 现在基本上已经([定稿](https://data.consilium.europa.eu/doc/document/ST-17000-2023-INIT/EN/pdf))，只剩下将其翻译成 24 种官方语言的法律文本，以及通常只是走个形式的批准程序。这是 ASF 和许多开源社区最关心的法案，其中也有不少好消息。
 
-回顾 2023 年夏季的情况：CRA 在欧洲议会（[复杂](https://openforumeurope.org/eu-cyber-resilience-act-takes-a-leap-forward/)流程的一部分）获得通过，同时提出了一系列要求。保守地说，这些要求并不适合开源，也几乎不适合互联网上的每一款软件。
+回顾 2023 年夏季的情况：CRA 在欧洲议会(（[复杂](https://en.wikipedia.org/wiki/European_Union_legislative_procedure))流程的一部分）获得通过，同时提出了一系列要求。保守地说，这些要求并不适合开源，也几乎不适合互联网上的每一款软件。
 
 这包括在供应链早期就进行复杂的认证，以及对发布和贡献提出不切实际的监管要求。大多数这些要求似乎更有可能降低整体软件安全和网络弹性水平，而不是实现 CRA 值得称赞的目标——使事情更加安全可靠。
 
-其中一个关键问题在于，当时所起草的CRA（《网络弹性法案》）并没有真正认识到到这样一个事实，即管理良好的开源软件在很大程度上构成了整个软件行业的基石（[根据欧盟的数据，欧洲范围内该部分产值约为650亿欧元](https://blog.opensource.org/the-ultimate-list-of-reactions-to-the-cyber-resilience-act/)）。围绕开源进行协作也是我们行业中创新的主要驱动力（[这一点也得到了欧盟的确认](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/digital-services/open-source-software-strategy_en)）。这些并非微不足道的经济问题：尽管我们的行业规模较小，但对几乎所有其他行业都产生了巨大的影响。
+其中一个关键问题在于，当时所起草的CRA（《网络弹性法案》）并没有真正认识到到这样一个事实，即管理良好的开源软件在很大程度上构成了整个软件行业的基石（[根据欧盟的数据，欧洲范围内该部分产值约为650亿欧元](https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and)）。围绕开源进行协作也是我们行业中创新的主要驱动力（[这一点也得到了欧盟的确认](https://commission.europa.eu/about-european-commission/departments-and-executive-agencies/digital-services/open-source-software-strategy_en)）。这些并非微不足道的经济问题：尽管我们的行业规模较小，但对几乎所有其他行业都产生了巨大的影响。
 
 在过去的几个月里，[ASF, Eclipse, FSF Europe, the Linux Foundation Europe, the Python folks, the Open Source Initiative, Mozilla, NLNet-labs, the Internet Society](https://blog.opensource.org/the-ultimate-list-of-reactions-to-the-cyber-resilience-act/)（以及其他无数组织），以及许多使用开源的工业团体，花费了大量的时间和精力与政策制定者、西班牙欧盟轮值主席国、欧洲议会、欧盟委员会以及 25 个左右的欧洲国家政府进行沟通。不仅要解释开源软件的影响，还要解释什么是开源——以及为什么它对行业的创新能力至关重要，是行业创新的核心所在。同时，由于我们的代码构成了许多其他软件的基础，因此正确理解和对待开源软件对为何对实现CRA（提高安全性）的目标十分重要。
 

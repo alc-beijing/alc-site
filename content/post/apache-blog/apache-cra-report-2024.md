@@ -23,6 +23,14 @@ translater:
   校对 姜宁
 ---
 
+发布时间：2024 年 1 月
+
+作者：Dirk-Willem van Gulik，Apache软件基金会公共事务副总裁
+
+翻译：孙振华 田凌侠
+
+校对：姜宁
+
 ## 关于欧盟软件法规的最新进展：诸多改进与利好消息
 
 在过去两年中，Apache 软件基金会（ASF）和许多其他开源组织对即将出台的软件监管总体提出了[担忧](https://news.apache.org/foundation/entry/save-open-source-the-impending-tragedy-of-the-cyber-resilience-act)，尤其是《网络弹性法案》（CRA）/《产品责任指令》（PLD）。

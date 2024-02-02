@@ -84,7 +84,7 @@ CRA 现在基本上已经([定稿](https://data.consilium.europa.eu/doc/document
 * [注1] DSA，数字服务法案（Digital Services Act），是欧盟为了更新互联网平台规则而提出的一系列措施，以确保在线环境的安全与透明度，并打击非法内容和不良行为。
 * [注2] DORA，数字运营韧性法案（Digital Operational Resilience Act），旨在增强金融服务行业对于网络风险的抵御能力，并确保金融机构能够应对日益严重的网络安全威胁。
 * [注3] NIS2，修订后的网络与信息系统安全指令（Network and Information Systems Directive 2），是对原有NIS指令的升级版，进一步加强了关键基础设施运营商和服务提供商的信息系统安全要求。
-* [注4] SEP，标准必要专利（Standard Essential Patents，SEP）相关法规，这可能是指规范SEP许可和执行机制的法规，旨在确保SEP所有者以公平、合理和无歧视（FRAND）条款授权其专利。
+* [注4] SEP，标准必要专利（Standard Essential Patents，SEP）相关规定，旨在确保SEP所有者以公平、合理和无歧视（FRAND）条款授权其专利。
 * [注5] 在欧盟市场“CE”标志属强制性认证标志，不论是欧盟内部企业生产的产品，还是其他国家生产的产品，要想在欧盟市场上自由流通，就必须加贴“CE”标志，以表明产品符合欧盟《技术协调与标准化新方法》指令的基本要求，<https://single-market-economy.ec.europa.eu/single-market/ce-marking_en>。
 
 ## 关于作者

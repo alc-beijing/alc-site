@@ -43,7 +43,7 @@ pygmentscodefencesguesssyntax = true
 	avatar = "images/ALCBejing-Avatar.png"
 
 	# Optional favicons for website
-	#favicon = true
+	favicon = true
 
 	# Add list of sections that should show up on the homepage
 	mainSections = ["post"]

@@ -1,0 +1,40 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+<nav class="pagination" role="navigation" aria-label="分页导航">
+    <ul class="pagination-list">
+        {{ if .Paginator.HasPrev }}
+        <li class="pagination-item">
+            <a href="{{ .Paginator.Prev.URL }}" class="pagination-link pagination-prev" aria-label="上一页">
+                <i class="fas fa-chevron-left"></i>
+                <span>上一页</span>
+            </a>
+        </li>
+        {{ end }}
+        
+        {{ range .Paginator.Pagers }}
+        <li class="pagination-item">
+            {{ if eq .PageNumber $.Paginator.PageNumber }}
+            <span class="pagination-link pagination-current" aria-current="page">{{ .PageNumber }}</span>
+            {{ else }}
+            <a href="{{ .URL }}" class="pagination-link">{{ .PageNumber }}</a>
+            {{ end }}
+        </li>
+        {{ end }}
+        
+        {{ if .Paginator.HasNext }}
+        <li class="pagination-item">
+            <a href="{{ .Paginator.Next.URL }}" class="pagination-link pagination-next" aria-label="下一页">
+                <span>下一页</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    
+    <div class="pagination-info">
+        <span class="pagination-text">
+            第 {{ .Paginator.PageNumber }} 页，共 {{ .Paginator.TotalPages }} 页
+            ({{ .Paginator.TotalNumberOfElements }} 篇文章)
+        </span>
+    </div>
+</nav>
+{{ end }} 

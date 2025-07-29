@@ -1,95 +1,64 @@
-baseURL = "https://alc-beijing.github.io/alc-site"
-googleAnalytics = "UA-6539751-3"
-languageCode = "en-us"
-title = "ALC Beijing 博客"
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+title = 'ALC Beijing'
+theme = 'alc-beijing'
 
-author = "Hugo Authors"
-
-theme = "hugo-vitae"
-canonifyURLs = true
-paginate = 5
-enableRobotsTXT = true
-
-pygmentsstyle = "colorful"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-
-[taxonomies]
-	tag = "tags"
-	category = "categories"
-	series = "series"
-
-[params]
-    
-	# Use homepage.md instead of a list of posts
-	homepage = false
-
-	# Add meta keywords in head part (Site Keywords or Tags of Page)
-	keywords = ["ALC Beijing","Blogs"]
-
-	# Add meta description in head part
-	description = "The blogs maintained by ALC Beijing for Open Source information"
-	# Add pagetitle to homepage <title> tag
-	pagetitle = "All about static site generation"
-
-	# Add a subtitle to your website
-	subtitle = "介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 以及开源文化！"
-
-	# Add math typesetting with KaTeX (Global with this Param)
-	math = true
-
-	# Optional 80x80 avatar image.
-	avatar = "images/ALCBejing-Avatar.png"
-
-	# Optional favicons for website
-	#favicon = true
-
-	# Add list of sections that should show up on the homepage
-	mainSections = ["post"]
-
+# 菜单配置
 [menu]
   [[menu.main]]
-    identifier = "post"
-    name = "博客"
-    title = "post"
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
     url = "/post/"
     weight = 2
- [[menu.main]]
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
     identifier = "about"
-    name = "关于 ALC Beijing"
-    title = "About"
-    url = "/post/alc-beijing-creation/"
-    weight = 0
-[[menu.main]]
-    identifier = "translation"
-    name = "翻译"
-    title = "Translation"
-    url = "https://github.com/alc-beijing/translation"
-    weight = 1
+    name = "关于"
+    url = "/about/"
+    weight = 5
 
-[[menu.main]]
-name = "标签"
-url = "/tags"
-weight = 4
+# 分页配置
+[pagination]
+  pagerSize = 5
 
-[[menu.main]]
-name = "分类"
-url = "/categories"
-weight = 5
+# 分类和标签配置
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-# Social Menu
-[[params.social]]
-name = "Github"
-icon = "fab fa-github"
-url = "https://github.com/alc-beijing/alc-site"
+# 参数配置
+[params]
+  description = "Apache Local Community Beijing - 开源社区"
+  author = "ALC Beijing"
+  logo = "images/alc-beijing-logo.png"
+  
+  # 社交媒体链接
+  social = [
+    { name = "github", url = "https://github.com/alc-beijing" },
+    { name = "twitter", url = "https://twitter.com/alcbeijing" },
+    { name = "wechat", url = "#" }
+  ]
+  
+  # 快速链接
+  quickLinks = [
+    { name = "Apache官网", url = "https://apache.org" },
+    { name = "Apache Way", url = "https://www.apache.org/theapacheway/" },
+    { name = "贡献指南", url = "/contributing/" }
+  ]
 
-#[[params.social]]
-#name = "Email"
-#icon = "fas fa-envelope"
-#cmd = "mailto:example@example.com"
-
-[[params.social]]
-name = "RSS"
-icon = "fas fa-rss"
-url = "/index.xml"
+# 忽略日志警告
+ignoreLogs = ['warning-goldmark-raw-html']

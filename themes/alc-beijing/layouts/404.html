@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="error-page">
+    <div class="container">
+        <div class="error-content">
+            <h1 class="error-title">404</h1>
+            <h2 class="error-subtitle">页面未找到</h2>
+            <p class="error-description">
+                抱歉，您访问的页面不存在。可能页面已被移动、删除或链接有误。
+            </p>
+            <div class="error-actions">
+                <a href="/" class="btn btn-primary">返回首页</a>
+                <a href="/post/" class="btn btn-secondary">浏览文章</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.error-page {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--spacing-xxl) 0;
+}
+
+.error-content {
+    max-width: 500px;
+}
+
+.error-title {
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--apache-blue);
+    margin-bottom: var(--spacing-md);
+    line-height: 1;
+}
+
+.error-subtitle {
+    font-size: 2rem;
+    color: var(--apache-dark-blue);
+    margin-bottom: var(--spacing-lg);
+}
+
+.error-description {
+    color: var(--apache-gray);
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+}
+
+.error-actions {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .error-title {
+        font-size: 4rem;
+    }
+    
+    .error-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .error-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>
+{{ end }} 

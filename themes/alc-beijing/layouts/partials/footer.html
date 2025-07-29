@@ -1,0 +1,43 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">ALC Beijing</h3>
+                <p class="footer-description">
+                    介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 以及开源文化！
+                </p>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">快速链接</h4>
+                <ul class="footer-links">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-subtitle">联系我们</h4>
+                <div class="social-links">
+                    <a href="https://github.com/alc-beijing" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:alc-beijing@apache.org" class="social-link" title="邮件">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="/event/" class="social-link" title="活动">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-info">
+                <p>&copy; {{ now.Year }} ALC Beijing. Licensed under the Apache License, Version 2.0.</p>
+                <p>Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
+            </div>
+        </div>
+    </div>
+</footer> 

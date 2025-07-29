@@ -1,0 +1,79 @@
+{{ define "main" }}
+<article class="post-single">
+    <header class="post-header">
+        <div class="container">
+            <h1 class="post-title">{{ .Title }}</h1>
+            
+            <div class="post-meta">
+                <div class="post-meta-row">
+                    <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                        <i class="far fa-calendar-alt"></i>
+                        {{ .Date.Format "2006年1月2日" }}
+                    </time>
+                    {{ if .Params.author }}
+                    <span class="post-author">
+                        <i class="far fa-user"></i>
+                        {{ .Params.author }}
+                    </span>
+                    {{ end }}
+                </div>
+                {{ if .Params.tags }}
+                <div class="post-tags-meta">
+                    <span class="post-tags-label">标签:</span>
+                    {{ range .Params.tags }}
+                    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="post-tag-meta">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ if .Params.categories }}
+                <div class="post-categories">
+                    {{ range .Params.categories }}
+                    <a href="{{ "categories/" | relURL }}{{ . | urlize }}" class="category">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        {{ if .Params.featured_image }}
+        <div class="post-featured-image">
+            <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}">
+        </div>
+        {{ end }}
+        
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        
+        {{ if .Params.tags }}
+        <footer class="post-footer">
+            <div class="post-tags">
+                <h3>标签:</h3>
+                {{ range .Params.tags }}
+                <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+                {{ end }}
+            </div>
+        </footer>
+        {{ end }}
+        
+        <!-- Navigation -->
+        <nav class="post-navigation">
+            {{ with .PrevInSection }}
+            <a href="{{ .RelPermalink }}" class="nav-prev">
+                <span class="nav-arrow">←</span>
+                <span class="nav-title">{{ .Title }}</span>
+            </a>
+            {{ end }}
+            
+            {{ with .NextInSection }}
+            <a href="{{ .RelPermalink }}" class="nav-next">
+                <span class="nav-title">{{ .Title }}</span>
+                <span class="nav-arrow">→</span>
+            </a>
+            {{ end }}
+        </nav>
+    </div>
+</article>
+{{ end }} 

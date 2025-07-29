@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alc-beijing.github.io/alc-site/sitemap.xml 

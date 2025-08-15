@@ -31,6 +31,25 @@
                     </a>
                 </div>
             </div>
+            <div class="footer-section">
+                <h4 class="footer-subtitle">关注微信公众号</h4>
+                <div class="qr-code-container">
+                    {{ if fileExists "/static/images/wechat-qrcode.png" }}
+                    <div class="qr-code-image">
+                        <img src="/images/wechat-qrcode.png" alt="ALC Beijing 微信公众号二维码" />
+                    </div>
+                    {{ else }}
+                    <div class="qr-code-placeholder">
+                        <div class="qr-code-icon">
+                            <i class="fab fa-weixin"></i>
+                        </div>
+                        <p class="qr-code-text">微信公众号二维码</p>
+                        <p class="qr-code-hint">请上传二维码图片</p>
+                    </div>
+                    {{ end }}
+                </div>
+                <p class="footer-qr-hint">扫码关注获取最新动态</p>
+            </div>
         </div>
         
         <div class="footer-bottom">

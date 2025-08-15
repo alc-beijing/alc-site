@@ -1,24 +1,26 @@
 {{ define "main" }}
 <!-- 页面头部 -->
 <div class="page-header">
-    <div class="page-header-content">
-        <h1 class="page-title">
-            文章分类
-            <span class="current-page-indicator">
-                <i class="fas fa-map-marker-alt"></i>
-                当前页面
-            </span>
-        </h1>
-        <p class="page-description">浏览所有文章分类</p>
-        <div class="page-stats">
-            <span class="stats-item">
-                <i class="fas fa-folder"></i>
-                {{ len .Site.Taxonomies.categories }} 个分类
-            </span>
-            <span class="stats-item">
-                <i class="fas fa-file-alt"></i>
-                {{ len .Site.RegularPages }} 篇文章
-            </span>
+    <div class="container">
+        <div class="page-header-content">
+            <h1 class="page-title">
+                文章分类
+                <span class="current-page-indicator">
+                    <i class="fas fa-map-marker-alt"></i>
+                    当前页面
+                </span>
+            </h1>
+            <p class="page-description">浏览所有文章分类</p>
+            <div class="page-stats">
+                <span class="stats-item">
+                    <i class="fas fa-folder"></i>
+                    {{ len .Site.Taxonomies.categories }} 个分类
+                </span>
+                <span class="stats-item">
+                    <i class="fas fa-file-alt"></i>
+                    {{ len .Site.RegularPages }} 篇文章
+                </span>
+            </div>
         </div>
     </div>
 </div>
@@ -29,23 +31,29 @@
         <div class="categories-grid">
             {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
             <div class="category-card">
-                <a href="{{ "categories/" | relURL }}{{ $name | urlize }}" class="category-link">
-                    <div class="category-card-content">
-                        <div class="category-icon">
-                            <i class="fas fa-folder"></i>
-                        </div>
-                        <h3 class="category-name">{{ $name }}</h3>
-                        <div class="category-count">{{ len $taxonomy }} 篇文章</div>
-                        <div class="category-description">
-                            {{ range first 3 $taxonomy }}
-                            <span class="category-post">{{ .Title }}</span>
-                            {{ end }}
-                            {{ if gt (len $taxonomy) 3 }}
-                            <span class="category-more">...还有 {{ sub (len $taxonomy) 3 }} 篇</span>
-                            {{ end }}
-                        </div>
+                <div class="category-card-content">
+                    <div class="category-icon">
+                        <i class="fas fa-folder"></i>
                     </div>
-                </a>
+                    <h3 class="category-name">
+                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="category-name-link">{{ $name }}</a>
+                    </h3>
+                    <div class="category-count">{{ len $taxonomy }} 篇文章</div>
+                    <div class="category-description">
+                        {{ range first 3 $taxonomy }}
+                        <a href="{{ .RelPermalink }}" class="category-post">{{ .Title }}</a>
+                        {{ end }}
+                        {{ if gt (len $taxonomy) 3 }}
+                        <span class="category-more">...还有 {{ sub (len $taxonomy) 3 }} 篇</span>
+                        {{ end }}
+                        </div>
+                    <div class="category-read-more">
+                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="read-more-link">
+                            <span class="read-more-text">阅读更多</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             {{ end }}
         </div>

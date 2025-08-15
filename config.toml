@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'zh-cn'
 title = 'ALC Beijing'
 theme = 'alc-beijing'
@@ -16,10 +16,11 @@ theme = 'alc-beijing'
     url = "/post/"
     weight = 2
   [[menu.main]]
-    identifier = "categories"
-    name = "分类"
-    url = "/categories/"
+    identifier = "events"
+    name = "活动"
+    url = "/event/"
     weight = 3
+
   [[menu.main]]
     identifier = "tags"
     name = "标签"
@@ -33,7 +34,7 @@ theme = 'alc-beijing'
 
 # 分页配置
 [pagination]
-  pagerSize = 5
+  pagerSize = 9
 
 # 分类和标签配置
 [taxonomies]
@@ -44,7 +45,11 @@ theme = 'alc-beijing'
 [params]
   description = "Apache Local Community Beijing - 开源社区"
   author = "ALC Beijing"
-  logo = "images/alc-beijing-logo.png"
+  logo = "/images/alc-beijing-logo.png"
+  
+  # 标签页面分页
+  paginateTaxonomy = true
+  tagPageSize = 30
   
   # 社交媒体链接
   social = [

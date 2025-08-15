@@ -1,113 +1,61 @@
 {{ define "main" }}
-<div class="container">
-    <!-- 页面头部 -->
-    <div class="page-header">
-        <div class="page-header-content">
-            <h1 class="page-title">
-                {{ if eq .Type "categories" }}
-                {{ .Title }} 分类
-                {{ else if eq .Type "tags" }}
-                {{ .Title }} 标签
-                {{ else }}
-                {{ .Title }}
-                {{ end }}
-            </h1>
-            <p class="page-description">
-                {{ if eq .Type "categories" }}
-                浏览 {{ .Title }} 分类下的所有文章
-                {{ else if eq .Type "tags" }}
-                浏览 {{ .Title }} 标签下的所有文章
-                {{ else }}
-                浏览相关内容
-                {{ end }}
-            </p>
-            <div class="page-stats">
-                <span class="stats-item">
-                    <i class="fas fa-file-alt"></i>
-                    {{ len .Pages }} 篇文章
-                </span>
-            </div>
+<!-- 页面头部 -->
+<div class="page-header">
+    <div class="page-header-content">
+        <h1 class="page-title">
+            {{ if eq .Type "categories" }}
+            {{ .Title }} 分类
+            {{ else if eq .Type "tags" }}
+            {{ .Title }} 标签
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+        </h1>
+        <p class="page-description">
+            {{ if eq .Type "categories" }}
+            浏览 {{ .Title }} 分类下的所有文章
+            {{ else if eq .Type "tags" }}
+            浏览 {{ .Title }} 标签下的所有文章
+            {{ else }}
+            浏览相关内容
+            {{ end }}
+        </p>
+        <div class="page-stats">
+            <span class="stats-item">
+                <i class="fas fa-file-alt"></i>
+                {{ len .Pages }} 篇文章
+            </span>
         </div>
     </div>
+</div>
 
+<!-- 文章列表容器 -->
+<div class="container">
     <!-- 文章列表 -->
     <div class="posts-container">
-        <div class="posts-grid" id="postsGrid">
+        <div class="posts-grid compact-grid" id="postsGrid">
             {{ range .Pages }}
-            <article class="post-card" 
-                     data-title="{{ .Title | lower }}"
-                     data-category="{{ if .Params.categories }}{{ delimit .Params.categories " " | lower }}{{ end }}"
-                     data-tags="{{ if .Params.tags }}{{ delimit .Params.tags " " | lower }}{{ end }}"
-                     data-date="{{ .Date.Format "2006-01-02" }}">
+            <article class="post-card compact" data-title="{{ .Title | lower }}"
+                data-category="{{ if .Params.categories }}{{ delimit .Params.categories " " | lower }}{{ end }}"
+                data-tags="{{ if .Params.tags }}{{ delimit .Params.tags " " | lower }}{{ end }}">
                 <div class="post-card-content">
-                    {{ if .Params.featured_image }}
-                    <div class="post-card-image">
-                        <img src="{{ .Params.featured_image | relURL }}" alt="{{ .Title }}" loading="lazy">
-                        {{ if .Params.featured }}
-                        <div class="featured-badge">
-                            <i class="fas fa-star"></i>
-                        </div>
-                        {{ end }}
-                    </div>
-                    {{ else }}
-                    <div class="post-card-image-placeholder">
-                        <i class="fas fa-file-alt"></i>
+                    <h2 class="post-card-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    {{ if .Params.tags }}
+                    <div class="post-tags">
+                    {{ range .Params.tags }}
+                    <a href="{{ " tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+                    {{ end }}
                     </div>
                     {{ end }}
-                    
-                    <div class="post-card-body">
-                        <header class="post-card-header">
-                            <h2 class="post-card-title">
-                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                            </h2>
-                        </header>
-                        
-                        <div class="post-card-excerpt">
-                            {{ if .Summary }}
-                            <p>{{ .Summary | truncate 120 }}</p>
-                            {{ else }}
-                            <p>{{ .Content | plainify | truncate 120 }}</p>
-                            {{ end }}
-                        </div>
-                        
-                        <footer class="post-card-footer">
-                            <div class="post-meta">
-                                <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
-                                    <i class="far fa-calendar-alt"></i>
-                                    {{ .Date.Format "1月2日" }}
-                                </time>
-                                {{ if .Params.author }}
-                                <span class="post-author">
-                                    <i class="far fa-user"></i>
-                                    {{ .Params.author }}
-                                </span>
-                                {{ end }}
-                            </div>
-                            
-                            {{ if .Params.tags }}
-                            <div class="post-tags">
-                                {{ range first 2 .Params.tags }}
-                                <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
-                                {{ end }}
-                                {{ if gt (len .Params.tags) 2 }}
-                                <span class="more-tags">+{{ sub (len .Params.tags) 2 }}</span>
-                                {{ end }}
-                            </div>
-                            {{ end }}
-                        </footer>
-                    </div>
                 </div>
             </article>
             {{ end }}
         </div>
     </div>
     
-    <!-- 分页 -->
-    {{ if gt (len .Pages) 0 }}
-    <div class="pagination-container">
-        {{ template "_internal/pagination.html" . }}
-    </div>
-    {{ end }}
+
 </div>
 
 <!-- 分类/标签页专用JavaScript -->

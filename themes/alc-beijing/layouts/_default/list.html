@@ -34,8 +34,9 @@
 </div>
 
 <div class="container">
-    <!-- 搜索框 -->
-    <div class="search-section">
+    <!-- 搜索和筛选器组合区域 -->
+    <div class="search-filter-section">
+        <!-- 搜索框 -->
         <div class="search-container">
             <i class="fas fa-search search-icon"></i>
             <input type="text" class="search-input" placeholder="搜索文章标题、描述、作者..." id="searchInput">
@@ -43,6 +44,7 @@
                 <i class="fas fa-times"></i>
             </button>
         </div>
+        <!-- 搜索建议 -->
         <div class="search-suggestions" id="searchSuggestions" style="display: none;">
             <div class="suggestions-header">
                 <i class="fas fa-lightbulb"></i>
@@ -50,37 +52,36 @@
             </div>
             <div class="suggestions-list" id="suggestionsList"></div>
         </div>
-    </div>
-
-    <!-- 标签筛选器 -->
-    <div class="tags-filter">
-        <div class="filter-section">
-            <h3 class="filter-title" onclick="toggleFilter(this)">
-                分类浏览
-                <i class="fas fa-chevron-down filter-expand-icon" title="点击展开"></i>
-            </h3>
-            <div class="filter-tags">
-                <button class="filter-tag active" data-filter="all" data-type="category">全部文章</button>
-                {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-                <button class="filter-tag" data-filter="{{ $name | lower }}" data-type="category">
-                    {{ $name }}
-                </button>
-                {{ end }}
+        <!-- 标签筛选器 -->
+        <div class="tags-filter">
+            <div class="filter-section">
+                <h3 class="filter-title" onclick="toggleFilter(this)">
+                    分类浏览
+                    <i class="fas fa-chevron-down filter-expand-icon" title="点击展开"></i>
+                </h3>
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-filter="all" data-type="category">全部文章</button>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                    <button class="filter-tag" data-filter="{{ $name | lower }}" data-type="category">
+                        {{ $name }}
+                    </button>
+                    {{ end }}
+                </div>
             </div>
-        </div>
         
-        <div class="filter-section">
-            <h3 class="filter-title" onclick="toggleFilter(this)">
-                标签浏览
-                <i class="fas fa-chevron-down filter-expand-icon" title="点击展开"></i>
-            </h3>
-            <div class="filter-tags">
-                <button class="filter-tag active" data-filter="all" data-type="tag">全部标签</button>
-                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                <button class="filter-tag" data-filter="{{ $name | lower }}" data-type="tag">
-                    {{ $name }}
-                </button>
-                {{ end }}
+            <div class="filter-section">
+                <h3 class="filter-title" onclick="toggleFilter(this)">
+                    标签浏览
+                    <i class="fas fa-chevron-down filter-expand-icon" title="点击展开"></i>
+                </h3>
+                <div class="filter-tags">
+                    <button class="filter-tag active" data-filter="all" data-type="tag">全部标签</button>
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    <button class="filter-tag" data-filter="{{ $name | lower }}" data-type="tag">
+                        {{ $name }}
+                    </button>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>

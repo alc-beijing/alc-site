@@ -71,33 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const backToTop = document.createElement('button');
     backToTop.innerHTML = '<i class="fas fa-arrow-up"></i>';
     backToTop.className = 'back-to-top';
-    backToTop.style.cssText = `
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-        background-color: var(--apache-blue);
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.3s ease;
-        z-index: 1000;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    `;
     
     document.body.appendChild(backToTop);
     
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
-            backToTop.style.opacity = '1';
-            backToTop.style.visibility = 'visible';
+            backToTop.classList.add('visible');
         } else {
-            backToTop.style.opacity = '0';
-            backToTop.style.visibility = 'hidden';
+            backToTop.classList.remove('visible');
         }
     });
     

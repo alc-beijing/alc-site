@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const email = this.querySelector('input[type="email"]').value;
             
             // Here you would typically send the email to your backend
-            console.log('Newsletter signup:', email);
+            // TODO: Implement newsletter signup backend integration
             
             // Show success message
             const successMessage = document.createElement('div');

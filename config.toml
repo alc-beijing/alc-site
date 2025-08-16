@@ -67,3 +67,12 @@ theme = 'alc-beijing'
 
 # 忽略日志警告
 ignoreLogs = ['warning-goldmark-raw-html']
+
+# 静态资源指纹配置
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# 启用资源指纹
+enableGitInfo = true

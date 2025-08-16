@@ -2604,12 +2604,6 @@ a:hover {
   }
 } 
 
-/* ===== 字体层次系统增强 ===== */
-
-/* 移除旧的重复定义 */
-
-/* ===== 分类卡片优化 ===== */
-
 .category-card {
   background: var(--bg-primary);
   border-radius: var(--radius-xl);
@@ -2866,6 +2860,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   text-align: center;
+  padding: var(--spacing-lg);
   height: 100%;
 }
 
@@ -2873,6 +2868,7 @@ a:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-2xl);
   border-color: var(--primary-light);
+  padding: var(--spacing-lg);
 }
 
 .about-icon {
@@ -2900,6 +2896,7 @@ a:hover {
   color: var(--gray-900);
   margin-bottom: var(--spacing-md);
   letter-spacing: var(--letter-spacing-tight);
+  padding: var(--spacing-lg);
 }
 
 .about-card p {
@@ -2983,12 +2980,14 @@ a:hover {
   position: relative;
   text-align: center;
   height: 100%;
+  padding: var(--spacing-lg);
 }
 
 .way-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-2xl);
   border-color: var(--primary-light);
+  padding: var(--spacing-lg);
 }
 
 .way-icon {

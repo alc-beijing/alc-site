@@ -1,0 +1,84 @@
+{{ define "main" }}
+<!-- 页面头部 -->
+<div class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <h1 class="page-title">{{ .Title }} 分类</h1>
+            <p class="page-description">浏览 {{ .Title }} 分类下的所有文章</p>
+            <div class="page-stats">
+                <span class="stats-item">
+                    <i class="fas fa-file-alt"></i>
+                    {{ len .Pages }} 篇文章
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- 文章列表 -->
+    <div class="posts-container">
+        <div class="posts-grid" id="postsGrid">
+            {{ range .Pages }}
+            <article class="post-card" 
+                     data-title="{{ .Title | lower }}"
+                     data-category="{{ if .Params.categories }}{{ delimit .Params.categories " " | lower }}{{ end }}"
+                     data-tags="{{ if .Params.tags }}{{ delimit .Params.tags " " | lower }}{{ end }}"
+                     data-date="{{ .Date.Format "2006-01-02" }}">
+                
+                <div class="post-card-content">
+                    <div class="post-card-body">
+                        <header class="post-card-header">
+                            <h2 class="post-card-title">
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h2>
+                            {{ if .Description }}
+                            <p class="post-card-excerpt">{{ .Description }}</p>
+                            {{ else }}
+                            <p class="post-card-excerpt">{{ .Summary | plainify | truncate 100 }}</p>
+                            {{ end }}
+                            {{ if .Params.author }}
+                            <span class="post-author">
+                                <i class="fas fa-user"></i>
+                                {{ .Params.author }}
+                            </span>
+                            {{ end }}
+                        </header>
+
+                        <footer class="post-card-footer">
+                            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                                <i class="fas fa-calendar-alt"></i>
+                                {{ .Date.Format "2006年1月2日" }}
+                            </time>
+                            <a href="{{ .RelPermalink }}" class="read-more">阅读更多</a>
+                        </footer>
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+    
+    <!-- 分页 -->
+    {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    <div class="pagination-container">
+        {{ template "_internal/pagination.html" . }}
+    </div>
+    {{ end }}
+</div>
+
+<!-- 分类页面专用JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 设置当前导航高亮
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+    });
+});
+</script>
+{{ end }} 

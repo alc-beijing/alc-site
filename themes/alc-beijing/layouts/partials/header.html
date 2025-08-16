@@ -1,0 +1,28 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <a href="{{ .Site.BaseURL }}" class="logo-link">
+                {{ if .Site.Params.logo }}
+                <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}" class="logo-img">
+                {{ end }}
+                <span class="logo-text">{{ .Site.Title }}</span>
+            </a>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" class="nav-link{{ if or (eq $.RelPermalink .URL) (and (eq .URL "/") (eq $.RelPermalink "/")) (and (hasPrefix $.RelPermalink .URL) (ne .URL "/")) }} active{{ end }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </div>
+</header> 

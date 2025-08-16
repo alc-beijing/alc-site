@@ -1,0 +1,1028 @@
+{{ define "main" }}
+<!-- 页面头部 -->
+<div class="page-header">
+    <div class="page-header-content">
+        <h1 class="page-title">
+            {{ .Title }}
+            <span class="current-page-indicator">
+                <i class="fas fa-calendar-alt"></i>
+                活动页面
+            </span>
+        </h1>
+        {{ if .Description }}
+        <p class="page-description">{{ .Description }}</p>
+        {{ end }}
+        <div class="page-stats">
+            <span class="stats-item">
+                <i class="fas fa-calendar-alt"></i>
+                社区活动
+            </span>
+            <span class="stats-item">
+                <i class="fas fa-users"></i>
+                欢迎参与
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- 页面内容 -->
+    <div class="event-content">
+        {{ .Content }}
+    </div>
+    
+<!-- 活动特色卡片 -->
+<div class="event-features-section">
+    <h2 class="section-title">活动特色</h2>
+    <div class="event-features-cards">
+        <div class="event-feature-card">
+            <div class="event-feature-icon">
+                <i class="fas fa-award"></i>
+                </div>
+                <h3>专业性</h3>
+                <p>邀请 Apache 项目 PMC 成员和资深贡献者分享经验</p>
+            </div>
+    
+            <div class="event-feature-card">
+                <div class="event-feature-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>实用性</h3>
+                <p>注重实际操作和最佳实践</p>
+            </div>
+    
+            <div class="event-feature-card">
+                <div class="event-feature-icon">
+                    <i class="fas fa-door-open"></i>
+                </div>
+                <h3>开放性</h3>
+                <p>欢迎所有对开源感兴趣的朋友参与</p>
+                </div>
+    <div class="event-feature-card">
+        <div class="event-feature-icon">
+            <i class="fas fa-sync-alt"></i>
+                </div>
+                <h3>持续性</h3>
+                <p>定期举办，形成良好的学习氛围</p>
+            </div>
+            </div>
+    </div>
+    <!-- 活动类型卡片 -->
+    <div class="event-types-section">
+        <h2 class="section-title">活动类型</h2>
+        <div class="event-types-cards">
+            <div class="event-type-card">
+                <div class="event-type-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>技术分享</h3>
+                <ul class="event-type-list">
+                    <li>Apache 项目技术分享会</li>
+                    <li>开源项目实践经验交流</li>
+                    <li>技术架构设计讨论</li>
+                </ul>
+            </div>
+    
+            <div class="event-type-card">
+                <div class="event-type-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>社区建设</h3>
+                <ul class="event-type-list">
+                    <li>新贡献者引导计划</li>
+                    <li>开源项目孵化指导</li>
+                    <li>社区治理经验分享</li>
+                </ul>
+            </div>
+    
+            <div class="event-type-card">
+                <div class="event-type-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>教育培训</h3>
+                <ul class="event-type-list">
+                    <li>Apache Way 培训课程</li>
+                    <li>开源贡献最佳实践</li>
+                    <li>社区建设方法论</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 如何参与卡片 -->
+    <div class="participation-section">
+        <h2 class="section-title">如何参与</h2>
+        <p class="section-description">如果您对活动有任何问题或建议，欢迎通过以下方式联系我们：</p>
+        <div class="participation-cards">
+            <div class="participation-card">
+                <div class="participation-icon">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <h3>关注活动通知</h3>
+                <p>通过 GitHub 和邮箱获取最新活动信息</p>
+                <div class="participation-links">
+                    <a href="https://github.com/alc-beijing" target="_blank" class="participation-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    {{/*
+                    <a href="#" class="participation-link" title="邮箱 (Coming Soon)">
+                        <i class="fas fa-envelope"></i>
+                        邮箱 (Coming Soon)
+                    </a>
+                    */}}
+                </div>
+            </div>
+    <div class="participation-card">
+        <div class="participation-icon">
+            <i class="fas fa-edit"></i>
+        </div>
+                <h3>报名参加活动</h3>
+                <p>查看活动详情页面，按照要求进行报名</p>
+                <div class="participation-links">
+                    <a href="#events" class="participation-link">
+                        <i class="fas fa-calendar-check"></i>
+                        查看活动
+                    </a>
+                </div>
+            </div>
+    <div class="participation-card">
+        <div class="participation-icon">
+            <i class="fas fa-handshake"></i>
+        </div>
+                <h3>成为组织者</h3>
+                <p>如果您有好的活动想法，欢迎联系我们</p>
+                {{/*
+                <div class="participation-links">
+                    <a href="#" class="participation-link" title="联系我们 (Coming Soon)">
+                        <i class="fas fa-envelope"></i>
+                        联系我们
+                    </a>
+                </div>
+                */}}
+            </div>
+        </div>
+    </div>
+    
+    <!-- 历史活动 -->
+    <div class="historical-events-section" id="events">
+        <h2 class="section-title">历史活动</h2>
+        <div class="historical-events-grid">
+            {{ $events := where .Site.RegularPages "Section" "post" }}
+            {{ $eventPages := where $events "Params.categories" "intersect" (slice "Event") }}
+            {{ $sortedEvents := sort $eventPages "Date" "desc" }}
+            {{ range first 7 $sortedEvents }}
+            <div class="historical-event-card">
+                <div class="event-year">{{ .Date.Format "2006年1月" }}</div>
+                <h3 class="event-title">{{ .Title }}</h3>
+                {{ if .Description }}
+                <p class="event-description">{{ .Description | truncate 40 }}</p>
+                {{ else }}
+                <p class="event-description">{{ .Content | plainify | truncate 40 }}</p>
+                {{ end }}
+                <a href="{{ .RelPermalink }}" class="event-link">详情</a>
+                </div>
+                {{ end }}
+                </div>
+                </div>
+    
+    <div class="contact-footer">
+        <p class="contact-message">让我们一起在开源的道路上携手前行，为构建更好的技术社区而努力！</p>
+    </div>
+    </div>
+
+<!-- 活动页面专用CSS -->
+<style>
+.event-content {
+    margin-bottom: var(--spacing-3xl);
+    line-height: var(--line-height-relaxed);
+}
+
+.event-content h1,
+.event-content h2,
+.event-content h3 {
+    color: var(--apache-purple);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.event-content ul,
+.event-content ol {
+    margin-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.event-content li {
+    margin-bottom: var(--spacing-sm);
+}
+
+/* 参与方式卡片 */
+.participation-section {
+    margin: var(--spacing-3xl) 0;
+}
+
+.participation-cards {
+    display: flex;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
+    flex-wrap: wrap;
+}
+
+.participation-card {
+    flex: 1;
+    min-width: 280px;
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-light);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.participation-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, var(--apache-purple), var(--apache-light-purple));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.participation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-2xl);
+    border-color: var(--apache-purple);
+}
+
+.participation-card:hover::before {
+    transform: scaleX(1);
+}
+
+.participation-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--apache-purple), var(--apache-light-purple));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-lg);
+    color: white;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+}
+
+.participation-card:hover .participation-icon {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.participation-card h3 {
+    color: var(--gray-900);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+.participation-card p {
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-lg);
+    line-height: var(--line-height-relaxed);
+}
+
+.participation-links {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.participation-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background: var(--bg-accent);
+    color: var(--apache-purple);
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-light);
+}
+
+.participation-link:hover {
+    background: var(--apache-purple);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* 活动类型卡片 */
+.event-types-section {
+    margin: var(--spacing-3xl) 0;
+}
+
+.event-types-cards {
+    display: flex;
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
+    flex-wrap: wrap;
+}
+
+.event-type-card {
+    flex: 1;
+    min-width: 280px;
+    background: var(--bg-primary);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-light);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.event-type-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, var(--secondary-color), var(--secondary-light));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.event-type-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-2xl);
+    border-color: var(--secondary-color);
+}
+
+.event-type-card:hover::before {
+    transform: scaleX(1);
+}
+
+.event-type-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--secondary-color), var(--secondary-light));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    color: white;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+}
+
+.event-type-card:hover .event-type-icon {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.event-type-card h3 {
+    color: var(--gray-900);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: var(--spacing-md);
+}
+
+.event-type-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.event-type-list li {
+    padding: var(--spacing-sm) 0;
+    color: var(--gray-600);
+    position: relative;
+    padding-left: var(--spacing-lg);
+}
+
+.event-type-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: var(--font-size-lg);
+}
+
+/* 时间轴样式 - 完全按照图片还原 */
+.timeline-section {
+    margin: var(--spacing-3xl) 0;
+}
+
+.timeline-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-3xl) var(--spacing-xl);
+    background: #f8f9fa;
+    border-radius: 20px;
+    border: 1px solid #e9ecef;
+    margin-bottom: var(--spacing-3xl);
+    min-height: 600px;
+}
+
+/* 时间线路径 */
+.timeline-path {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.timeline-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.timeline-curve {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawLine 2s ease-out forwards;
+}
+
+@keyframes drawLine {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* 活动事件容器 */
+.timeline-events {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: var(--spacing-2xl) 0;
+    gap: var(--spacing-xl);
+}
+
+/* 活动事件定位 */
+.timeline-event {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0 var(--spacing-md);
+}
+
+/* 活动卡片 */
+.timeline-event .event-card {
+    background: white;
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    width: 100%;
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 3;
+}
+
+.timeline-event .event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* 年份标签 */
+.event-year {
+    display: inline-block;
+    background: linear-gradient(135deg, #6f42c1, #a78bfa);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* 事件标题 */
+.event-title {
+    color: #2d3748;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.3;
+}
+
+/* 事件详情 */
+.event-date {
+    color: #6f42c1;
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.event-description {
+    color: #4a5568;
+    font-size: 12px;
+    line-height: 1.4;
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+.event-link {
+    display: inline-block;
+    color: #6f42c1;
+    font-size: 11px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 2px 8px;
+    border: 1px solid #6f42c1;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.event-link:hover {
+    background: #6f42c1;
+    color: white;
+}
+
+/* 时间线圆点 */
+.timeline-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 4;
+    transition: all 0.3s ease;
+    background: #6f42c1;
+}
+
+.timeline-event:hover .timeline-dot {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(111, 66, 193, 0.3);
+}
+
+/* 动画效果 */
+.timeline-event {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 为不同年份设置不同的动画延迟 */
+.timeline-event:nth-child(1) { animation-delay: 0.1s; }
+.timeline-event:nth-child(2) { animation-delay: 0.2s; }
+.timeline-event:nth-child(3) { animation-delay: 0.3s; }
+.timeline-event:nth-child(4) { animation-delay: 0.4s; }
+.timeline-event:nth-child(5) { animation-delay: 0.5s; }
+.timeline-event:nth-child(6) { animation-delay: 0.6s; }
+.timeline-event:nth-child(7) { animation-delay: 0.7s; }
+
+.section-title {
+    text-align: center;
+    color: var(--apache-purple);
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-2xl);
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, var(--apache-purple), var(--apache-light-purple));
+    border-radius: var(--radius-full);
+}
+
+.events-section {
+    margin-top: var(--spacing-3xl);
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.events-section .event-card {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    transition: var(--transition-normal);
+    overflow: hidden;
+    border: 1px solid var(--border-light);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.events-section .event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--apache-purple);
+}
+
+.event-card-content {
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.event-card-header {
+    margin-bottom: var(--spacing-md);
+}
+
+.event-card-title {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-sm);
+}
+
+.event-card-title a {
+    color: var(--apache-purple);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.event-card-title a:hover {
+    color: var(--apache-light-purple);
+}
+
+.events-section .event-date {
+    color: var(--gray-500);
+    font-size: var(--font-size-sm);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.event-card-excerpt {
+    margin-bottom: var(--spacing-lg);
+    color: var(--gray-600);
+    line-height: var(--line-height-base);
+    max-height: 4.8em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+
+.event-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+    margin-top: auto;
+}
+
+.event-tags {
+    display: flex;
+    gap: var(--spacing-xs);
+    flex-wrap: wrap;
+}
+
+.event-tag {
+    background: var(--bg-accent);
+    color: var(--apache-purple);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    border: 1px solid var(--apache-purple);
+}
+
+.event-read-more {
+    background: linear-gradient(135deg, var(--apache-purple), var(--apache-light-purple));
+    color: white;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: var(--radius-md);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition-fast);
+    box-shadow: var(--shadow-sm);
+}
+
+.event-read-more:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+    color: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .participation-cards,
+    .event-types-cards {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+    }
+    
+    .participation-card,
+    .event-type-card {
+        min-width: auto;
+    }
+    
+    .timeline-container {
+        margin-top: var(--spacing-xl);
+        padding: var(--spacing-lg);
+        margin-bottom: var(--spacing-xl);
+        min-height: auto;
+    }
+    
+    /* 移动端隐藏时间线 */
+    .timeline-path {
+        display: none;
+    }
+    
+    /* 移动端垂直布局 */
+    .timeline-events {
+        flex-direction: column;
+        gap: var(--spacing-lg);
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .timeline-event {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    
+    .timeline-event .event-card {
+        text-align: left;
+    }
+    
+    .events-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .events-section .event-card {
+        height: auto;
+        min-height: 300px;
+    }
+    
+    .event-card-content {
+        padding: var(--spacing-lg);
+    }
+    
+    .event-card-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .event-card-excerpt {
+        max-height: none;
+        -webkit-line-clamp: unset;
+    }
+    
+    .events-section .event-card {
+        height: auto;
+        min-height: 250px;
+    }
+    
+    .contact-cards {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
+/* 联系我们部分样式 */
+.contact-section {
+    margin: var(--spacing-3xl) 0;
+    padding: var(--spacing-3xl) 0;
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+    border-radius: var(--radius-xl);
+}
+
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
+}
+
+.contact-card {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-light);
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
+}
+
+.contact-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--spacing-lg);
+    color: white;
+    font-size: 32px;
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+.contact-card h3 {
+    color: var(--gray-900);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-card p {
+    color: var(--gray-600);
+    margin-bottom: var(--spacing-lg);
+    line-height: var(--line-height-relaxed);
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: var(--font-weight-medium);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    background: var(--primary-light);
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.contact-footer {
+    text-align: center;
+    margin-top: var(--spacing-3xl);
+    padding-top: var(--spacing-2xl);
+    border-top: 1px solid var(--border-light);
+}
+
+.contact-message {
+    font-size: var(--font-size-lg);
+    color: var(--gray-700);
+    font-style: italic;
+    line-height: var(--line-height-relaxed);
+}
+
+@media (max-width: 480px) {
+    .participation-icon,
+    .event-type-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+    
+    .participation-card,
+    .event-type-card {
+        padding: var(--spacing-lg);
+    }
+    
+    .contact-cards {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .contact-card {
+        padding: var(--spacing-lg);
+    }
+}
+</style>
+
+<!-- 活动页面专用JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 设置当前导航高亮
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+    });
+    
+    // 添加卡片动画
+    const cards = document.querySelectorAll('.participation-card, .event-type-card, .event-card, .contact-card');
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    cards.forEach(card => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(card);
+    });
+
+    // 时间轴动画
+    const timelineEvents = document.querySelectorAll('.timeline-event');
+
+    // 创建观察器来触发动画
+    const timelineObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animationPlayState = 'running';
+            }
+        });
+    }, { threshold: 0.3 });
+
+    timelineEvents.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.15}s`;
+        item.style.animationPlayState = 'paused';
+        timelineObserver.observe(item);
+    });
+
+    // 动态定位时间线圆点
+    function positionTimelineDots() {
+        const timelineEvents = document.querySelectorAll('.timeline-event');
+        const timelinePath = document.querySelector('.timeline-curve');
+
+        if (!timelinePath) return;
+
+        timelineEvents.forEach((event, index) => {
+            const dot = event.querySelector('.timeline-dot');
+            if (!dot) return;
+
+            // 计算在曲线上的位置
+            const totalEvents = timelineEvents.length;
+            const progress = index / (totalEvents - 1);
+
+            // 获取曲线上的点
+            const pathLength = timelinePath.getTotalLength();
+            const point = timelinePath.getPointAtLength(pathLength * progress);
+
+            // 设置圆点位置
+            dot.style.position = 'absolute';
+            dot.style.left = `${point.x}px`;
+            dot.style.top = `${point.y}px`;
+            dot.style.transform = 'translate(-50%, -50%)';
+        });
+    }
+
+    // 页面加载完成后定位圆点
+    setTimeout(positionTimelineDots, 100);
+
+    // 窗口大小改变时重新定位
+    window.addEventListener('resize', positionTimelineDots);
+});
+</script>
+{{ end }}

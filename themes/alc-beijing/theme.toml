@@ -1,0 +1,17 @@
+name = "ALC Beijing"
+license = "MIT"
+licenselink = "https://github.com/alc-beijing/alc-site/blob/main/LICENSE"
+description = "A modern Hugo theme for Apache Local Community Beijing"
+homepage = "https://github.com/alc-beijing/alc-site"
+tags = ["apache", "open-source", "community", "blog", "responsive"]
+features = ["blog", "responsive", "modern"]
+min_version = "0.80.0"
+
+[author]
+  name = "ALC Beijing"
+  homepage = "https://github.com/alc-beijing/alc-site"
+
+[original]
+  name = "ALC Beijing"
+  homepage = "https://github.com/alc-beijing/alc-site"
+  repo = "https://github.com/alc-beijing/alc-site" 

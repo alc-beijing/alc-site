@@ -1,0 +1,119 @@
+/* 历史活动样式 */
+
+/* 历史活动容器 */
+.historical-events-section {
+    padding: var(--spacing-3xl) 0;
+    background: var(--bg-secondary);
+}
+
+.historical-events-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-xl);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-2xl);
+}
+
+/* 历史活动卡片 */
+.historical-event-card {
+    background: var(--bg-primary);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-light);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.historical-event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+/* 年份月份标签 */
+.event-year {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: var(--spacing-sm);
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+/* 事件标题 */
+.event-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--gray-900);
+    margin: var(--spacing-sm) 0;
+    line-height: var(--line-height-tight);
+    flex-grow: 1;
+}
+
+/* 事件描述 */
+.event-description {
+    font-size: var(--font-size-sm);
+    color: var(--gray-600);
+    line-height: var(--line-height-normal);
+    margin: var(--spacing-sm) 0;
+    flex-grow: 1;
+}
+
+/* 事件链接 */
+.event-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    margin-top: var(--spacing-md);
+    transition: color 0.3s ease;
+    align-self: flex-start;
+}
+
+.event-link:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .historical-events-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        padding: 0 var(--spacing-md);
+    }
+    
+    .historical-event-card {
+        padding: var(--spacing-md);
+        min-height: 180px;
+    }
+    
+    .event-title {
+        font-size: var(--font-size-base);
+    }
+    
+    .event-description {
+        font-size: var(--font-size-xs);
+    }
+}
+
+@media (max-width: 480px) {
+    .historical-events-section {
+        padding: var(--spacing-2xl) 0;
+    }
+    
+    .historical-events-grid {
+        margin-top: var(--spacing-lg);
+    }
+} 

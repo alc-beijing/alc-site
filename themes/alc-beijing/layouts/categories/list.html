@@ -1,0 +1,77 @@
+{{ define "main" }}
+<!-- 页面头部 -->
+<div class="page-header">
+    <div class="container">
+        <div class="page-header-content">
+            <h1 class="page-title">
+                文章分类
+                <span class="current-page-indicator">
+                    <i class="fas fa-map-marker-alt"></i>
+                    当前页面
+                </span>
+            </h1>
+            <p class="page-description">浏览所有文章分类</p>
+            <div class="page-stats">
+                <span class="stats-item">
+                    <i class="fas fa-folder"></i>
+                    {{ len .Site.Taxonomies.categories }} 个分类
+                </span>
+                <span class="stats-item">
+                    <i class="fas fa-file-alt"></i>
+                    {{ len .Site.RegularPages }} 篇文章
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- 分类列表 -->
+    <div class="categories-container">
+        <div class="categories-grid">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            <div class="category-card">
+                <div class="category-card-content">
+                    <div class="category-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <h3 class="category-name">
+                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="category-name-link">{{ $name }}</a>
+                    </h3>
+                    <div class="category-count">{{ len $taxonomy }} 篇文章</div>
+                    <div class="category-description">
+                        {{ range first 3 $taxonomy }}
+                        <a href="{{ .RelPermalink }}" class="category-post">{{ .Title }}</a>
+                        {{ end }}
+                        {{ if gt (len $taxonomy) 3 }}
+                        <span class="category-more">...还有 {{ sub (len $taxonomy) 3 }} 篇</span>
+                        {{ end }}
+                        </div>
+                    <div class="category-read-more">
+                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="read-more-link">
+                            <span class="read-more-text">阅读更多</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<!-- 分类列表页专用JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 设置当前导航高亮
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.nav-link');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+    });
+});
+</script>
+{{ end }} 

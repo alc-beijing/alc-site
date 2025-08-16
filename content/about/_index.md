@@ -64,7 +64,6 @@ ALC Beijing 作为 Apache 软件基金会在北京的本地社区，致力于：
 ### 联系方式
 
 - **GitHub**: [https://github.com/alc-beijing](https://github.com/alc-beijing)
-- **邮箱**: `alc-beijing@apache.org` (Coming Soon)
 - **活动**: 关注我们的活动页面获取最新信息
 
 ## 合作伙伴

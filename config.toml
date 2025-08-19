@@ -1,4 +1,5 @@
-baseURL = '/'
+# local test:  hugo server --config config.toml --bind 127.0.0.1 --port 1313 --baseURL http://localhost:1313/alc-site/ --appendPort=false
+baseURL = '/alc-site/'
 languageCode = 'zh-cn'
 title = 'ALC Beijing'
 theme = 'alc-beijing'
@@ -45,24 +46,24 @@ theme = 'alc-beijing'
 [params]
   description = "Apache Local Community Beijing - 开源社区"
   author = "ALC Beijing"
-  logo = "/images/alc-beijing-logo.png"
-  
+  logo = "images/alc-beijing-logo.png"
+
   # 标签页面分页
   paginateTaxonomy = true
   tagPageSize = 30
-  
+
   # 社交媒体链接
   social = [
     { name = "github", url = "https://github.com/alc-beijing" },
     { name = "twitter", url = "https://twitter.com/alcbeijing" },
     { name = "wechat", url = "#" }
   ]
-  
+
   # 快速链接
   quickLinks = [
     { name = "Apache官网", url = "https://apache.org" },
     { name = "Apache Way", url = "https://www.apache.org/theapacheway/" },
-    { name = "贡献指南", url = "/contributing/" }
+    { name = "贡献指南", url = "/alc-site/contributing/" }
   ]
 
 # 忽略日志警告

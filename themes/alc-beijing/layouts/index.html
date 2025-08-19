@@ -4,12 +4,12 @@
     <div class="container">
         <div class="hero-content">
             <div class="hero-logo">
-                <img src="/images/alc-beijing-logo-300x300.png" alt="ALC Beijing Logo" class="hero-logo-img">
+                <img src="{{ "images/alc-beijing-logo-300x300.png" | relURL }}" alt="ALC Beijing Logo" class="hero-logo-img">
             </div>
             <h1 class="hero-title">Apache Local Community Beijing</h1>
             <p class="hero-subtitle">介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 以及开源文化！</p>
             <div class="hero-actions">
-                <a href="/post/" class="btn btn-primary">浏览文章</a>
+                <a href="{{ "/post/" | relURL }}" class="btn btn-primary">浏览文章</a>
                 <a href="#about" class="btn btn-secondary">了解更多</a>
             </div>
         </div>
@@ -226,7 +226,7 @@
         </div>
         
         <div class="view-all-posts">
-            <a href="/post/" class="btn btn-primary">查看所有文章</a>
+            <a href="{{ "/post/" | relURL }}" class="btn btn-primary">查看所有文章</a>
         </div>
     </div>
 </section>
@@ -265,7 +265,7 @@
                 </div>
                 <h3>活动</h3>
                 <p>参加线下 Meetup</p>
-                <a href="/event/" class="contact-link">查看活动</a>
+                <a href="{{ "/event/" | relURL }}" class="contact-link">查看活动</a>
             </div>
             
             <div class="contact-card">

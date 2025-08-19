@@ -1,12 +1,19 @@
 # alc-site
 The web site for host the pages of alc-beijing, normally we publish a WeChat public account article after creating a new post in this site.
 
-## preview alc-site in local
+## Preview alc-site in local
 0. [Install hugo](https://gohugo.io/getting-started/installing/).
 1. Run `git submodule init`
 2. Run `git submodule update`
-3. Run `hugo server` in the root directory
-4. Access the site with "http://localhost:1313/alc-site/"
+3. Run `hugo server --config config.dev.toml`
+4. Access the site with "http://localhost:1313/"
+
+### Testing Production Environment Locally
+To test the production environment locally (simulating GitHub Pages deployment):
+1. Run `hugo server --config config.toml --bind 127.0.0.1 --port 1313 --baseURL http://localhost:1313/alc-site/ --appendPort=false`
+2. Access the site with "http://localhost:1313/alc-site/"
+
+**Note**: `config.toml` with `baseURL = '/alc-site/'` for GitHub Pages deployment
 
 ## How to contribute new content to the site
 0. Clicking the [fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-forks) button on the project page, then check out the alc-site from your forked repo.

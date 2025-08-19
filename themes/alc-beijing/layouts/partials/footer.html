@@ -28,7 +28,7 @@
                         <i class="fa-solid fa-envelope"></i>
                     </a>
                     */}}
-                    <a href="/event/" class="social-link" title="活动">
+                    <a href="{{ "/event/" | relURL }}" class="social-link" title="活动">
                         <i class="fa-solid fa-calendar-days"></i>
                     </a>
                 </div>
@@ -36,9 +36,9 @@
             <div class="footer-section">
                 <h4 class="footer-subtitle">关注微信公众号</h4>
                 <div class="qr-code-container">
-                    {{ if fileExists "/static/images/wechat-qrcode.png" }}
+                    {{ if fileExists "static/images/wechat-qrcode.png" }}
                     <div class="qr-code-image">
-                        <img src="/images/wechat-qrcode.png" alt="ALC Beijing 微信公众号二维码" />
+                        <img src="{{ "images/wechat-qrcode.png" | relURL }}" alt="ALC Beijing 微信公众号二维码" />
                     </div>
                     {{ else }}
                     <div class="qr-code-placeholder">

@@ -12,7 +12,13 @@
                 <ul class="nav-list">
                     {{ range .Site.Menus.main }}
                     <li>
-                        <a href="{{ .URL }}" class="nav-link{{ if or (eq $.RelPermalink .URL) (and (eq .URL "/") (eq $.RelPermalink "/")) (and (hasPrefix $.RelPermalink .URL) (ne .URL "/")) }} active{{ end }}">
+                        {{ $isActive := false }}
+                        {{ if eq .URL "/" }}
+                            {{ $isActive = eq $.RelPermalink "/" }}
+                        {{ else }}
+                            {{ $isActive = eq $.RelPermalink .URL }}
+                        {{ end }}
+                        <a href="{{ .URL }}" class="nav-link{{ if $isActive }} active{{ end }}">
                             {{ .Name }}
                         </a>
                     </li>

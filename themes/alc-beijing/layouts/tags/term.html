@@ -1,0 +1,38 @@
+{{ define "main" }}
+<!-- 页面头部 -->
+<div class="page-header">
+    <div class="page-header-content">
+        <h1 class="page-title">{{ .Title }} 标签</h1>
+        <p class="page-description">浏览 {{ .Title }} 标签下的所有文章</p>
+        <div class="page-stats">
+            <span class="stats-item">
+                <i class="fas fa-file-alt"></i>
+                {{ len .Pages }} 篇文章
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="posts-container">
+        <div class="posts-grid compact-grid" id="postsGrid">
+            {{ range .Pages }}
+            <article class="post-card compact">
+                <div class="post-card-content">
+                    <h2 class="post-card-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    {{ if .Params.tags }}
+                    <div class="post-tags">
+                        {{ range .Params.tags }}
+                        <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

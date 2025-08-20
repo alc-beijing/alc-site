@@ -1068,7 +1068,6 @@ a:hover {
   background: linear-gradient(135deg, var(--apache-purple), var(--apache-light-purple));
   padding: var(--spacing-2xl) 0;
   color: white;
-  border-radius: var(--radius-lg);
   margin: 0 0 var(--spacing-2xl) 0;
 }
 

@@ -15,28 +15,18 @@
         
         <!-- 联系信息卡片 -->
         <div class="contact-cards">
+            {{ range .Site.Params.contactLinks }}
             <div class="contact-card">
                 <div class="contact-icon">
-                    <i class="fab fa-github"></i>
+                    <i class="{{ .icon }}"></i>
                 </div>
-                <h3>GitHub</h3>
-                <p>关注我们的开源项目</p>
-                <a href="https://github.com/alc-beijing" class="contact-link" target="_blank" rel="noopener">
-                    访问 GitHub
+                <h3>{{ .name }}</h3>
+                <p>{{ .description }}</p>
+                <a href="{{ .url }}" class="contact-link" target="_blank" rel="noopener">
+                    {{ .name }}
                 </a>
             </div>
-            {{/*
-            <div class="contact-card">
-                <div class="contact-icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <h3>邮箱 (Coming Soon)</h3>
-                <p>联系我们讨论合作</p>
-                <a href="#" class="contact-link" title="发送邮件 (Coming Soon)">
-                    发送邮件
-                </a>
-            </div>
-            */}}
+            {{ end }}
             
             <div class="contact-card">
                 <div class="contact-icon">
@@ -44,7 +34,7 @@
                 </div>
                 <h3>活动</h3>
                 <p>参与我们的社区活动</p>
-                <a href="{{ "/event/" | relURL }}" class="contact-link">
+                <a href="{{ "event" | relURL }}" class="contact-link">
                     查看活动
                 </a>
             </div>

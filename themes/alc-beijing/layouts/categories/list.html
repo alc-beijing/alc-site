@@ -36,7 +36,7 @@
                         <i class="fas fa-folder"></i>
                     </div>
                     <h3 class="category-name">
-                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="category-name-link">{{ $name }}</a>
+                        <a href="{{ "categories/" | relURL }}{{ $name | urlize }}" class="category-name-link">{{ $name }}</a>
                     </h3>
                     <div class="category-count">{{ len $taxonomy }} 篇文章</div>
                     <div class="category-description">
@@ -48,7 +48,7 @@
                         {{ end }}
                         </div>
                     <div class="category-read-more">
-                        <a href="{{ " categories/" | relURL }}{{ $name | urlize }}" class="read-more-link">
+                        <a href="{{ "categories/" | relURL }}{{ $name | urlize }}" class="read-more-link">
                             <span class="read-more-text">阅读更多</span>
                             <i class="fas fa-arrow-right"></i>
                         </a>

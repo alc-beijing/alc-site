@@ -55,8 +55,6 @@ theme = 'alc-beijing'
   # 社交媒体链接
   social = [
     { name = "github", url = "https://github.com/alc-beijing" },
-    { name = "twitter", url = "https://twitter.com/alcbeijing" },
-    { name = "wechat", url = "#" }
   ]
 
   # 快速链接
@@ -64,6 +62,26 @@ theme = 'alc-beijing'
     { name = "Apache官网", url = "https://apache.org" },
     { name = "Apache Way", url = "https://www.apache.org/theapacheway/" },
     { name = "贡献指南", url = "/alc-site/contributing/" }
+  ]
+
+  # 外部项目链接
+  externalProjects = [
+    { name = "BRPC", url = "https://github.com/apache/brpc", description = "工业级 RPC 框架" },
+    { name = "Doris", url = "https://github.com/apache/doris", description = "MPP 数据库" },
+    { name = "Dubbo", url = "https://github.com/apache/dubbo", description = "分布式服务框架" },
+    { name = "IoTDB", url = "https://github.com/apache/iotdb", description = "时序数据库" },
+    { name = "BookKeeper", url = "https://github.com/apache/bookkeeper", description = "分布式日志存储系统" },
+    { name = "Pulsar", url = "https://github.com/apache/pulsar", description = "分布式消息系统" },
+    { name = "ServiceComb", url = "https://github.com/apache/servicecomb-java-chassis", description = "微服务框架" },
+    { name = "ShardingSphere", url = "https://github.com/apache/shardingsphere", description = "分布式数据库中间件" },
+    { name = "SkyWalking", url = "https://github.com/apache/skywalking", description = "应用性能监控" },
+    { name = "RocketMQ", url = "https://github.com/apache/rocketmq", description = "分布式消息队列" }
+  ]
+
+  # 联系链接
+  contactLinks = [
+    { name = "GitHub", url = "https://github.com/alc-beijing", icon = "fab fa-github", description = "关注我们的 GitHub 组织" },
+    { name = "翻译项目", url = "https://github.com/alc-beijing/translation", icon = "fas fa-language", description = "帮助翻译文档和内容" }
   ]
 
 # 忽略日志警告

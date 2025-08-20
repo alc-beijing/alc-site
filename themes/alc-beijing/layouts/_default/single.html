@@ -21,7 +21,7 @@
                 <div class="post-tags-meta">
                     <span class="post-tags-label">标签:</span>
                     {{ range .Params.tags }}
-                    <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="post-tag-meta">{{ . }}</a>
+                    <a href="{{ $.Site.BaseURL }}/about" class="post-tag-meta">{{ . }}</a>
                     {{ end }}
                 </div>
                 {{ end }}
@@ -52,7 +52,7 @@
             <div class="post-tags">
                 <h3>标签:</h3>
                 {{ range .Params.tags }}
-                <a href="{{ "tags/" | relURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+                <a href="{{ $.Site.BaseURL }}/about" class="tag">{{ . }}</a>
                 {{ end }}
             </div>
         </footer>

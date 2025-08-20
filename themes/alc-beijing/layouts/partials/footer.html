@@ -20,15 +20,12 @@
             <div class="footer-section">
                 <h4 class="footer-subtitle">联系我们</h4>
                 <div class="social-links">
-                    <a href="https://github.com/alc-beijing" class="social-link" title="GitHub">
-                        <i class="fab fa-github"></i>
+                    {{ range .Site.Params.social }}
+                    <a href="{{ .url }}" class="social-link" title="{{ .name }}">
+                        <i class="fab fa-{{ .name }}"></i>
                     </a>
-                    {{/*
-                    <a href="#" class="social-link" title="邮件 (Coming Soon)">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    */}}
-                    <a href="{{ "/event/" | relURL }}" class="social-link" title="活动">
+                    {{ end }}
+                    <a href="{{ "event" | relURL }}" class="social-link" title="活动">
                         <i class="fa-solid fa-calendar-days"></i>
                     </a>
                 </div>

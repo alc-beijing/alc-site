@@ -121,16 +121,12 @@
                 <h3>关注活动通知</h3>
                 <p>通过 GitHub 和邮箱获取最新活动信息</p>
                 <div class="participation-links">
-                    <a href="https://github.com/alc-beijing" target="_blank" class="participation-link">
-                        <i class="fab fa-github"></i>
-                        GitHub
+                    {{ range .Site.Params.contactLinks }}
+                    <a href="{{ .url }}" target="_blank" class="participation-link">
+                        <i class="{{ .icon }}"></i>
+                        {{ .name }}
                     </a>
-                    {{/*
-                    <a href="#" class="participation-link" title="邮箱 (Coming Soon)">
-                        <i class="fas fa-envelope"></i>
-                        邮箱 (Coming Soon)
-                    </a>
-                    */}}
+                    {{ end }}
                 </div>
             </div>
     <div class="participation-card">

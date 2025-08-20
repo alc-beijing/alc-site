@@ -84,6 +84,9 @@ theme = 'alc-beijing'
     { name = "翻译项目", url = "https://github.com/alc-beijing/translation", icon = "fas fa-language", description = "帮助翻译文档和内容" }
   ]
 
+# Google Analytics 配置 (根级别配置)
+googleAnalytics = "G-XXXXXXXXXX"  # 替换为你的 Google Analytics ID
+
 # 忽略日志警告
 ignoreLogs = ['warning-goldmark-raw-html']
 

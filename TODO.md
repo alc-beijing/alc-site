@@ -13,47 +13,6 @@
   - 内容: "ShardingSphere-Sidecar（TODO）"
   - 建议: 更新内容或移除TODO标记
 
-### 3. 开发调试代码 ✅ 已处理
-- **Console.log**: 已移除 `themes/alc-beijing/static/js/main.js` 中的调试代码
-  - 原内容: `console.log('Newsletter signup:', email);`
-  - 已替换为: `// TODO: Implement newsletter signup backend integration`
-
-### 4. 移动端菜单样式 ✅ 已处理
-- **移动端菜单切换按钮**: 已完善 `themes/alc-beijing/static/css/main.css` 中的样式定义
-  - 添加了默认状态样式（桌面端隐藏）
-  - 完善了移动端显示样式
-  - 添加了悬停和激活状态的动画效果
-
-### 5. 静态资源版本化 ✅ 已处理
-- **CSS/JS文件版本号**: 已为所有静态资源添加时间戳版本号
-  - 修改了 `themes/alc-beijing/layouts/_default/baseof.html`
-  - 为CSS文件添加了 `?v={{ now.Unix }}` 版本号
-  - 为JS文件添加了 `?v={{ now.Unix }}` 版本号
-  - 避免了浏览器缓存问题，确保资源更新后能正确加载
-
-### 6. 邮箱地址处理 ✅ 已处理
-- **alc-beijing@apache.org**: 已移除所有邮箱链接，添加 "Coming Soon" 备注
-  - 修改了 `themes/alc-beijing/layouts/partials/footer.html`
-  - 修改了 `themes/alc-beijing/layouts/event/list.html`
-  - 修改了 `themes/alc-beijing/layouts/index.html`
-  - 修改了 `themes/alc-beijing/layouts/about/list.html`
-  - 修改了 `content/about/_index.md`
-  - 所有邮箱链接已替换为 "#" 并添加 "(Coming Soon)" 提示
-
-### 7. CSS/JS路径修复 ✅ 已处理
-- **路径空格问题**: 修复了CSS和JS文件路径前的多余空格
-  - 修改了 `themes/alc-beijing/layouts/_default/baseof.html`
-  - 移除了所有路径前的多余空格
-  - 创建了 `.editorconfig` 和 `.vscode/settings.json` 来避免自动格式化问题
-
-### 8. 邮件功能Coming Soon提醒 ✅ 已处理
-- **邮件列表和发送邮件功能**: 为所有相关功能添加了"Coming Soon"提醒
-  - 首页: "邮件列表 (Coming Soon)" 标题和 "发送邮件 (Coming Soon)" 链接
-  - 关于页面: "邮箱 (Coming Soon)" 标题和 "发送邮件 (Coming Soon)" 链接
-  - 活动页面: "邮箱 (Coming Soon)" 链接文本
-  - 页脚: "邮件 (Coming Soon)" 提示
-  - 所有邮件相关功能都明确标注为即将推出
-
 ## 🔧 中优先级优化
 
 ### 5. SEO优化
@@ -119,13 +78,7 @@
 ### 立即处理 (生产前必须)
 1. 修复HTTP链接问题
 2. 移除TODO标记
-3. ✅ 清理调试代码 (已完成)
-4. ✅ 完善移动端菜单样式 (已完成)
-5. ✅ 静态资源版本化 (已完成)
-6. ✅ 邮箱地址处理 (已完成)
-7. ✅ CSS/JS路径修复 (已完成)
-8. ✅ 邮件功能Coming Soon提醒 (已完成)
-9. 添加基本的安全头部
+3. 添加基本的安全头部
 
 ### 短期优化 (1-2周)
 1. 完善SEO标签
@@ -156,17 +109,6 @@ find public/ -name "*.html" -exec grep -l "http://" {} \;
 
 # 检查TODO标记
 find content/ -name "*.md" -exec grep -l "TODO\|FIXME\|XXX\|HACK" {} \;
-
-# 检查调试代码 (已处理)
-# grep -r "console.log" themes/alc-beijing/static/js/
-
-# 检查静态资源版本化 (已处理)
-# grep -o "css/[^\"']*\?v=[0-9]*" public/index.html
-# grep -o "js/[^\"']*\?v=[0-9]*" public/index.html
-
-# 检查邮箱地址处理 (已处理)
-# grep -r "mailto:alc-beijing@apache.org" public/
-# grep -r "alc-beijing@apache.org" public/
 
 # 检查Meta描述
 find public/ -name "*.html" -exec grep -l "meta.*description" {} \; | wc -l

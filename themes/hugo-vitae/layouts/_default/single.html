@@ -3,7 +3,7 @@
 <article>
 {{- if isset .Params "images" }}
 <div class="post-image">
-<img src="{{ index .Params.images 0 | relURL }}" {{ if isset .Params "imagetext" }}alt="{{ .Params.imagetext }}"{{ end }}>
+<img src="{{ index .Params.images 0" | relURL }}" {{ if isset .Params "imagetext" }}alt="{{ .Params.imagetext }}"{{ end }}>
 </div>
 {{- end }}
 <div class="post-header">

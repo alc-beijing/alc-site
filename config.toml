@@ -1,4 +1,5 @@
-baseURL = '/'
+# local test:  hugo server --config config.toml --bind 127.0.0.1 --port 1313 --baseURL http://localhost:1313/alc-site/ --appendPort=false
+baseURL = '/alc-site/'
 languageCode = 'zh-cn'
 title = 'ALC Beijing'
 theme = 'alc-beijing'
@@ -45,25 +46,46 @@ theme = 'alc-beijing'
 [params]
   description = "Apache Local Community Beijing - 开源社区"
   author = "ALC Beijing"
-  logo = "/images/alc-beijing-logo.png"
-  
+  logo = "images/alc-beijing-logo.png"
+
   # 标签页面分页
   paginateTaxonomy = true
   tagPageSize = 30
-  
+
   # 社交媒体链接
   social = [
     { name = "github", url = "https://github.com/alc-beijing" },
-    { name = "twitter", url = "https://twitter.com/alcbeijing" },
-    { name = "wechat", url = "#" }
   ]
-  
+
   # 快速链接
   quickLinks = [
     { name = "Apache官网", url = "https://apache.org" },
     { name = "Apache Way", url = "https://www.apache.org/theapacheway/" },
-    { name = "贡献指南", url = "/contributing/" }
+    { name = "贡献指南", url = "/alc-site/contributing/" }
   ]
+
+  # 托管项目链接
+  hostedProjects = [
+    { name = "BRPC", url = "https://github.com/apache/brpc", description = "工业级 RPC 框架" },
+    { name = "Doris", url = "https://github.com/apache/doris", description = "MPP 数据库" },
+    { name = "Dubbo", url = "https://github.com/apache/dubbo", description = "分布式服务框架" },
+    { name = "IoTDB", url = "https://github.com/apache/iotdb", description = "时序数据库" },
+    { name = "BookKeeper", url = "https://github.com/apache/bookkeeper", description = "分布式日志存储系统" },
+    { name = "Pulsar", url = "https://github.com/apache/pulsar", description = "分布式消息系统" },
+    { name = "ServiceComb", url = "https://github.com/apache/servicecomb-java-chassis", description = "微服务框架" },
+    { name = "ShardingSphere", url = "https://github.com/apache/shardingsphere", description = "分布式数据库中间件" },
+    { name = "SkyWalking", url = "https://github.com/apache/skywalking", description = "应用性能监控" },
+    { name = "RocketMQ", url = "https://github.com/apache/rocketmq", description = "分布式消息队列" }
+  ]
+
+  # 联系链接
+  contactLinks = [
+    { name = "GitHub", url = "https://github.com/alc-beijing", icon = "fab fa-github", description = "关注我们的 GitHub 组织" },
+    { name = "翻译项目", url = "https://github.com/alc-beijing/translation", icon = "fas fa-language", description = "帮助翻译文档和内容" }
+  ]
+
+# Google Analytics 配置 (根级别配置)
+googleAnalytics = "G-XXXXXXXXXX"  # 替换为你的 Google Analytics ID
 
 # 忽略日志警告
 ignoreLogs = ['warning-goldmark-raw-html']

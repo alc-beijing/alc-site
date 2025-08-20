@@ -1,0 +1,201 @@
+{{ define "structured_data" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "headline": "{{ .Title }}",
+  "description": "{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }} - 标签列表{}{{ end }}",
+  "url": "{{ .Permalink }}",
+  "mainEntity": {
+    "@type": "ItemList",
+    "numberOfItems": {{ len .Site.Taxonomies.tags }},
+    "itemListElement": [
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "CollectionPage",
+          "name": "{{ $name }}",
+          "url": "{{ "tags/" | relURL }}{{ $name | urlize }}",
+          "description": "包含 {{ len $taxonomy }} 篇文章的标签页面"
+        }
+      }
+      {{ end }}
+    ]
+  }
+}
+</script>
+{{ end }}
+
+{{ define "main" }}
+<div class="tags-page">
+    <div class="container">
+        <header class="tags-header">
+            <h1 class="tags-title">
+                <i class="fas fa-tags"></i>
+                {{ .Title }}
+            </h1>
+            {{ if .Description }}
+            <p class="tags-description">{{ .Description }}</p>
+            {{ end }}
+            
+            <div class="tags-stats">
+                <span class="stat-item">
+                    <i class="fas fa-tags"></i>
+                    {{ len .Site.Taxonomies.tags }} 个标签
+                </span>
+                <a href="#tag-categories" class="stat-item">
+                    <i class="fas fa-file-alt"></i>
+                    标签分类
+                </a>
+            </div>
+        </header>
+        
+        <div class="tags-content">
+            {{ if .Site.Taxonomies.tags }}
+            <div class="tags-grid">
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                <div class="tag-card" itemscope itemtype="https://schema.org/CollectionPage">
+                    <div class="tag-header">
+                        <h3 class="tag-name">
+                            <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" itemprop="name">{{ $name }}</a>
+                        </h3>
+                        <div class="tag-count">
+                            <span class="count-number">{{ len $taxonomy }}</span>
+                            <span class="count-label">篇文章</span>
+                        </div>
+                    </div>
+                    
+                    <div class="tag-preview">
+                        {{ range first 3 $taxonomy }}
+                        <div class="preview-item">
+                            <a href="{{ .RelPermalink }}" class="preview-link">{{ .Title }}</a>
+                            <time class="preview-date">{{ .Date.Format "2006-01-02" }}</time>
+                        </div>
+                        {{ end }}
+                        {{ if gt (len $taxonomy) 3 }}
+                        <div class="preview-more">
+                            <span>还有 {{ sub (len $taxonomy) 3 }} 篇文章...</span>
+                        </div>
+                        {{ end }}
+                    </div>
+                    
+                    <div class="tag-actions">
+                        <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" class="btn btn-primary">
+                            <i class="fas fa-eye"></i>
+                            查看全部
+                        </a>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            
+            <!-- Popular Tags -->
+            <section class="popular-tags">
+                <h2 class="section-title">热门标签</h2>
+                <div class="popular-tags-cloud">
+                    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    {{ $fontSize := add 14 (mul (div (len $taxonomy) 5) 2) }}
+                    {{ $fontSize = math.Min $fontSize 24 }}
+                    {{ $fontSize = math.Max $fontSize 12 }}
+                    <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" 
+                       class="tag-cloud-item" 
+                       style="font-size: {{ $fontSize }}px;"
+                       title="{{ $name }} ({{ len $taxonomy }} 篇文章)">
+                        {{ $name }}
+                        <span class="tag-count">({{ len $taxonomy }})</span>
+                    </a>
+                    {{ end }}
+                </div>
+            </section>
+            
+            <!-- Tag Categories -->
+            <section id="tag-categories" class="tag-categories">
+                <h2 class="section-title">标签分类</h2>
+                <div class="tag-categories-grid">
+                    <div class="tag-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i>
+                            技术标签
+                        </h3>
+                        <div class="category-tags">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ if or (in $name "apache") (in $name "开源") (in $name "技术") (in $name "开发") (in $name "Apache") (in $name "ASF") (in $name "Apache Way") (in $name "Apache blog") (in $name "apache local community") (in $name "apache policy") (in $name "apachecon") }}
+                            <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" class="category-tag">{{ $name }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                    
+                    <div class="tag-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-users"></i>
+                            社区标签
+                        </h3>
+                        <div class="category-tags">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ if or (in $name "社区") (in $name "活动") (in $name "meetup") (in $name "分享") (in $name "community") (in $name "event") (in $name "volunteer") (in $name "contributor") (in $name "alc-beijing") (in $name "member-story") (in $name "非社区贡献") (in $name "志愿者") (in $name "volunteer") }}
+                            <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" class="category-tag">{{ $name }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                    
+                    <div class="tag-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-newspaper"></i>
+                            内容标签
+                        </h3>
+                        <div class="category-tags">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ if or (in $name "blog") (in $name "播客") (in $name "podcast") (in $name "interview") (in $name "story") (in $name "report") (in $name "guide") (in $name "policy") (in $name "way") (in $name "Release") (in $name "License") (in $name "ALC Beijing 播客") }}
+                            <a href="{{ "tags/" | relURL }}{{ $name | urlize }}" class="category-tag">{{ $name }}</a>
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {{ else }}
+            <div class="no-tags">
+                <div class="no-tags-icon">
+                    <i class="fas fa-tags"></i>
+                </div>
+                <h3>暂无标签</h3>
+                <p>目前还没有任何标签。请先创建一些文章并添加标签！</p>
+                <div class="no-tags-actions">
+                    <a href="{{ "post/" | relURL }}" class="btn btn-primary">
+                        <i class="fas fa-newspaper"></i>
+                        浏览文章
+                    </a>
+                    <a href="{{ .Site.BaseURL }}" class="btn btn-secondary">
+                        <i class="fas fa-home"></i>
+                        返回首页
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
+        <!-- Call to Action -->
+        <section class="tags-cta">
+            <div class="cta-content">
+                <h3>想要添加更多标签？</h3>
+                <p>通过贡献文章和内容，帮助丰富我们的标签体系！</p>
+                <div class="cta-actions">
+                    {{ range .Site.Params.contactLinks }}
+                    {{ if eq .name "GitHub" }}
+                    <a href="{{ .url }}/alc-site" target="_blank" rel="noopener" class="btn btn-primary">
+                        <i class="{{ .icon }}"></i>
+                        贡献内容
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+{{ end }} 
+

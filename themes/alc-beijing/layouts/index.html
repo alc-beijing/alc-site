@@ -4,12 +4,12 @@
     <div class="container">
         <div class="hero-content">
             <div class="hero-logo">
-                <img src="/images/alc-beijing-logo-300x300.png" alt="ALC Beijing Logo" class="hero-logo-img">
+                <img src="{{ "images/alc-beijing-logo-300x300.png" | relURL }}" alt="ALC Beijing Logo" class="hero-logo-img">
             </div>
             <h1 class="hero-title">Apache Local Community Beijing</h1>
             <p class="hero-subtitle">介绍 Apache 之道，推广开源项目，传播开源精神，让更多的本土开发者近距离了解 ASF 以及开源文化！</p>
             <div class="hero-actions">
-                <a href="/post/" class="btn btn-primary">浏览文章</a>
+                <a href="{{ "post" | relURL }}" class="btn btn-primary">浏览文章</a>
                 <a href="#about" class="btn btn-secondary">了解更多</a>
             </div>
         </div>
@@ -85,46 +85,12 @@
         </div>
         
         <div class="projects-grid">
+            {{ range .Site.Params.hostedProjects }}
             <div class="project-card">
-                <h3><a href="https://github.com/apache/brpc" target="_blank" rel="noopener">BRPC</a></h3>
-                <p>工业级 RPC 框架</p>
+                <h3><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></h3>
+                <p>{{ .description }}</p>
             </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/doris" target="_blank" rel="noopener">Doris</a></h3>
-                <p> MPP 数据库</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/dubbo" target="_blank" rel="noopener">Dubbo</a></h3>
-                <p>分布式服务框架</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/iotdb" target="_blank" rel="noopener">IoTDB</a></h3>
-                <p>时序数据库</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/bookkeeper" target="_blank" rel="noopener">BookKeeper</a></h3>
-                <p>分布式日志存储系统</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/pulsar" target="_blank" rel="noopener">Pulsar</a></h3>
-                <p>分布式消息和流平台</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/servicecomb-java-chassis" target="_blank" rel="noopener">ServiceComb</a></h3>
-                <p>微服务框架</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/shardingsphere" target="_blank" rel="noopener">ShardingSphere</a></h3>
-                <p>分布式数据库中间件</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/skywalking" target="_blank" rel="noopener">SkyWalking</a></h3>
-                <p>分布式追踪系统</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/apache/rocketmq" target="_blank" rel="noopener">RocketMQ</a></h3>
-                <p>消息队列</p>
-            </div>
+            {{ end }}
         </div>
     </div>
 </section>
@@ -226,7 +192,7 @@
         </div>
         
         <div class="view-all-posts">
-            <a href="/post/" class="btn btn-primary">查看所有文章</a>
+            <a href="{{ "post" | relURL }}" class="btn btn-primary">查看所有文章</a>
         </div>
     </div>
 </section>
@@ -240,24 +206,16 @@
         </div>
         
         <div class="contact-grid">
+            {{ range .Site.Params.contactLinks }}
             <div class="contact-card">
                 <div class="contact-icon">
-                    <i class="fab fa-github"></i>
+                    <i class="{{ .icon }}"></i>
                 </div>
-                <h3>GitHub</h3>
-                <p>关注我们的 GitHub 组织</p>
-                <a href="https://github.com/alc-beijing" class="contact-link" target="_blank">访问 GitHub</a>
+                <h3>{{ .name }}</h3>
+                <p>{{ .description }}</p>
+                <a href="{{ .url }}" class="contact-link" target="_blank">{{ .name }}</a>
             </div>
-            {{/*
-            <div class="contact-card">
-                <div class="contact-icon">
-                    <i class="fa-solid fa-envelope"></i>
-                </div>
-                <h3>邮件列表 (Coming Soon)</h3>
-                <p>参与社区讨论</p>
-                <a href="#" class="contact-link" title="发送邮件 (Coming Soon)">发送邮件</a>
-            </div>
-            */}}
+            {{ end }}
             
             <div class="contact-card">
                 <div class="contact-icon">
@@ -265,16 +223,7 @@
                 </div>
                 <h3>活动</h3>
                 <p>参加线下 Meetup</p>
-                <a href="/event/" class="contact-link">查看活动</a>
-            </div>
-            
-            <div class="contact-card">
-                <div class="contact-icon">
-                    <i class="fas fa-language"></i>
-                </div>
-                <h3>参与翻译</h3>
-                <p>帮助翻译文档和内容</p>
-                <a href="https://github.com/alc-beijing/translation" class="contact-link" target="_blank">参与翻译</a>
+                <a href="{{ "event" | relURL }}" class="contact-link">查看活动</a>
             </div>
         </div>
     </div>

@@ -8,8 +8,8 @@
                 抱歉，您访问的页面不存在。可能页面已被移动、删除或链接有误。
             </p>
             <div class="error-actions">
-                <a href="/" class="btn btn-primary">返回首页</a>
-                <a href="/post/" class="btn btn-secondary">浏览文章</a>
+                <a href="{{ .Site.BaseURL }}" class="btn btn-primary">返回首页</a>
+                <a href="{{ "post" | relURL }}" class="btn btn-secondary">浏览文章</a>
             </div>
         </div>
     </div>

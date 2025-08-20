@@ -20,25 +20,25 @@
             <div class="footer-section">
                 <h4 class="footer-subtitle">联系我们</h4>
                 <div class="social-links">
-                    <a href="https://github.com/alc-beijing" class="social-link" title="GitHub">
-                        <i class="fab fa-github"></i>
+                    {{ range .Site.Params.social }}
+                    <a href="{{ .url }}" class="social-link" title="{{ .name }}">
+                        <i class="fab fa-{{ .name }}"></i>
                     </a>
-                    {{/*
-                    <a href="#" class="social-link" title="邮件 (Coming Soon)">
-                        <i class="fa-solid fa-envelope"></i>
-                    </a>
-                    */}}
-                    <a href="/event/" class="social-link" title="活动">
+                    {{ end }}
+                    <a href="{{ "event" | relURL }}" class="social-link" title="活动">
                         <i class="fa-solid fa-calendar-days"></i>
+                    </a>
+                    <a href="https://m.ximalaya.com/zhubo/233013395" class="social-link" title="喜马拉雅播客" target="_blank" rel="noopener">
+                        <i class="fas fa-podcast"></i>
                     </a>
                 </div>
             </div>
             <div class="footer-section">
                 <h4 class="footer-subtitle">关注微信公众号</h4>
                 <div class="qr-code-container">
-                    {{ if fileExists "/static/images/wechat-qrcode.png" }}
+                    {{ if fileExists "static/images/wechat-qrcode.png" }}
                     <div class="qr-code-image">
-                        <img src="/images/wechat-qrcode.png" alt="ALC Beijing 微信公众号二维码" />
+                        <img src="{{ "images/wechat-qrcode.png" | relURL }}" alt="ALC Beijing 微信公众号二维码" />
                     </div>
                     {{ else }}
                     <div class="qr-code-placeholder">

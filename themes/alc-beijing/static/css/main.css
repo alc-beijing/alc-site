@@ -1289,6 +1289,7 @@ a:hover {
   margin: 0;
   font-size: var(--font-size-base);
   line-height: var(--line-height-relaxed);
+  text-indent: 1.5rem;
 }
 
 /* 列表样式 */

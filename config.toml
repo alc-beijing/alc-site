@@ -64,8 +64,8 @@ theme = 'alc-beijing'
     { name = "贡献指南", url = "/alc-site/contributing/" }
   ]
 
-  # 外部项目链接
-  externalProjects = [
+  # 托管项目链接
+  hostedProjects = [
     { name = "BRPC", url = "https://github.com/apache/brpc", description = "工业级 RPC 框架" },
     { name = "Doris", url = "https://github.com/apache/doris", description = "MPP 数据库" },
     { name = "Dubbo", url = "https://github.com/apache/dubbo", description = "分布式服务框架" },

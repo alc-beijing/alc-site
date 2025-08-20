@@ -1318,7 +1318,7 @@ a:hover {
 }
 
 .post-content ol {
-  counter-reset: list-counter;
+  /* counter-reset: list-counter; */
 }
 
 .post-content ol li {
@@ -1327,7 +1327,7 @@ a:hover {
 }
 
 .post-content ol li::before {
-  content: counter(list-counter) '.';
+  /* content: counter(list-counter) '.'; */
   position: absolute;
   left: -2rem;
   font-weight: var(--font-weight-bold);

@@ -16,6 +16,9 @@
 
 name: PR Check
 
+permissions:
+  contents: read
+
 on:
   pull_request:
 
